@@ -1,0 +1,39 @@
+{
+  "itemName" : "enforcerhelm",
+  "price" : 5000,
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Provides an extra layer of protection via kinetic dampener. Also, a built-in targeting HUD will increase damage output.",
+  "shortdescription" : "Mark VI Enforcer Helm",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+"level" : 4,
+  "itemTags" : [ "upgradeableWeapon" ],
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.5
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 15
+    },
+    "defense3"
+  ]
+}

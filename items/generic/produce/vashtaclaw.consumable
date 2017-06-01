@@ -1,0 +1,15 @@
+{
+  "itemName" : "vashtaclaw",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "vashtaclaw.png",
+  "description" : "Effect:
+^cyan;+50% Rage^reset;",
+  "shortdescription" : "Vashta Claw",
+  "learnBlueprintsOnPickup" : [ "vashtagun" ],
+  "category" : "food",
+
+      "effects" : [ [
+      "rage50"
+    ] ]
+}

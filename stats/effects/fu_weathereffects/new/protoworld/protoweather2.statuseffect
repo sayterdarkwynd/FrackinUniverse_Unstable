@@ -1,0 +1,27 @@
+{
+  "name" : "protoweather2",
+  "blockingStat" : "protoImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "poisonResistance",
+          "effectCutoffValue" : 0.5,   
+	  "biomeTemp" : 1.0,
+	  "biomeThreshold" : 1.0,
+	  "baseRate" : 5.0,
+	  "baseDebuffPerTick" : 5,
+	  "baseDmgPerTick" : 3,
+	  "situationPenalty" : 1.15,
+	  "liquidPenalty" : 1.2,
+	  "biomeNight" : 0.8	
+  },
+  "defaultDuration" : 6,
+
+  "scripts" : [
+    "protoweather.lua"
+  ],
+
+  "animationConfig" : "protoweather.animation",
+
+  "label" : "Severe Proto Poison",
+  "icon" : "/interface/statuses/hpdown.png"
+}

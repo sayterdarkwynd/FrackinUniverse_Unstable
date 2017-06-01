@@ -1,0 +1,90 @@
+{
+  "itemName" : "randomharpoongun",
+  "price" : 160,
+  "inventoryIcon" : "randomharpoongun.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Impale your enemies, rather than just killing them.
+^yellow;Inflicts bleeding^reset;",
+  "shortdescription" : "Harpoon Gun",
+  "category" : "Sniper Rifle",
+  "level" : 3,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Speargun",
+  "itemTags" : ["weapon","ranged","sniperrifle", "upgradeableWeapon" ],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "randomharpoongun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/blankmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/needler1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.5, 0.32],
+  "muzzleOffset" : [1.645, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.934,
+    "baseDps" : 9.2,
+    "energyUsage" : 32.5,
+    "inaccuracy" : 0,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "harpoon2",
+    "projectileParameters" : { 
+      "speed" : 60,
+      "knockback" : 12,
+      "knockbackDirectional" : true,
+      "lightColor" : [0, 0, 0]
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+
+  "critChance" : 5,
+  "critBonus" : 5,
+
+  "altAbilityType" : "superharpoon",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,40 @@
+{
+  "itemName" : "beammasterhelm2",
+  "price" : 2500,
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "High energy reserve. Immune to Insanity.",
+  "shortdescription" : "Tek-Knight Helm",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+  "level" : 4,
+    "itemTags" : [ "upgradeableWeapon" ],
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.6
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 11
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 40
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 20
+    },
+    "booze"
+  ]
+
+}

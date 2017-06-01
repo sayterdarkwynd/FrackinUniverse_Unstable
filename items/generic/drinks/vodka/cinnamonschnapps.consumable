@@ -1,0 +1,21 @@
+{
+  "itemName" : "cinnamonschnapps",
+  "price" : 930,
+  "rarity" : "Common",
+  "category" : "drink",
+  "inventoryIcon" : "cinnamonschnapps.png",
+  "description" : "A bottle of cinnamon-infused schnapps!",
+  "shortdescription" : "Cinnamon Schnapps",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+		{
+        "effect" : "slow",
+        "duration" : 60
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 60
+        }
+    ] ]
+}

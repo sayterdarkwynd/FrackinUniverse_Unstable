@@ -1,0 +1,81 @@
+{
+  "itemName" : "armcannonfire",
+  "price" : 500,
+  "inventoryIcon" : "armcannonfire.png",
+    "maxStack" : 1,
+    "rarity" : "rare",
+  "description" : "Attaches to the forearm. Fires incendiary blasts.
+^yellow;Counts as 'flamethrower' and 'machinepistol' for set bonuses^reset;",
+  "shortdescription" : "^orange;Arm Cannon (Fire)",
+  "level" : 3,
+  "category" : "machinePistol",
+  "itemTags" : ["weapon","ranged","machinepistol", "flamethrower", "upgradeableWeapon"],
+  "tooltipKind" : "gun2",
+  "twoHanded" : false,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "armcannonfire.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },      
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/items/active/weapons/ranged/unique/science/flamepistol/isn_flamethrower.wav" ] },
+    "lights" : { "muzzleFlash" : {"color" : [90, 55, 70] } }  
+  },
+
+  "baseOffset" : [0.0, 0.34],
+  "muzzleOffset" : [1.0, 0.05],
+  "handGrip" : "wrap",
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+  "learnBlueprintsOnPickup" : [ "armcannonexplosive", "armcannonfire", "armcannonproto", "armcannonice", "armcannonshock" ], 
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.25,
+    "baseDps" : 6.5,
+    "energyUsage" : 20,
+    "fireType" : "auto",
+    "inaccuracy" : 0.08,
+    "projectileCount" : 1,
+    "projectileType" : "fufireball",
+    "projectileParameters" : {
+      "speed" : 45
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "critChance" : 2,
+  "critBonus" : 3,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

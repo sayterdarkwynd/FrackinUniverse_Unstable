@@ -1,0 +1,59 @@
+{
+  "objectName" : "woodencentrifuge",
+  "colonyTags" : [ "hive", "bees", "machines" ],
+  "printable" : false,
+  "rarity" : "essential",
+  "description" : "An effective device for extraction involving liquids.",
+  "shortdescription" : "^cyan;Wooden Centrifuge^reset;",
+  "subtitle" : "Centrifuge",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 200,
+  "objectType" : "container",
+
+  "hydrophobic" : false,
+  "learnBlueprintsOnPickup" : [ "ironcentrifuge" ],
+  "inventoryIcon" : "woodencentrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodencentrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "woodencentrifuge.animation",
+  "animationParts" : {
+    "centrifuge" : "woodencentrifuge.png"
+  },
+
+  "scripts" : [ "/objects/bees/centrifuge.lua",
+                "/objects/isn_sharedobjectscripts.lua" ],
+  "scriptDelta" : 100,
+  "recipeGroup" : "industrialcentrifuge",
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "slotCount" : 5,
+  "uiConfig" : "/interface/bees/woodencentrifuge/woodencentrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay" : 2,
+  "itemChances": {
+    "rarest": 0.005,
+    "rare": 0.02,
+    "uncommon": 0.08,
+    "normal": 0.15,
+    "common": 0.25
+  },
+
+  "inputSlot": 1,
+
+  "centrifugeType" : "bees",
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ]
+}

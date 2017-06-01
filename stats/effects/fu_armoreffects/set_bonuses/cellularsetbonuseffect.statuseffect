@@ -1,0 +1,14 @@
+{
+  "name" : "cellularsetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    
+    "cellularsetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "animationConfig" : "/stats/effects/damagebonus/damagebonus.animation",
+  "label" : "Regen 0.6%" ,
+  "icon" : "/interface/statuses/attack.png"
+}

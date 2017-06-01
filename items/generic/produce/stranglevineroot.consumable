@@ -1,0 +1,14 @@
+{
+  "itemName" : "stranglevineroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "stranglevineroot.png",
+  "description" : "Effect:
+^cyan;Thorns^reset;",
+  "shortdescription" : "Stranglevine Root",
+  "category" : "food",
+
+  "effects" : [ [
+        "thornsstranglevine"
+    ] ]
+}

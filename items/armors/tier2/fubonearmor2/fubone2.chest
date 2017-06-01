@@ -1,0 +1,68 @@
+{
+  "itemName" : "fubonearmor2chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Set Bonus:
+^cyan;+25% Fall Damage Reduction, +12% Physical Resist^reset;
+^#e43774;Sulphuric / Mountainous biomes: additional +15% Physical Resist^reset;
+^green;+15% Damage (Sword)^reset;",
+  "shortdescription" : "Bone-Steel Chest",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armornew2",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "learnBlueprintsOnPickup" : [
+  "fuexosuithead",
+  "fuexosuitchest",
+  "fuexosuitlegs"
+  ],
+    "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.55
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 6
+    }
+  ],
+
+
+  "statusEffects" : [
+    "bonesteelsetbonus",
+    {
+      "stat" : "fu_bonesteelset_chest",
+      "amount" : 1
+    },
+    {
+      "stat" : "physicalResistance",
+      "amount" : 0.04
+    }  
+  ] 
+}

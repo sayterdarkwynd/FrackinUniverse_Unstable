@@ -1,0 +1,38 @@
+{
+  "itemName" : "mutaviskmask",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Set Bonus: 
+^cyan;35% Radioactive Resist^reset;
+^#e43774;Immune: Deadly Radiation^reset;
+^green;25% Fall Damage Reduction^reset;",
+  "shortdescription" : "Mutavisk Mask",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+"level" : 3,
+  "statusEffects" : [
+    {
+      "stat" : "maxHealth",
+      "amount" : 30
+    },
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+    {
+      "stat" : "ffextremeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    }
+  ]
+
+}

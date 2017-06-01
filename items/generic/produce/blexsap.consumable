@@ -1,0 +1,12 @@
+{
+  "itemName" : "blexsap",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "blexsap.png",
+  "description" : "Effect:
+^cyan;+20% Energy Regen^reset;",
+  "shortdescription" : "Blex Cactus Sap",
+    "category" : "food",
+
+  "effects" : [ [ {"effect" : "energyregenfu20", "duration" : 60} ] ]
+}

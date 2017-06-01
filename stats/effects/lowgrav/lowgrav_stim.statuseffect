@@ -1,0 +1,16 @@
+{
+  "name" : "lowgrav_stim",
+  "effectConfig" : {
+    "baseGravityMod" : -1.3
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "/scripts/unifiedGravMod.lua"
+  ],
+
+  "animationConfig" : "lowgrav.animation",
+
+  "label" : "Light",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

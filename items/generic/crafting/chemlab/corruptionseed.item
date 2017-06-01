@@ -1,0 +1,25 @@
+{
+  "itemName" : "corruptionseed",
+  "rarity" : "rare",
+  "price" : 400,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "corruptionseed.png",
+  "description" : "Genetically altered corruption.",
+  "radioMessagesOnPickup" : [ "pickupCorruptionseed" ],
+  "shortdescription" : "^#88e25b;Corruption Seed^white;",
+  "learnBlueprintsOnPickup" : [ 
+  "corruptblade", 
+  "shadowbonearmorchest",
+  "shadowbonearmorpants", 
+  "shadowbonearmorhead", 
+  "shadowbonecape",
+  "fuarmoredcultistback", 
+  "fuarmoredcultistchest", 
+  "fuarmoredcultisthead", 
+  "fuarmoredcultistlegs",  
+  "corruptstaff", 
+  "corruptwand" 
+  ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_chemist" : "corruptionseed" }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "magnesiumore",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "magnesiumore.png",
+  "description" : "Great for creating magnesium powder!",
+  "shortdescription" : "Magnesite",
+  "radioMessagesOnPickup" : [ "pickupMagnesium" ],
+  "learnBlueprintsOnPickup" : [ "magnesiumpowder" ],
+  "itemTags" : [ "reagent" ]
+}

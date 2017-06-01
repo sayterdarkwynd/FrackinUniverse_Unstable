@@ -1,0 +1,17 @@
+{
+  "name" : "regenerationAtmosRegen",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 200
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "regenerationminor.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Atmospheric Healing",
+  "icon" : "/objects/power/isn_atmosregulator/isn_atmosregenicon.png"
+}

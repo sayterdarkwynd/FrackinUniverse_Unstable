@@ -1,0 +1,12 @@
+{
+  "itemName" : "fu_salt",
+  "rarity" : "common",
+  "price" : 6,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_salt.png",
+  "description" : "Extremely useful in many, many things.",
+  "shortdescription" : "Sodium (Na)",
+  "radioMessagesOnPickup" : [ "pickupSalt" ],
+  "learnBlueprintsOnPickup" : [ "ff_fertilizer" ],
+  "itemTags" : [ "reagent" ]
+}

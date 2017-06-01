@@ -1,0 +1,26 @@
+{
+  "projectileName" : "fuswarmmissile",
+  "image" : "swarmmissile.png",
+  "physics" : "boomerang",
+  "animationCycle" : 0.25,
+  "speed" : 25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "knockback" : 5,
+  "knockbackDirectional" : true,
+  "scripts" : [ "homingarrow.lua" ],
+  "baseHomingControlForce" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/weakexplosion/weakexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  //"damageKind" : "fireplasma",
+  "damageKind" : "nodamage",
+  "emitters" : [ "smoke", "fireplasma" ]  
+}

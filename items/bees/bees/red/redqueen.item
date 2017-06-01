@@ -1,0 +1,12 @@
+{
+  "itemName" : "redqueen",
+  "rarity" : "Common",
+  "inventoryIcon" : "redqueen.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A bright red queen.",
+  "shortdescription" : "Red Queen",
+  "itemTags" : ["bee","queen"],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "redwaxsword" ],
+  "category" : "craftingMaterial"
+}

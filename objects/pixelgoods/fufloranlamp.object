@@ -1,0 +1,41 @@
+{
+  "objectName" : "fufloranlamp",
+  "colonyTags" : ["light","floran"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 40,
+
+  "description" : "Lush and glowy.",
+  "shortdescription" : "Leafy Lamp",
+  "race" : "generic",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [155, 225, 155],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "fufloranlampicon.png",
+  "orientations" : [
+
+    {
+      "image" : "fufloranlamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "fufloranlamp.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

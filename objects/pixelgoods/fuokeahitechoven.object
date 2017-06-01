@@ -1,0 +1,61 @@
+{
+  "objectName" : "fuokeahitechoven",
+  "colonyTags" : ["science", "hitech", "cooking"],
+  "price" : 400,
+  "rarity" : "Common",
+  "category" : "crafting",
+  "description" : "Really seals in the flavor!",
+  "subtitle" : "Really seals in the flavor!",
+  "shortdescription" : "Hi-tech Oven",
+  "race" : "generic",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "craftingfood" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Hi Tech Oven",
+        "subtitle" : " ^#b9b5b2;Prepare and cook food"
+      }
+    }
+  },  
+
+  "lightColors" : {
+    "default" : [61, 88, 102],
+    "red" : [61, 88, 102],
+    "blue" : [61, 88, 102],
+    "green" : [61, 88, 102],
+    "yellow" : [61, 88, 102],
+    "orange" : [61, 88, 102],
+    "pink" : [61, 88, 102],
+    "black" : [61, 88, 102],
+    "white" : [61, 88, 102]
+  },
+  "flickerDistance" : 0.15,
+  "flickerStrength" : 0.01,
+  "flickerTiming" : 4,
+
+"inventoryIcon" : "fuokeahitechovenicon.png",
+  "orientations" : [
+    {
+      "image" : "fuokeahitechoven.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },    
+    {
+      "image" : "fuokeahitechoven.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ]
+}

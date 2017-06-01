@@ -1,0 +1,14 @@
+{
+  "itemName" : "teratomato",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "teratomatoicon.png",
+  "description" : "Effect:
+^cyan;+30% Physical Resistance^reset;",
+  "shortdescription" : "Teratomato",
+  "category" : "food",
+
+      "effects" : [ [
+       "physicalblock3"
+    ] ]
+}

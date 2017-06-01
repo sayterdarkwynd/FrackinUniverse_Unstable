@@ -1,0 +1,117 @@
+{
+  "itemName" : "cultiststaff3",
+  "price" : 1440,
+  "maxStack" : 1,
+  "level" : 7,
+  "rarity" : "Legendary",
+  "description" : "Fashioned from bones and petrified wood.",
+  "shortdescription" : "Staff of Madness",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tooltipKind" : "staff",
+
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "cultiststaff3.png",
+    "stone" : "",
+    "chargeEffect" : "cultiststaff3glow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [143, 0, 179]
+      }
+    },
+    "particleEmitters" : {
+      "physicalcharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 10,
+        "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+        "particles" : [
+          {"particle" : "madnessstaff"}
+        ]
+      }
+    },
+
+    "sounds" : {
+      "physicalactivate" : ["/sfx/npc/boss/cultistboss_recharge.ogg"]
+    }
+  },
+
+  "inventoryIcon" : "cultiststaff3.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "baseDamageFactor" : 1.5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "weaponOffset" : [0,0.5],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.1,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "weaponOffset" : [0,0.5],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "weaponOffset" : [0,0.5],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+      "weaponOffset" : [0,0.5],
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+      "weaponOffset" : [0,0.5],
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "shadow",
+
+  "primaryAbility" : {
+    "type" : "elderportal",
+    "name" : "Elder Portal",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 75,
+
+    "maxCastRange" : 50,
+
+    "projectileType" : "elderportal",
+    "projectileParameters" : {
+      "baseDamage" : 12
+    }
+  },
+
+  "altAbilityType" : "madnesszone",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

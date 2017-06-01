@@ -1,0 +1,66 @@
+{
+  "objectName" : "isn_atmosregulator",
+  "rarity" : "legendary",
+    "colonyTags" : [ "science" ],
+  "description" : "Generates a field that heals any lifeform within its area of effect. Requires 24u of power.",
+  "shortdescription" : "^cyan;Regeneration Matrix^white;",
+  "race" : "generic",
+  "price" : 2000,
+  "category" : "wire",
+  "printable" : false,
+
+  "apexDescription" : "Ahhh. Refreshing.",
+  "avianDescription" : "I feel better.",
+  "floranDescription" : "Healy box make floran happy.",
+  "glitchDescription" : "Reassured. I won't die while standing near this machine.",
+  "humanDescription" : "I won't have to worry about the peril of death near this thing!",
+  "hylotlDescription" : "This will provide excellent healing at a constant rate.",
+
+  "inventoryIcon" : "isn_atmosregulator_inv.png",
+  "orientations" : [
+    {
+      "image" : "isn_atmosregulator_base.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "isn_atmosregulator_base.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/power/isn_atmosregulator/isn_atmosregenerator.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+		"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 60,
+
+  "animation" : "isn_atmosregulator.animation",
+  "animationParts" : {
+    "bg" : "isn_atmosregulator_base.png",
+    "fg" : "isn_atmosregulator_lit.png"
+  },
+  
+  "animationPosition" : [-80, 0],
+
+  "inputNodes" : [ [1, 2] ],
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 24
+}

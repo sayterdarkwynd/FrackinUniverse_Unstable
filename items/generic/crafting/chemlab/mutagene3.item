@@ -1,0 +1,13 @@
+{
+  "itemName" : "mutagene3",
+  "rarity" : "common",
+  "price" : 250,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mutagene3.png",
+  "description" : "It's a mutagenic extract.",
+  "shortdescription" : "Mutagene",
+  "radioMessagesOnPickup" : [ "pickupMutagene3" ],
+  "learnBlueprintsOnPickup" : [ "goregun", "eyecannon", "lactariusindigoseed" ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_chemist" : "mutagene3" }
+}

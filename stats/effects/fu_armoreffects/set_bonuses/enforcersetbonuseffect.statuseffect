@@ -1,0 +1,11 @@
+{
+  "name" : "enforcersetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "enforcersetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+  "label" : "+25% Assault Rifle/ +35% Shotgun Damage. Liquid Nitrogen Immunity.",
+  "icon" : "/interface/statuses/set_ranged.png"
+}

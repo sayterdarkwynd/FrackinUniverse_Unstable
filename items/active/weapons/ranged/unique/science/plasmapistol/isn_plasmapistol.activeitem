@@ -1,0 +1,79 @@
+{
+  "itemName" : "isn_plasmapistol",
+  "price" : 500,
+  "inventoryIcon" : "isn_plasmapistol.png",
+    "maxStack" : 1,
+    "rarity" : "legendary",
+  "description" : "Unusual sidearm for an unusual age
+^yellow;Bouncing projectiles^reset;",
+  "shortdescription" : "Plasma Pistol",
+  "level" : 4,
+  "category" : "Energy Gun",
+  "itemTags" : ["weapon","ranged","machinePistol", "plasma", "energy", "upgradeableWeapon"],
+  "tooltipKind" : "gun2",
+  "twoHanded" : false,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "isn_plasmapistol.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },      
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/sfx/gun/plasma_pistol1.ogg" ] },
+    "lights" : { "muzzleFlash" : {"color" : [160, 0, 120] } }  
+  },
+
+  "baseOffset" : [0.7, 0.34],
+  "muzzleOffset" : [1.5, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.415,
+    "baseDps" : 7,
+    "energyUsage" : 25,
+    "fireType" : "auto",
+    "inaccuracy" : 0,
+    "projectileCount" : 1,
+    "projectileType" : "isn_plasmapistol",
+    "projectileParameters" : {
+      "speed" : 52
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "critChance" : 3,
+  "critBonus" : 8,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

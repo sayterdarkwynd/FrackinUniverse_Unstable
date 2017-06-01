@@ -1,0 +1,145 @@
+[
+  {
+    "name" : "dolphin1",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.03,
+    "monsterType" : "dolphin1",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "aquamantle",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "night"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.007,
+    "monsterType" : "aquamantle",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "aquapodflyer",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.01,
+    "monsterType" : "aquapodflyer",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "tideworm",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.005,
+    "monsterType" : "tideworm",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "snagglerocean",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.005,
+    "monsterType" : "snaggler",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "pulpinocean",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.005,
+    "monsterType" : "pulpin",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "fufirecrabocean",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.005,
+    "monsterType" : "fufirecrab",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "deathjelly",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 0.05,
+    "monsterType" : "deathjelly",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "snuffishwater",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.03,
+    "monsterType" : "snuffish",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

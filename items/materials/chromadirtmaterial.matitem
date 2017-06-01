@@ -1,0 +1,12 @@
+{
+  "itemName" : "chromadirtmaterial",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "chromadirtmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Pure, unblemished soil.",
+  "shortdescription" : "Chromatic Dirt",
+  "learnBlueprintsOnPickup" : [ "furainbowgun" ],
+
+  "materialId" : 6606
+}

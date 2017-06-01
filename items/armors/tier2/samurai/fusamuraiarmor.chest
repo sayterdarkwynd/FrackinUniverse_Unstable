@@ -1,0 +1,58 @@
+{
+  "itemName" : "fusamuraichest",
+  "price" : 2500,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestwear",
+  "description" : "Set Bonus:
+^cyan;+5% Physical Resistance^reset; 
+^#e43774;Broadsword: +15% Damage, +5% Crit^reset;
+^green;Shortsword + Dagger: +4% Crit Chance, +10% Crit Damage^reset;",
+  "shortdescription" : "Samurai Breastplate",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "statusEffects" : [ 
+    "samuraisetbonus",
+    {
+      "stat" : "fu_samuraiset_chest",
+      "amount" : 1
+    }  
+  ]
+}

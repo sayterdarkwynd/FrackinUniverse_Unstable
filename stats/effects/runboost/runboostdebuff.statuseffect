@@ -1,0 +1,15 @@
+{
+  "name" : "runboostdebuff",
+  "blockingStat" : "stunImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "runboostdebuff.lua"
+  ],
+
+  "animationConfig" : "runboost.animation",
+
+  "label" : "-30% Run",
+  "icon" : "/interface/statuses/haste.png"
+}

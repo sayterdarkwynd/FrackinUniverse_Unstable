@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderrelic6",
+  "price" : 600,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elderrelic6.png",
+  "description" : "Fractal patterns swirl within a red crystalline sphere.",
+  "shortdescription" : "^#ffe50e;Valtan Casing^white;",
+  "itemTags" : [ "reagent" ],
+  "collectablesOnPickup" : { "fu_elderrelics" : "elderrelic6" }
+}

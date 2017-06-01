@@ -1,0 +1,15 @@
+{
+  "itemName" : "petrifiedroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "petrifiedrooticon.png",
+  "description" : "Effect:
+^cyan;+6 Defense, Shadow Gas Immunity^reset;",
+  "shortdescription" : "Shadow Root",
+  "category" : "food",
+
+  "effects" : [ [
+      "defense4",
+      "shadowgasImmunity"
+    ] ]
+}

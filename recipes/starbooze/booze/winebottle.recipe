@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "grapejuice", "count" : 5 },
+    { "item" : "grapemash", "count" : 3 },
+    { "item" : "yeastwater", "count" : 2 },
+    { "item" : "liquidsulphuricacid", "count" : 2 },
+    { "item" : "whitespineshell", "count" : 2 },
+    { "item" : "bottle", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "winebottle",
+    "count" : 3
+  },
+  "groups" : [ "fermenter", "all", "other" ]
+}

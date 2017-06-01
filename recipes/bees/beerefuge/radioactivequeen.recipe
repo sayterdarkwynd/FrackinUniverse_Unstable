@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "radioactivequeen", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uraniumore",
+    "count" : 1
+  },
+  "groups" : [ "beerefuge", "refuge", "all" ]
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "regeneration3",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 90
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "regeneration3.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "High Regen",
+  "icon" : "/interface/statuses/heal.png"
+}

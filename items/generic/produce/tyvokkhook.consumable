@@ -1,0 +1,19 @@
+{
+  "itemName" : "tyvokkhook",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "tyvokkhook.png",
+  "description" : "Effect:
+^cyan;Regen 2, +21 Max Health, +30 Max Energy^reset;",
+  "shortdescription" : "Tyvokk Hook",
+  "category" : "food",
+
+      "effects" : [ [
+      "maxhealthboost5", 
+      "maxenergyboost4",
+      {
+        "effect" : "regeneration2",
+        "duration" : 120
+      }
+    ] ]
+}

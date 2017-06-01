@@ -1,0 +1,14 @@
+{
+  "itemName" : "fuspongeweed",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "spongeweed.png",
+  "description" : "Effect:
+^cyan;Poison Immunity^reset;",
+  "shortdescription" : "Spongeweed Slice",
+    "category" : "food",
+
+  "effects" : [ [
+      "poisonimmunityspongeweed"
+    ] ]
+}

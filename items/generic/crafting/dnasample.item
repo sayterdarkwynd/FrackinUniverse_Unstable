@@ -1,0 +1,12 @@
+{
+  "itemName" : "dnasample",
+  "rarity" : "uncommon",
+  "price" : 20,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "dnasample.png",
+  "description" : "A sampled DNA sequence.",
+  "shortdescription" : "DNA Sample",
+  "radioMessagesOnPickup" : [ "pickupDnasample" ],
+  "learnBlueprintsOnPickup" : [ "longjump_tech", "cellpodsplant", "ghostmushroomseed", "stranglevineseed", "fuspongeweedseed" ],
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,53 @@
+{
+  "objectName" : "fuokeahitechfridge",
+  "colonyTags" : [ "science", "hitech", "cooking", "storage" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Preserves your food in a miniature stasis capsule for thousands of years",
+  "shortdescription" : "Hi-tech Fridge",
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 950,
+  "unlit" : false,
+  "lightColors" : {
+    "default" : [61, 88, 102],
+    "red" : [61, 88, 102],
+    "blue" : [61, 88, 102],
+    "green" : [61, 88, 102],
+    "yellow" : [61, 88, 102],
+    "orange" : [61, 88, 102],
+    "pink" : [61, 88, 102],
+    "black" : [61, 88, 102],
+    "white" : [61, 88, 102]
+  },
+  "flickerDistance" : 0.15,
+  "flickerStrength" : 0.01,
+  "flickerTiming" : 4,
+
+
+  "inventoryIcon" : "fuokeahitechfridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fuokeahitechfridge.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 10,
+      "animationCycle" : 4.0,
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600,
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "itemAgeMultiplier" : 0.0
+  
+  
+}

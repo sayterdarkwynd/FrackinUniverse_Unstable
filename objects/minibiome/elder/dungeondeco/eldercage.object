@@ -1,0 +1,25 @@
+{
+  "objectName" : "eldercage",
+  "colonyTags" : [ "elder", "evil", "death" ],
+  "rarity" : "uncommon",
+  "printable" : false,
+  "description" : "an ancient cage used for unfathomable purpose.",
+  "shortdescription" : "^orange;Torture Cage^white;",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 600,
+
+  "inventoryIcon" : "cageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "eldercage.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "isogenbar",
+  "rarity" : "legendary",
+  "price" : 600,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "isogenbar.png",
+  "description" : "A super-cold alloy with numerous powerful applications.",
+  "shortdescription" : "Isogen Bar",
+  "learnBlueprintsOnPickup" : [
+    "isogendagger",
+    "isogenshortsword",
+    "isogenbroadsword",
+    "isogenaxe",
+    "isogenhammer",
+    "isogenspear",
+    "fuisogenchest",
+    "fuisogenhead",
+    "fuisogenpants",
+    "isogenstaff",
+    "isogenwand",
+    "rimewind"
+  ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "isogenbar" }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "pesticide",
+  "rarity" : "Common",
+  "price" : 400,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pesticide.png",
+  "description" : "Kills bugs dead.",
+  "shortdescription" : "Pesticide",
+  "radioMessagesOnPickup" : [ "pickupPesticide" ],
+  "learnBlueprintsOnPickup" : [ "methyliodide" ],
+  "itemTags" : [ "reagent" ]
+}

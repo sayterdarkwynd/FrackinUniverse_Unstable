@@ -1,0 +1,21 @@
+{
+  "itemName" : "nocturnalhoneyjar",
+  "rarity" : "Common",
+  "category" : "food",
+  "price" : 35,
+  "inventoryIcon" : "nocturnalhoneyjar.png",
+  "description" : "A dark jar of honey!",
+  "shortdescription" : "Dark Honey Jar",
+  "effects" : [ [
+    {
+        "effect" : "honeyheal4",
+        "duration" :180  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

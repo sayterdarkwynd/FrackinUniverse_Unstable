@@ -1,0 +1,9 @@
+{
+  "name" : "rocktroll2",
+  "category" : "rocktroll2",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "rocktroll2.png"
+  }
+}

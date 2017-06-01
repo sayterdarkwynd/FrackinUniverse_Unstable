@@ -1,0 +1,14 @@
+{
+  "name" : "maxhealthboost120",
+  "effectConfig" : {
+    "healthAmount" : 120
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost.lua"
+  ],
+
+  "label" : "+120 Health",
+  "icon" : "/interface/statuses/maxhealth3.png"
+}

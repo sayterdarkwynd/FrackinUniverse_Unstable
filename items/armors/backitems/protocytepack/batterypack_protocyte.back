@@ -1,0 +1,28 @@
+{
+  "itemName" : "batterypack_protocyte",
+  "price" : 1000,
+  "inventoryIcon" : "batterypack_protocyteicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "uncommon",
+  "description" : "Blocks proto-poison. Grants +30 energy, 15% energy regen, 10% charge reduction and a slight glow.",
+  "shortdescription" : "Protocite Energy Pack",
+  "tooltipKind" : "baseaugment",
+  "category" : "^#e43774;Upgradeable EPP^reset;",
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "protoimmunity",
+    "energyregenfu_proto",
+    {
+      "stat" : "maxEnergy",
+      "amount" : 30
+    },
+    "glowyellow2"
+  ]
+  
+  
+}

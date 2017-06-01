@@ -1,0 +1,17 @@
+{
+  "name" : "puseffect",
+  "blockingStat" : "pusImmunity",
+  "effectConfig" : {
+    "healthDown" : 6
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "puseffect.lua"
+  ],
+  
+  "animationConfig" : "puseffect.animation",
+  
+  "label" : "Eeew. Causes 6 damage per tick. Resisted by Physical resistance.",
+  "icon" : "/interface/statuses/hpdown.png"
+}

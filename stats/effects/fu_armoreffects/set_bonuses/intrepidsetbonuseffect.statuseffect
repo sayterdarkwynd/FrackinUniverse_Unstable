@@ -1,0 +1,13 @@
+{
+  "name" : "intrepidsetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "intrepidsetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "+20% Damage (hammers)",
+  "icon" : "/interface/statuses/set_axe.png"
+}
+

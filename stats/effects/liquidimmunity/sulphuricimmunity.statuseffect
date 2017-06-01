@@ -1,0 +1,10 @@
+{
+  "name" : "sulphuricimmunity",
+    "blockingStat" : "sulphuricImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "sulphuricimmunity.lua"
+  ]
+}

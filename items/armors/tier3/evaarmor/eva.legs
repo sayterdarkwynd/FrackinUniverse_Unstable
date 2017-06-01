@@ -1,0 +1,65 @@
+{
+  "itemName" : "evapants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Set Bonus:
+^cyan;Immune: Radiation, Rad Burns^reset;
+^#e43774;21% all Elemental Resists^reset;
+^green;Immune: Pus, Liq. Nitrogen^reset;", 
+  "shortdescription" : "E.V.A Pants",
+  "category" : "legarmor",
+  "tooltipKind" : "armornew2",
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsm.png",
+  
+  "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "statusEffects" : [
+    "evasetbonus",
+    {
+      "stat" : "fu_evaset_legs",
+      "amount" : 1
+    },
+    {
+      "stat" : "electricResistance",
+      "amount" : 0.07
+    },
+    {
+      "stat" : "fireResistance",
+      "amount" : 0.07
+    },
+    {
+      "stat" : "poisonResistance",
+      "amount" : 0.07
+    },
+    {
+      "stat" : "iceResistance",
+      "amount" : 0.07
+    }
+  ]
+}

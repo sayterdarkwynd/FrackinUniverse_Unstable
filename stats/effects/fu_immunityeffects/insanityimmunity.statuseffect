@@ -1,0 +1,9 @@
+{
+  "name" : "insanityimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "insanityimmunity.lua"
+  ]
+}

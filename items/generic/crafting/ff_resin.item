@@ -1,0 +1,12 @@
+{
+  "itemName" : "ff_resin",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ff_resin.png",
+  "description" : "Useful for adhesives, and hardening certain materials.",
+  "shortdescription" : "Resin",
+  "radioMessagesOnPickup" : [ "pickupResin" ],
+  "learnBlueprintsOnPickup" : [ "fubeewings", "fubonepickaxe" ],
+  "itemTags" : [ "reagent" ]
+}

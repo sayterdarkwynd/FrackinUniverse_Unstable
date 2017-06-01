@@ -1,0 +1,9 @@
+{
+  "name" : "iceslipimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "iceslipimmunity.lua"
+  ]
+}

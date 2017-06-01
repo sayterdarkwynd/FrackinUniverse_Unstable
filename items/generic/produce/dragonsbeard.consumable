@@ -1,0 +1,17 @@
+{
+  "itemName" : "dragonsbeard",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "dragonsbeard.png",
+  "description" : "Effect:
+^cyan;Deadly Heat Immunity^reset;",
+  "shortdescription" : "Dragons Beard Herb",
+    "category" : "food",
+
+    "effects" : [ [
+    "ffextremeheatimmunity"
+    ] ],
+  "blockingEffects" : [
+    "ffextremeheatimmunity"
+  ]
+}

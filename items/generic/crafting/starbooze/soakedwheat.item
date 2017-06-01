@@ -1,0 +1,9 @@
+{
+  "itemName" : "soakedwheat",
+  "rarity" : "Common",
+  "price" : 45,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "soakedwheat.png",
+  "description" : "A very soggy wheat seed.",
+  "shortdescription" : "Soaked Wheat Seed"
+}

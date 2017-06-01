@@ -1,0 +1,37 @@
+{
+  "name" : "snotBubbleAttack",
+  "label" : "WHEEZY BUBBLE",
+  "image" : "/monsters/generated/skills/defaultpoison.png",
+
+  "config" : {
+    "hostileActions" : [ 
+      {
+        "name" : "action-fire",
+        "cooldown" : 4,
+        "parameters" : {
+          "skillName" : "snotBubbleAttack",
+
+          "maximumRange" : 10,
+          "minimumRange" : 2,
+          "windupEffect" : "castpoison",
+          
+          "fireDelay" : 0.2,
+          "projectileType" : "snotbubblestart",
+          "projectileParameters" : {
+            "speed" : 2
+          },
+          "power" : 7, //this is doubled once bubble grows to full size
+          "aimAtTarget" : true
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg" ],
+      "rangedAttack" : [ "/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"  ]
+    }
+  }
+}
+

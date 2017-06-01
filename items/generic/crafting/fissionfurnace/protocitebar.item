@@ -1,0 +1,28 @@
+{
+  "itemName" : "protocitebar",
+  "rarity" : "uncommon",
+    "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "protocitebar.png",
+  "description" : "A bar of compressed protocite.",
+  "shortdescription" : "Protocite Bar",
+  "learnBlueprintsOnPickup" : [ 
+    "fujunkerhead",
+    "fujunkerpants",
+    "fujunkerchest",
+    "bouncesphere_tech",
+    "energiflowerseed",
+    "vialproto",
+    "batterypack_protocyte",
+    "mineralblade",
+    "particlegrenade",
+    "protopistol",
+    "protogun",
+    "protominer",
+    "protocitestaff",
+    "protocitewand"
+  ],
+  
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "protocitebar" }
+}

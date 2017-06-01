@@ -1,0 +1,54 @@
+{
+  "itemName" : "graphenelegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+   "description" : "Set Bonus:
+^cyan;Immunity: Stun, Electrify^reset;
+^#e43774;+24% Electric Resist^reset;
+^green;+25% Damage (Energy weapons)^reset;", 
+  "shortdescription" : "Graphene Leggings",
+  "category" : "legarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "upgradeableWeapon" ],
+  "statusEffects" : [
+    "graphenesetbonus",
+    {
+      "stat" : "fu_grapheneset_legs",
+      "amount" : 1
+    },
+    {
+      "stat" : "electricResistance",
+      "amount" : 0.8
+    }    
+  ]
+}

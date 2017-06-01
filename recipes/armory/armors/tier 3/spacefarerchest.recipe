@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tw_spacesuitchest", "count" : 1 },
+    { "item" : "protocitebar", "count" : 5 },
+    { "item" : "uraniumrod", "count" : 2 },
+    { "item" : "electromagnet", "count" : 1 }
+  ],
+  "output" : { "item" : "spacefarerchest", "count" : 1 },
+  "groups" : [ "nanofabricator3", "armors", "all" ]
+}

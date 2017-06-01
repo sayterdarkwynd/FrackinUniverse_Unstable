@@ -1,0 +1,11 @@
+{
+  "itemName" : "shadowgasliquid",
+  "rarity" : "rare",
+  "category" : "liquid",
+  "inventoryIcon" : "shadowgasliquid.png",
+  "shortdescription" : "Shadow Gas",
+  "description" : "A measure of dark matter, given gaseous form.",
+
+  "liquid" : "shadowgas",
+  "learnBlueprintsOnPickup" : [ "shadowimmunity1" ]
+}

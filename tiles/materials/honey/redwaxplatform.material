@@ -1,0 +1,23 @@
+{
+  "materialId" : 6526,
+  "particleColor" : [255, 50, 60, 255],
+  "materialName" : "redwaxplatform",
+  "platform" : true,
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "redwaxplatform",
+  "category": "material",
+  "shortdescription" : "red Wax Platform",
+  "description" : "Beautiful red wax platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "redwaxplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "sulphurtroll",
+  "category" : "sulphurtroll",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "sulphurtroll.png"
+  }
+}

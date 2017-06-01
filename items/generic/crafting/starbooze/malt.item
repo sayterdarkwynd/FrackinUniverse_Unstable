@@ -1,0 +1,9 @@
+{
+  "itemName" : "malt",
+  "price" : 60,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "malt.png",
+  "description" : "Roasted sprouted wheat!",
+  "shortdescription" : "Malt"
+}

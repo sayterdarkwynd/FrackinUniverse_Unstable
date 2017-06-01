@@ -1,0 +1,14 @@
+{
+  "name" : "defenseboost300",
+  "effectConfig" : {
+    "defenseAmount" : 32
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "defenseboost.lua"
+  ],
+
+  "label" : "Def +32",
+  "icon" : "/interface/statuses/defense4.png"
+}

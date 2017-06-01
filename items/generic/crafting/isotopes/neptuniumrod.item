@@ -1,0 +1,18 @@
+{
+  "itemName" : "neptuniumrod",
+  "price" : 210,
+  "rarity" : "rare",
+  "category" : "fuel",
+  "inventoryIcon" : "neptuniumrod.png",
+  "description" : "It's a neptunium rod.",
+  "shortdescription" : "Neptunium Rod (Np)",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ 
+  "fuintrepidchest",
+  "fuintrepidhead",
+  "fuintrepidpants",
+  "garpberryseed", 
+  "unstableparticles" 
+  ],
+  "fuelAmount" : 45
+}

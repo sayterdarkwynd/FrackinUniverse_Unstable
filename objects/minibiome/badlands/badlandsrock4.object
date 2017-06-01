@@ -1,0 +1,25 @@
+{
+  "objectName" : "badlandsrock4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "printable" : true,  
+  "description" : "A large slab of stone.",
+  "shortdescription" : "Large Stone",
+  "health" : 2,
+  "race" : "generic",
+  "inventoryIcon" : "badlandsrock4.png",
+  "orientations" : [
+    {
+      "dualImage" : "badlandsrock4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "biomePlaced" : true
+}

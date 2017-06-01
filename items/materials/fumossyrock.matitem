@@ -1,0 +1,11 @@
+{
+  "itemName" : "fumossyrock",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "fumossyrock.png",
+  "description" : "A rock covered in moss.",
+  "shortdescription" : "Mossy Rock",
+
+  "materialId" : 6636
+}

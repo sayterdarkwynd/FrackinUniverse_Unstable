@@ -1,0 +1,45 @@
+{
+  "objectName" : "voritseed",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "rare",
+  "category" : "seed",
+  "description" : "A strange mix of jelly and plant. Provides massive swim speed increase",
+  "shortdescription" : "Vorit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 26,
+  "learnBlueprintsOnPickup" : [ "aquapodseed" ],
+  "inventoryIcon" : "voritseedicon.png",
+  "largeImage" : "voritseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "voritseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [320, 560]
+    },
+    {
+      "duration" : [320, 560]
+    },
+    {
+      "alts" : 5,
+      "duration" : [310, 530]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "voritHarvest",
+      "resetToStage" : 2
+    }
+  ],
+    "minImmersion" : 1.0,
+    "consumeSoilMoisture" : false
+}

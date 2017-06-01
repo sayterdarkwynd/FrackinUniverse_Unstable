@@ -1,0 +1,21 @@
+{
+  "projectileName" : "atomsmasherboom",
+  "image" : "atomsmasherboom.png",
+  "animationCycle" : 0.3,
+  "level" : 8,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "fullbright" : true,
+  "pointLight" : true,
+  "lightColor" : [40,140,160],
+  "universalDamage" : true,
+  "damageKind" : "cosmic",
+  "knockback" : 500,
+  "power" : 60,
+  "knockbackDirectional" : true,
+  "emitters" : [ "defaultblue" ]
+}

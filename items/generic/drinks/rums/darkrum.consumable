@@ -1,0 +1,22 @@
+{
+  "itemName" : "darkrum",
+  "rarity" : "Common",
+  "price" : 3500,
+  "category" : "drink",
+  "inventoryIcon" : "darkrum.png",
+  "description" : "Yo-ho-ho and a bottle of rum!",
+  "shortdescription" : "Dark Rum",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+
+		{
+        "effect" : "slow",
+        "duration" : 60
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 60
+        }
+    ] ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fu_carbon", "count" : 4 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "scorchedcore", "count" : 1 }
+  ],
+  "output" : { "item" : "coldprotectionback", "count" : 1 },
+  "groups" : [ "craftinganvil2", "hazardgear", "all" ]
+}

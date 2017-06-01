@@ -1,0 +1,43 @@
+{
+  "name" : "fishBreathAttack",
+  "label" : "TOXIC REGURGITATION",
+  "image" : "/monsters/generated/skills/defaultpoison.png",
+
+  "config" : {
+    "hostileActions" : [ 
+      {
+        "name" : "action-fire",
+        "cooldown" : 4,
+        "parameters" : {
+          "skillName" : "fishBreathAttack",
+
+          "maximumRange" : 15,
+          "minimumRange" : 3,
+          "windupEffect" : "castpoison",
+          
+          "fireDelay" : 0.15,
+          "projectileType" : "randomfish",
+          "projectileParameters" : {
+            "speed" : 30,
+            "power" : 4
+          },
+          "power" : 4,
+          "aimAtTarget" : true,
+
+          "fireArc" : true,
+          "projectileSpeed" : 30,
+
+          "projectileCount" : 3,
+          "projectileInterval" : 0.15
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/projectiles/bloodvomit1.ogg", "/sfx/projectiles/bloodvomit2.ogg", "/sfx/projectiles/bloodvomit3.ogg", "/sfx/projectiles/bloodvomit4.ogg", "/sfx/projectiles/bloodvomit5.ogg", "/sfx/projectiles/bloodvomit6.ogg", "/sfx/projectiles/bloodvomit7.ogg" ]
+    }
+  }
+}
+

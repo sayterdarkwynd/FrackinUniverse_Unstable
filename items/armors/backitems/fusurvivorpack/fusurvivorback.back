@@ -1,0 +1,36 @@
+{
+  "itemName" : "fusurvivorback",
+  "price" : 500,
+  "inventoryIcon" : "icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "common",
+  "description" : "Grants +15% Health and Energy, and a mild glow. Prevents proto-poison and blocks effects of electrical storms.",
+  "shortdescription" : "Type-S Survival Pack",
+  "tooltipKind" : "baseaugment",
+  "category" : "enviroProtectionPack",
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "glow",
+    "protoimmunity",
+    {
+      "stat" : "maxEnergy",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "stat" : "maxHealth",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "stat" : "biomeelectricImmunity",
+      "amount" : 1.0
+    }    
+  ]
+  
+  
+}
+

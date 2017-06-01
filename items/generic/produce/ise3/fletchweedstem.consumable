@@ -1,0 +1,14 @@
+{
+  "itemName" : "fletchweedstem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "fletchweedstem.png",
+  "description" : "Effect:
+^cyan;+145 Max Energy^reset;",
+  "shortdescription" : "Fletchweed Stem",
+  "category" : "food",
+
+      "effects" : [ [
+      "maxenergyboost145"
+    ] ]
+}

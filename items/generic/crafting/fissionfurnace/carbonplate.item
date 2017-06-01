@@ -1,0 +1,30 @@
+{
+  "itemName" : "carbonplate",
+  "rarity" : "common",
+    "price" : 120,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "carbonplate.png",
+  "description" : "Carbon plating can be used for armor or other goods.",
+  "shortdescription" : "Carbon Plate",
+  "learnBlueprintsOnPickup" : [ 
+  "battlebornchest",
+  "battlebornhead",
+  "battlebornpants",
+  "kirhostier3pants",
+  "kirhostier3chest",
+  "kirhostier3head",
+  "fucarbonhammer", 
+  "fucarbondagger", 
+  "carbonaxe", 
+  "carbonpickaxe", 
+  "carbonspear", 
+  "carbonbow", 
+  "carbonblade", 
+  "napalmcannon",
+  "fuinfernochest",
+  "fuinfernohead",
+  "fuinfernopants"
+  ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "carbonplate" }
+}

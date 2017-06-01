@@ -1,0 +1,11 @@
+{
+  "itemName" : "biofuelcannisteradv",
+  "rarity" : "uncommon",
+  "category" : "fuel",
+  "price" : 150,
+  "inventoryIcon" : "biofuelcannisteradv.png",
+  "description" : "A superior biofuel.",
+  "shortdescription" : "Erithian Biofuel Canister",
+  "fuelAmount" : 40,
+  "itemTags" : [ "reagent" ]
+}

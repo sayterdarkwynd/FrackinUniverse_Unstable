@@ -1,0 +1,81 @@
+{
+  "itemName" : "protopistol",
+  "price" : 500,
+  "inventoryIcon" : "protopistol.png",
+    "maxStack" : 1,
+    "rarity" : "rare",
+  "description" : "A useful, if unorthodox, pistol.
+^yellow;Bouncing projectiles^reset;",
+    "shortdescription" : "Proto Pistol",
+  "level" : 3,
+  "category" : "Energy Gun",
+  "itemTags" : ["weapon","ranged","machinepistol", "energy", "upgradeableWeapon" ],
+  "tooltipKind" : "gun2",
+  "twoHanded" : false,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "protopistol.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },      
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/sfx/weapons/protopistol.ogg" ] },
+    "lights" : { "muzzleFlash" : {"color" : [20, 180, 60] } }  
+  },
+  
+  "learnBlueprintsOnPickup" : [ "isn_terawattlaser" ],
+  
+  "baseOffset" : [1.4, 0.46],
+  "muzzleOffset" : [1.0, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.35,
+    "baseDps" : 4,
+    "energyUsage" : 28,
+    "fireType" : "auto",
+    "inaccuracy" : 0.05,
+    "projectileCount" : 1,
+    "projectileType" : "protoshot",
+    "projectileParameters" : {
+      "speed" : 55
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "critChance" : 3,
+  "critBonus" : 3,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "infernosetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    
+    "infernosetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "animationConfig" : "/stats/effects/damagebonus/damagebonus.animation",
+  "label" : "+30% Damage(Flamethrowers)",
+  "icon" : "/interface/statuses/hellfire.png"
+}

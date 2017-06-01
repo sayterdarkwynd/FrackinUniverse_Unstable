@@ -1,0 +1,82 @@
+{
+  "itemName" : "armcannonice",
+  "price" : 500,
+  "inventoryIcon" : "armcannonice.png",
+    "maxStack" : 1,
+    "rarity" : "rare",
+  "description" : "Attaches to the forearm. Fires frost blasts.
+^yellow;Counts as 'ice' or 'isogen' for set bonuses^reset;",
+  "shortdescription" : "^cyan;Arm Cannon (Ice)",
+  "level" : 3,
+  "category" : "machinePistol",
+  "itemTags" : ["weapon","ranged","machinepistol", "isogen", "ice", "upgradeableWeapon"],
+  "tooltipKind" : "gun2",
+  "twoHanded" : false,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "armcannonice.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/particlemuzzle1.png"
+  },      
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/sfx/gun/plasma_mp2.ogg" ] },
+    "lights" : { "muzzleFlash" : {"color" : [22, 124, 84] } }  
+  },
+
+  "baseOffset" : [0.0, 0.34],
+  "muzzleOffset" : [1.0, 0.05],
+  "handGrip" : "wrap",
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+  "learnBlueprintsOnPickup" : [ "armcannonexplosive", "armcannonfire", "armcannonproto", "armcannonice", "armcannonshock" ], 
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.5,
+    "baseDps" : 5.25,
+    "energyUsage" : 29,
+    "fireType" : "auto",
+    "inaccuracy" : 0.08,
+    "projectileCount" : 1,
+    "projectileType" : "iceburster",
+    "projectileParameters" : {
+      "speed" : 65
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "critChance" : 4,
+  "critBonus" : 5,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

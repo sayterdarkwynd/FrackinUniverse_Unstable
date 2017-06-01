@@ -1,0 +1,26 @@
+{
+  "name" : "jungleweathernew",
+  "blockingStat" : "jungleslowImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "physicalResistance",
+          "effectCutoffValue" : 0.2, 
+	  "biomeTemp" : 0.65, 
+	  "biomeThreshold" : 0.20,
+	    "baseRate" : 7,
+	    "baseDebuffPerTick" : 1,
+	    "baseDmgPerTick" : 0.3,
+	    "situationPenalty" : 1,
+	    "liquidPenalty" : 0.35,
+	    "biomeNight" : 1	    
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "jungleheatweather.lua"
+  ],
+
+  "animationConfig" : "jungleheatweather.animation",
+  "label" : "Tropical Heat",
+  "icon" : "/interface/statuses/biomeheat.png"
+}

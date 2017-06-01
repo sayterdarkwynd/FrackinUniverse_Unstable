@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "zerchesiumbar", "count" : 2 },
+    { "item" : "mutaviskthread", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fubountyhunterpants",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

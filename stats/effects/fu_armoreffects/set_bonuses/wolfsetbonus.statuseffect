@@ -1,0 +1,10 @@
+{
+  "name" : "wolfsetbonus",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    
+    "wolfsetbonus.lua"
+  ]
+}

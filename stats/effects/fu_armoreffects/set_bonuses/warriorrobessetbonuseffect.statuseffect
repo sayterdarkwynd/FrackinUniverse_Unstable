@@ -1,0 +1,13 @@
+{
+  "name" : "warriorrobessetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    
+    "warriorrobessetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "+8% Critical Chance, +15% Speed, +15% Jump",
+  "icon" : "/interface/statuses/jumpboost.png"
+}

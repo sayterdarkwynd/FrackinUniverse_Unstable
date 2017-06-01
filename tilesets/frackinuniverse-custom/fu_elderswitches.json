@@ -1,0 +1,51 @@
+{ "margin":0,
+ "name":"fu_elderswitches",
+ "properties":
+    {},
+ "spacing":0,
+ "tilecount":4,
+ "tileheight":279,
+  "tileproperties" : {
+      "0" : {
+          "imagePositionX" : "-8",
+          "imagePositionY" : "-8",      
+          "object" : "elderwallswitch"
+      },
+      "1" : {
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",      
+          "object" : "elderlightsensor"
+      },
+      "2" : {
+          "imagePositionX" : "-32",
+          "imagePositionY" : "-8",      
+          "object" : "fu_gated"
+      },
+      "3" : {
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",      
+          "object" : "gravzoneelder"
+      }
+    },
+      
+ "tiles":
+    {
+     "0":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/elderwallswitch.png"
+        },
+     "1":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/elderlightsensor.png"
+        },
+     "2":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/fu_gated.png"
+        },
+     "3":
+        {
+         "image":"./../../../../tiled/frackinuniverse-custom/objects/gravgendungeon.png"
+        }        
+    },
+ "tilewidth":285
+}

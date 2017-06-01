@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "hunterqueen", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hematite",
+    "count" : 1
+  },
+  "groups" : [ "beerefuge", "refuge", "all" ]
+}

@@ -1,0 +1,27 @@
+{
+  "name" : "sulphuricweatherstorm",
+  "blockingStat" : "sulphuricImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "physicalResistance",
+          "effectCutoffValue" : 0.55,     
+	  "biomeTemp" : 1.05, 
+	  "biomeThreshold" : 0.5,
+	  "baseRate" : 4,
+	  "baseDebuffPerTick" : 2,
+	  "baseDmgPerTick" : 1,
+	  "situationPenalty" : 1.1,
+	  "liquidPenalty" : 0.9,
+	  "biomeNight" : 1.0 
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "sulphuricweatherstorm.lua"
+  ],
+
+  "animationConfig" : "sulphuricweathernew.animation",
+
+  "label" : "Acid Storm",
+  "icon" : "/interface/statuses/acid1.png"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "darkmalt",
+  "price" : 70,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "darkmalt.png",
+  "description" : "Roasted malt!",
+  "shortdescription" : "Dark Malt"
+}

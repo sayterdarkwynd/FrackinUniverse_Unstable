@@ -1,0 +1,11 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tacticalchest" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tacticalpants" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "tacticalhead" }
+  ]
+]

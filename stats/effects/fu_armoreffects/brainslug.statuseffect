@@ -1,0 +1,14 @@
+{
+  "name" : "brainslug",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "brainslug.lua"
+  ],
+
+  "animationConfig" : "brainslug.animation",
+
+  "label" : "Brain Slug",
+  "icon" : "/interface/statuses/worm.png"
+}

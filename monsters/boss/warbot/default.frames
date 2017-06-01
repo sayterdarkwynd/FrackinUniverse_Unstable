@@ -1,0 +1,25 @@
+{
+  "frameGrid" : {
+    "size" : [95, 82],
+    "dimensions" : [9, 8],
+
+    "names" : [
+      [ null,"idle.1", null,null,null,null,null,null,null ],
+      [ null,"walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8" ],
+      [ null,"jumpwindup.1", "jumpattack.1", "jumpattack.2", "jumpattack.3", "jumpattack.4", "jumpattack.5", null, null ],
+      [ null,"jump.1", "jump.2", "jump.3", "jump.4", null,null,null,null ],
+      [ null,"charge.1", "charge.2", "charge.3",null, "charge2.1", "charge2.2", "charge2.3", null ],
+      [ null,"fire.1", "fire.2", "fire.3", "fire.4", "fire.5", "fire.6",null,null ],
+      [ null,"chestgun.1", "chestgun.2", "chestgun.3", "chestgun.4",null,null,null,null ],
+      [ null,"dualgun.1", "dualgun.2", "dualgun.3", "dualgun.4", "dualgun.5",null,null,null ]      ]
+  },
+
+  "aliases" : {
+    "hurt.1" : "jump.4",
+    "fall.1" : "jumpattack.4",
+    "windup.1" : "charge.1"  ,
+    "windup2.1" : "charge2.1"  ,
+    "winddown.1" : "charge.1"  ,
+    "winddown2.1" : "charge2.1"  
+  }
+}

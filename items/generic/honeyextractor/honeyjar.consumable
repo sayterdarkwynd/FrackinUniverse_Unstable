@@ -1,0 +1,21 @@
+{
+  "itemName" : "honeyjar",
+  "rarity" : "Common",
+  "category" : "food",
+  "price" : 10,
+  "inventoryIcon" : "honeyjar.png",
+  "description" : "A delicious jar of honey! Gobble it down, or bake with it!",
+  "shortdescription" : "Honey Jar",
+  "effects" : [ [
+    {
+        "effect" : "honeyheal4",
+        "duration" :180  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

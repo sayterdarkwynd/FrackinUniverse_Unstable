@@ -1,0 +1,15 @@
+{
+  "itemName" : "neptuniumore",
+  "price" : 200,
+  "rarity" : "rare",
+  "category" : "fuel",
+  "inventoryIcon" : "neptuniumore.png",
+  "description" : "It's neptunium, A great source of fuel.",
+  "shortdescription" : "Neptunium (Np)",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupNeptunium" ],
+    "learnBlueprintsOnPickup" : [
+    "neptuniumrod"
+  ],
+  "fuelAmount" : 30
+}

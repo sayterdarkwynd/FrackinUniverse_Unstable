@@ -1,0 +1,13 @@
+{
+  "name" : "protectorsetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "protectorsetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "+12% Crit Chance (Swords, Knives)",
+  "icon" : "/interface/statuses/set_dagger.png"
+}
+

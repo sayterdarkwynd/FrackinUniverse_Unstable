@@ -1,0 +1,11 @@
+{
+  "itemName" : "fungalstonematerial",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "fungalstonematerial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Fungal Stone",
+  "description" : "Spore-covered stone.",
+
+  "materialId" : 6563
+}

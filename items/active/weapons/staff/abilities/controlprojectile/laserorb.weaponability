@@ -1,0 +1,17 @@
+{
+  "ability" : {
+    "type" : "laserorb",
+    "name" : "Laser Eye",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 75,
+
+    "maxCastRange" : 25,
+
+    "projectileType" : "fu_lasereye_eyeball",
+    "projectileParameters" : {
+      "baseDamage" : 4
+    }
+  }
+}

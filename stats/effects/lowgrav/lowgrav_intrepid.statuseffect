@@ -1,0 +1,16 @@
+{
+  "name" : "lowgrav_intrepid",
+  "effectConfig" : {
+    "gravityMod" : -1.25
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "/scripts/unifiedGravMod.lua"
+  ],
+
+  "animationConfig" : "lowgrav.animation",
+
+  "label" : "Light",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

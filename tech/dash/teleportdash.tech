@@ -1,0 +1,21 @@
+{
+  "name" : "teleportdash",
+  "type" : "body",
+
+  "scripts" : ["blinkdash.lua"],
+  "animator" : "blinkdash.animation",
+
+  "description" : "The ultimate Blink tech! Cooldown: 1.35s",
+  "shortDescription" : "Blink Dash II",
+  "rarity" : "Legendary",
+  "icon" : "/tech/blinkdash2.png",
+
+  "chipCost" : 22,
+
+  "maximumDoubleTapTime" : 0.25,
+  "dashDistance" : 35,
+  "blinkOutTime" : 0.15,
+  "blinkInTime" : 0.15,
+  "dashCooldown" : 1.35,
+  "groundOnly" : false
+}

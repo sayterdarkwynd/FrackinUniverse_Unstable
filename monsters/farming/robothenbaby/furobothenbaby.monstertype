@@ -1,0 +1,107 @@
+{
+  "type" : "furobothenbaby",
+  "shortdescription" : "Baby Robot Hen",
+
+  "categories" : [ "robothenbaby" ],
+  "parts" : [ "body" ],
+
+  "animation" : "robothenbaby.animation",
+  "reversed" : false,
+
+  "dropPools" : [ { "default" : "robothenbabyTreasure" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua",
+      "/scripts/golemancer/gol_monstermain.lua"
+    ],
+
+  "tickEvoTime" : 5,
+  "evolutions" : [ "/scripts/golemancer/evolutions/robothenbabygrow.evo" ],
+
+    "persistent" : true,
+
+    "behavior" : "farmablebaby",
+
+    "evolveType" : "furobothen",
+    "spawnOffset" : [0.0, 0.25],
+    "spawnPoly" : [ [0.25, 0.75], [0.75, 0.25], [0.75, -0.25], [0.25, -0.75], [-0.25, -0.75], [-0.75, -0.25], [-0.75, 0.25], [-0.25, 0.75] ],
+    "evolveTime" : 1200,
+
+    "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
+
+      "mass" : 0.5,
+      "walkSpeed" : 5,
+      "runSpeed" : 5,
+      "jumpSpeed" : 5
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "",
+    "deathParticles" : "deathPoof",
+
+    "damageTeamType" : "passive",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesWeatherStatusEffects" : true,
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 40
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 1.5
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "relocatable" : true,
+    "captureHealthFraction" : 0.5,
+    "capturedMonsterType" : "robothenbaby", 
+    "nametagColor" : [64, 200, 255]
+  }
+}

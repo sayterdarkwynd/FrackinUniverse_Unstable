@@ -1,0 +1,12 @@
+{
+  "itemName" : "mineralsample",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mineralsample.png",
+  "description" : "Useful sample of nutrient-rich minerals.",
+  "shortdescription" : "Mineral Sample",
+  "radioMessagesOnPickup" : [ "pickupMineralsample" ],
+  "learnBlueprintsOnPickup" : [ "kramil", "aenemaflower", "ginsengseed" ],
+  "itemTags" : [ "reagent" ]
+}

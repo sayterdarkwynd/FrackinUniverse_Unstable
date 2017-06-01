@@ -1,0 +1,12 @@
+{
+  "itemName" : "ff_fertilizer",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fertilizer.png",
+  "description" : "It's what plants crave.",
+  "shortdescription" : "Fertilizer",
+  "radioMessagesOnPickup" : [ "pickupFertilizer" ],
+  "learnBlueprintsOnPickup" : [ "ff_fertilizer2" ],
+  "itemTags" : [ "reagent" ]
+}

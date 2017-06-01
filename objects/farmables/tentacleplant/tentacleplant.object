@@ -1,0 +1,42 @@
+{
+  "objectName" : "tentacleplant",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "uncommon",
+  "category" : "seed",
+  "description" : "Lashes out at enemies.",
+  "shortdescription" : "Writhing Vine",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 16,
+  
+  "inventoryIcon" : "tentacleplanticon.png",
+  "largeImage" : "tentacleplant.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "tentacleplant.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [420, 640]
+    },
+    {
+      "duration" : [420, 640]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "tentacleplant",
+      "resetToStage" : 0
+    }
+  ],
+    "maxImmersion" : 0.125
+  }

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "fuicecloud2",
+  "image" : "fuicecloud.png",
+  "physics" : "gas",
+  "animationCycle" : 1,
+  "speed" : 10,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.5,
+  "piercing" : false,
+  "damageKind" : "default",
+  "statusEffects" : [ "nitrogenfreeze2" ],
+  "power" : 5.0,
+  "emitters" : [ "largeicecloud" ]
+}

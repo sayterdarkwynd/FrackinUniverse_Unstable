@@ -1,0 +1,11 @@
+{
+  "itemName" : "iceblock4material",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iceblock4material.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ice",
+  "description" : "That frozen-water stuff.",
+"learnBlueprintsOnPickup" : [ "ff_icechucker" ],
+  "materialId" : 6534
+}

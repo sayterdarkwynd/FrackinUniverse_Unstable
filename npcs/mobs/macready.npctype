@@ -1,0 +1,102 @@
+{
+  "type" : "macready",
+  "baseType" : "hostilefuultraelite",
+
+  "levelVariance" : [2, 4],
+
+  "dropPools" : [ "ffbanditTreasure", "macreadyTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "slimelauncher" ]
+          },
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "heliosblade" ],
+            "alt" : [ "atropusshield" ]
+          },
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "blistergun" ],
+            "alt" : [ "effigiumbroadsword" ]
+          },         
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 9 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "goregun" ],
+            "alt" : [ "goldenseascion" ]
+          },   
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 16 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "gristlegun" ]
+          },        
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 18 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "shadowtentaclegun" ]
+          },
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 19 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "vashtagun" ]
+          },
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 20 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "thornrifle" ]
+          },           
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 20 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "napalmcannon" ]
+          },            
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 20 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "thornslinger" ]
+          },          
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 20 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "fuchainsword" ]
+          }, 
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 21 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "swarmgun2" ]
+          },      
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 22 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "isn_sunstream" ]
+          },     
+          {
+            "head" : [ { "name" : "brainslug", "parameters" : { "colorIndex" : 23 } } ],
+            "chest" : [ { "name" : "fieldscientistchest" } ],
+            "legs" : [ { "name" : "fieldscientistlegs" } ],
+            "primary" : [ "eyecannon" ]
+          }           
+      ] ]
+    ]
+  }
+}

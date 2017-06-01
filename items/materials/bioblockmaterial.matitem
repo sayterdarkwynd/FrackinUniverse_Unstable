@@ -1,0 +1,11 @@
+{
+  "itemName" : "bioblockmaterial",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "bioblockmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Proto Shale",
+  "description" : "Organic dirt of unusual appearance.",
+
+  "materialId" : 6500
+}

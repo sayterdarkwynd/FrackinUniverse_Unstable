@@ -1,0 +1,9 @@
+{
+  "name" : "ffextremeheatimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "ffextremeheatimmunity.lua"
+  ]
+}

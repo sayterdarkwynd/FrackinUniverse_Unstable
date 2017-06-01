@@ -1,0 +1,116 @@
+[
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "copperbeakegg" }, "rarity" : 0.03 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "megastatue" }, "rarity" : 0.03 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "cannedfood" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "cannedfood" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "cannedfood" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "graphene" }, "rarity" : 0.05 } 
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "dnasample" }, "rarity" : 0.1 } 
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "mineralsample" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "tissueculture" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "rawminerals" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "geneticmaterial" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "methanol" }, "rarity" : 0.4 }
+  },
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "fu_oxygen" }, "rarity" : 0.4 }
+  },
+  
+  {
+    "op": "add",
+    "path": "/basicmerchant/0/1/-",
+    "value": { "item" : { "name" : "fu_hydrogen" }, "rarity" : 0.4 }
+  },
+ 
+ 
+ 
+   {
+     "op": "add",
+     "path": "/oremerchant/0/1/-",
+     "value": { "item" : { "name" : "magnesiumore" }, "rarity" : 0.4 }
+  },
+   {
+     "op": "add",
+     "path": "/oremerchant/0/1/-",
+     "value": { "item" : { "name" : "mascagniteore" }, "rarity" : 0.4 }
+  }, 
+   {
+     "op": "add",
+     "path": "/oremerchant/0/1/-",
+     "value": { "item" : { "name" : "lead" }, "rarity" : 0.4 }
+  },  
+   {
+     "op": "add",
+     "path": "/oremerchant/0/1/-",
+     "value": { "item" : { "name" : "sulphur" }, "rarity" : 0.4 }
+  },
+  
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonbeampistol" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonbeampistol" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonrevolver" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonrevolver" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonsubmachinegun" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonsubmachinegun" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonsawedoffshotgun" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonsawedoffshotgun" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonbattlerifle" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonsaw" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonautoshotgun" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonbeamrifle" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonantimaterialrifle" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonmultigrenadelauncher" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonminirocketlauncher" }, "rarity" : 0.02, "useSeed" : true } },
+{"op" : "add", "path" : "/randomguns/0/1/-", "value" : { "item" : { "name" : "swtjc_ewg_commonflakcannon" }, "rarity" : 0.02, "useSeed" : true } }
+
+]
+
+

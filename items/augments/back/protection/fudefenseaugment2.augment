@@ -1,0 +1,21 @@
+{
+  "itemName" : "fudefenseaugment2",
+  "price" : 5000,
+  "rarity" : "Uncommon",
+  "category" : "eppAugment",
+  "inventoryIcon" : "defenseaugment2.png",
+  "description" : "An EPP module that reduces damage taken by 7%.",
+  "shortdescription" : "Kinetic Field II",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "fudefenseaugment2",
+    "displayName" : "Kinetic Field II",
+    "displayIcon" : "/items/augments/back/protection/defenseaugment2.png",
+    "effects" : [ "percentarmorboost7augment" ]
+  },
+"learnBlueprintsOnPickup" : [ "fudefenseaugment3" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

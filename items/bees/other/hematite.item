@@ -1,0 +1,9 @@
+{
+  "itemName" : "hematite",
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "hematite.png",
+  "description" : "A dark black rock formed of iron.",
+  "shortdescription" : "Hematite",
+  "itemTags" : [ "reagent" ]
+}

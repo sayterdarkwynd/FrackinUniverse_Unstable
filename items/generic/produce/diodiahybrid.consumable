@@ -1,0 +1,14 @@
+{
+  "itemName" : "diodiahybrid",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "diodiahybrid.png",
+  "description" : "Effect:
+^cyan;+20% Poison Resistance^reset;",
+  "shortdescription" : "Diodia Hybrid Fruit",
+  "category" : "food",
+
+  "effects" : [ 
+    [ "poisonblock2" ] 
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "sciencebrochure",
+  "price" : 4,
+  "rarity" : "Essential",
+  "category" : "quest",
+  "inventoryIcon" : "sciencebrochure.png",
+  "description" : "An informational brochure about a science facility.",
+  "shortdescription" : "Come Visit Us!",
+  "pickupQuestTemplates" : [ "fu_scienceoutpost" ]
+}

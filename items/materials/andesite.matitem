@@ -1,0 +1,11 @@
+{
+  "itemName" : "andesite",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "andesite.png",
+  "description" : "a rough volcanic rock.",
+  "shortdescription" : "Andesite",
+
+  "materialId" : 6629
+}

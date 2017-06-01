@@ -1,0 +1,13 @@
+{
+  "name" : "waterwalk",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "waterwalk.lua"
+  ],
+
+  "animationConfig" : "waterwalk.animation",
+  "label" : "Water Walk",
+  "icon" : "/interface/statuses/waterwalk.png"
+}

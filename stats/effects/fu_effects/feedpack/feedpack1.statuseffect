@@ -1,0 +1,11 @@
+{
+  "name" : "feedpack1",
+  "effectConfig" : { 
+    "regenAmount" : 0.0275
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "feedpack.lua"
+  ]
+}

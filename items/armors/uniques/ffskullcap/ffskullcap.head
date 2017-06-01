@@ -1,0 +1,43 @@
+{
+  "itemName" : "ffskullcap",
+  "price" : 2500,
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Dense head protection. Immune to wet effect",
+  "shortdescription" : "Skullcap",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+"level" : 2,
+  "itemTags" : [ "upgradeableWeapon" ],
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.3
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 11
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 5
+    },
+    {
+      "stat" : "wetImmunity",
+      "amount" : 1
+    }  
+  ]
+
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "diamondframe",
+    "count" : 1
+  },
+  "groups" : [ "mod", "beestation", "tools", "all" ]
+}

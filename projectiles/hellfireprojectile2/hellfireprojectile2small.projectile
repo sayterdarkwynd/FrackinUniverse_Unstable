@@ -1,0 +1,57 @@
+{
+  "projectileName" : "hellfireprojectile2small",
+  "image" : "hellfireprojectile2small.png",
+  "animationCycle" : 0.3,
+  "level" : 1,
+  "physics" : "bullet",
+  "frameNumber" : 4,
+  "pointLight" : true,
+  "lightColor" : [255, 113, 0],
+  "speed" : 60,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/globeexplosions/orangeglobeexplosion/orangeglobeexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "flamethrowerflameff",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "flamethrowerflameff",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "flamethrowerflameff",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "flamethrowerflameff",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : -225
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "lava",
+      "quantity" : 0.35
+    }
+  ],
+  //"power" : 10.0,
+  "damageKind" : "default",
+  "emitters" : [ "fireplasma", "fireflames" ],
+  "statusEffects" : [ "burning" ],
+  "hydrophobic" : true
+}
+
+

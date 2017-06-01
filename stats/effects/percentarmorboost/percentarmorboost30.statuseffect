@@ -1,0 +1,16 @@
+{
+  "name" : "percentarmorboost30",
+  "effectConfig" : {
+    "defenseModifier" : 0.30
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "percentarmorboost.lua"
+  ],
+  
+  //"animationConfig" : "percentarmorboost.animation",
+  
+  "label" : "Def +30%",
+  "icon" : "/interface/statuses/defense2.png"
+}

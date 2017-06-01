@@ -1,0 +1,23 @@
+{
+  "itemName" : "arcticcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "arcticcomb.png",
+  "description" : "A frozen honeycomb! Eat it!",
+  "shortdescription" : "Arctic Honeycomb",
+  "handPosition" : [0.0, 0]
+,
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal1",
+        "duration" :8  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ],
+  "category" : "food"
+}

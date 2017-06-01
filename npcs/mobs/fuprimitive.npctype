@@ -1,0 +1,145 @@
+{
+  "type" : "fuprimitive",
+  "baseType" : "hostilefu",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "chitinhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "warcleaver",
+              "fuboneaxe",
+              "boneblade",
+              "shadowblade",
+              "obsidianblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "cultiststaffmelee",
+              "bloodyknife",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ],
+            "alt" : [
+              "fuboneshield"
+            ]
+          },
+          {
+            "head" : [ { "name" : "predatoryhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "predatorychest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "predatorypants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "warcleaver",
+              "fuboneaxe",
+              "boneblade",
+              "shadowblade",
+              "obsidianblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "cultiststaffmelee",
+              "bloodyknife",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ]
+          },
+          {
+            "head" : [ { "name" : "alienskullhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "hunterchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "hunterlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "warcleaver",
+              "fuboneaxe",
+              "boneblade",
+              "shadowblade",
+              "obsidianblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "cultiststaffmelee",
+              "bloodyknife",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fumonsterplatedhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fumonsterplatedchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fumonsterplatedlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "warcleaver",
+              "fuboneaxe",
+              "boneblade",
+              "shadowblade",
+              "obsidianblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "cultiststaffmelee",
+              "bloodyknife",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ]
+          },            
+          {
+            "head" : [ { "name" : "reptilianhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "reptilianchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "reptilianlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "warcleaver",
+              "fuboneaxe",
+              "boneblade",
+              "shadowblade",
+              "obsidianblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "cultiststaffmelee",
+              "bloodyknife",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ]
+          },          
+          {
+            "head" : [ { "name" : "fubonearmorhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fubonearmorchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fubonearmorlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "boneblade",
+              "fubonesword",
+              "fuboneaxe",
+              "boneblade",
+              "fubonespear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "tungstenbow",
+              "bow",
+              "bonebow"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

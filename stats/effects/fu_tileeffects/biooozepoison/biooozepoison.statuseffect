@@ -1,0 +1,18 @@
+{
+  "name" : "biooozepoison",
+  "blockingStat" : "biooozeImmunity",
+
+  "effectConfig" : {
+    "healthDown" : 6  
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "biooozepoison.lua"
+  ],
+
+  "animationConfig" : "biooozepoison.animation",
+
+  "label" : "Oozed. Resisted by Poison resistance.",
+  "icon" : "/interface/statuses/bioooze2.png"
+}

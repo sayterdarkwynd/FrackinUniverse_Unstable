@@ -1,0 +1,15 @@
+{
+  "name" : "drain",
+  "effectConfig" : {
+    "drainMultiplier" : 1,
+    "cooldown" : 1
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "drain.lua"
+  ],
+
+  "label" : "Drain",
+  "icon" : "/interface/statuses/absorb.png"
+}

@@ -1,0 +1,151 @@
+{
+  "type" : "furaider",
+  "baseType" : "hostilefu",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "leapWindup" : 0.55,
+      "rangedAimTime" : 0.2,
+      "rangedWindupTime" : 0.01,
+      "rangedMinFireTime": 0.15,
+      "rangedMaxFireTime": 5      
+    }  
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "blisterhelm", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "blisterchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "blisterpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "blistergun"
+            ],
+            "alt" : [
+              "bowlingball"
+            ]            
+          },
+          {
+            "head" : [ { "name" : "fubountyhunterhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fubountyhunterchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fubountyhunterpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "flamethrower",
+              "commonrocketlauncher",
+              "commongrenadelauncher"
+            ],
+            "alt" : [
+              "thorngrenade"
+            ]   
+          },
+          {
+            "head" : [ { "name" : "fubonusarmorhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fubonusarmorchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fubonusarmorpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "protopistol"
+            ],
+            "alt" : [
+              "lunarishield"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fuexplorerhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "fuexplorerchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "fuexplorerlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              "energyassault",
+              "isn_plasmabeam",
+              "protogun",
+              "tentabane"
+            ],
+            "alt" : [
+              "energyjavelin"
+            ]
+          },
+          {
+            "head" : [ { "name" : "ff_slimehead2", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "ff_slimechest2", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "ff_slimelegs2", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "slimelauncher"
+            ],
+            "alt" : [
+              "energylance"
+            ]
+          },
+          {
+            "head" : [ { "name" : "wretchelhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "wretchelchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "wretchelpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "armcannonfire",
+              "armcannon",
+              "armcannonexplosive",
+              "armcannonice",
+              "armcannonproto",
+              "armcannonshock"
+            ],
+            "alt" : [
+              "armcannonfire",
+              "armcannon",
+              "armcannonexplosive",
+              "armcannonice",
+              "armcannonproto",
+              "armcannonshock"
+            ]
+          },
+          {
+            "head" : [ { "name" : "agilitysuithead", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "agilitysuitchest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "agilitysuitlegs", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "gravitonpistol",
+              "randomharpoongun",
+              "lunaripistol"
+            ],
+            "alt" : [
+              "lunaripistol",
+              "gravitonpistol"
+            ]
+          },
+          {
+            "head" : [ { "name" : "densiniumhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "densiniumchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "densiniumlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "mechgun",
+              "densiniumrifle"
+            ],
+            "alt" : [
+              "densiniumsword"
+            ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 70.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 100.0
+      },      
+      "powerMultiplier" : {
+        "baseValue" : 0.65
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

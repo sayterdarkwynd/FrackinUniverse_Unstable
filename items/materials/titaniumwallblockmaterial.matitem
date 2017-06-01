@@ -1,0 +1,11 @@
+{
+  "itemName" : "titaniumwallblockmaterial",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "titaniumwallblockmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A titanium wall.",
+  "shortdescription" : "Titanium Wall",
+
+  "materialId" : 6596
+}

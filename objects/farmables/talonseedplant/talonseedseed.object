@@ -1,0 +1,41 @@
+{
+  "objectName" : "talonseedseed",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "Genetically improved! Resistant to cold.",
+  "shortdescription" : "Talon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "inventoryIcon" : "talonseedicon.png",
+  "largeImage" : "talonseedseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "talonseedseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [420, 740]
+    },
+    {
+      "duration" : [420, 740]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "talonseedHarvest",
+      "resetToStage" : 0
+    }
+  ],
+  "learnBlueprintsOnPickup" : [ "bluemelonseed" ],
+    "maxImmersion" : 0.125
+}

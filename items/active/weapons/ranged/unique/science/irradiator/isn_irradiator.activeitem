@@ -1,0 +1,92 @@
+{
+  "itemName" : "isn_irradiator",
+  "level" : 4,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Most certainly against intergalactic weapons laws
+^yellow;Area-Effect weapon^reset;
+^green;Inflicts radiation burn",
+  "shortdescription" : "Irradiator",
+  "tooltipKind" : "gun2",
+  "category" : "Radiation Ejector",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher", "irradium", "upgradeableWeapon"],
+  "inventoryIcon" : "isn_irradiatoricon.png",
+  "animation" : "isn_irradiator.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "isn_irradiator.png",
+    "middlefullbright" : "isn_irradiatorfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [10, 0, 50]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/acid-fizz5.wav" ]
+    }
+  },
+  "baseOffset" : [0.87, 0.35],
+  "muzzleOffset" : [1.0, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "radioactive",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.1,
+    "baseDps" : 8.0,
+    "energyUsage" : 20,
+    "inaccuracy" : 0.2,
+    "fireType" : "auto",
+
+    "projectileType" : "radioactivethrower",
+    "projectileParameters" : {
+      "knockback" : 0,
+      "speed" : 30
+    },
+    "projectileCount" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "critChance" : 1,
+  "critBonus" : 3,
+  "altAbilityType" : "swtjc_ewg_bouncingorbitals",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

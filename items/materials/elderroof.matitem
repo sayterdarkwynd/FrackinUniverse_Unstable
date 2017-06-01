@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderroof",
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "elderrooficon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Roofing of Elder origin.",
+  "shortdescription" : "Elder Roofing",
+
+  "materialId" : 6635
+}

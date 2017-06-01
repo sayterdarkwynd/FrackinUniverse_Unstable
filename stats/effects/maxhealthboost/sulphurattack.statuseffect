@@ -1,0 +1,14 @@
+{
+  "name" : "sulphurattack",
+  "effectConfig" : {
+    "healthAmount" : -25
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "maxhealthboost.lua"
+  ],
+
+  "label" : "-25 Health",
+  "icon" : "/interface/statuses/maxhealth.png"
+}

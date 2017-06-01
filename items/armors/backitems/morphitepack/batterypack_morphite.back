@@ -1,0 +1,27 @@
+{
+  "itemName" : "batterypack_morphite",
+  "price" : 2500,
+  "inventoryIcon" : "batterypack_eridianicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "An advanced energy pack. Grants +50 energy, 30% energy regen, 30% charge reduction and a slight glow.",
+  "shortdescription" : "Antimatter Energy Pack",
+  "tooltipKind" : "baseaugment",
+  "category" : "enviroProtectionPack",
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "energyregenfu_morphite",
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    "glowpurple2"
+  ]
+  
+  
+}

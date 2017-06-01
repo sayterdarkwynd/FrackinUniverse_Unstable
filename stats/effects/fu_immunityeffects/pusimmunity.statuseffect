@@ -1,0 +1,11 @@
+{
+  "name" : "pusimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "pusimmunity.lua"
+  ],
+  "label" : "Pus Proof",
+  "icon" : "/interface/statuses/antidote.png"
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "biomepoison1",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "poisonResistance",
+          "effectCutoffValue" : 0.2,  
+	  "biomeTemp" : 1.0, 
+	  "biomeThreshold" : 0.5,
+	    "baseRate" : 5,
+	    "baseDebuffPerTick" : 2,
+	    "baseDmgPerTick" : 1,
+	    "situationPenalty" : 1.0,
+	    "liquidPenalty" : 1.0,
+	    "biomeNight" : 1.0   	    
+  },
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "poisonweathernew.lua"
+  ],
+
+  "animationConfig" : "poisonweathernew.animation",
+  "label" : "Severe Poison",
+  "icon" : "/interface/statuses/poison1.png"
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "lumivine",
+  "rarity" : "rare",
+  "price" : 100,
+  "inventoryIcon" : "lumivine.png",
+  "description" : "Effect:
+^cyan;Pressure Immunity^reset;",
+  "shortdescription" : "Lumivine",
+  "category" : "food",
+
+  "effects" : [ [
+      "pressureimmunity"
+    ] ],
+  "learnBlueprintsOnPickup" : [ "lumivineseed" ]
+}

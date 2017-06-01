@@ -1,0 +1,15 @@
+{
+  "itemName" : "pekkit",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "pekkiticon.png",
+  "description" : "Effect:
+^cyan;Ice Burst^reset;",
+  "shortdescription" : "Pekkit",
+  "category" : "food",
+
+  "learnBlueprintsOnPickup" : [ "pekkitfreeze_freezegrenade" ],
+  "effects" : [ [
+      "iceburst"
+    ] ]
+}

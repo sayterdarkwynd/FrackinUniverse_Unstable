@@ -1,0 +1,11 @@
+{
+  "itemName" : "fumonasteryflooring",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "fumonasteryflooring.png",
+  "description" : "Flooring of Shoji design.",
+  "shortdescription" : "Shoji Flooring",
+
+  "materialId" : 6653
+}

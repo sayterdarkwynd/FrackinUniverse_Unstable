@@ -1,0 +1,16 @@
+{
+  "name" : "rage100",
+  "effectConfig" : {
+    "powerModifier" : 2.0
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "rage.lua"
+  ],
+
+  "animationConfig" : "rage.animation",
+
+  "label" : "+100% Rage",
+  "icon" : "/interface/statuses/rage.png"
+}

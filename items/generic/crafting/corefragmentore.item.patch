@@ -1,0 +1,11 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse" : true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fuflamewand" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fucopperbomb" },
+    { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fuironbomb" }
+  ]
+]

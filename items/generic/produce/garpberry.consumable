@@ -1,0 +1,14 @@
+{
+  "itemName" : "garpberry",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "garpberry.png",
+  "description" : "Effect:
+^cyan;Radiation Resistance, Rad Burn Immunity^reset;",
+  "category" : "food",
+
+  "shortdescription" : "Garp Berry",
+  "effects" : [ [
+      "radioactiveblock"
+    ] ]
+}

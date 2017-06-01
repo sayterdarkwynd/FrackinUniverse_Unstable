@@ -1,0 +1,24 @@
+{
+  "objectName" : "fudragontable",
+  "printable" : false,
+  "retainObjectParametersInItem" : true,
+  "rarity" : "Common",
+  "description" : "Boney and decorative. Interesting combo.",
+  "shortdescription" : "Bone Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 650,
+
+  "inventoryIcon" : "fudragontableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fudragontable.png:<color>",
+      "imagePosition" : [-36, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

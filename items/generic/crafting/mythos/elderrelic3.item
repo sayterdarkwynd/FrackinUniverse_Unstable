@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderrelic3",
+  "price" : 600,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elderrelic3.png",
+  "description" : "A small shard from a larger blade. Ancient.",
+  "shortdescription" : "^#ffe50e;Blade Shard^white;",
+  "itemTags" : [ "reagent" ],
+  "collectablesOnPickup" : { "fu_elderrelics" : "elderrelic3" }
+}

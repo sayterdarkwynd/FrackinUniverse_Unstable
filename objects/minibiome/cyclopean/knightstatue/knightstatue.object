@@ -1,0 +1,25 @@
+{
+  "objectName" : "knightstatue",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20250,
+  "printable" : false,  
+  "description" : "A huge statue, most likely some sort of Deity of whoever built it.",
+  "shortdescription" : "Enormous Warrior Statue",
+  "health" : 275,
+  "race" : "generic",
+  "inventoryIcon" : "knightstatue.png",
+  "rooting" : true,
+  "orientations" : [
+    {
+      "dualImage" : "knightstatue.png:<color>",
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

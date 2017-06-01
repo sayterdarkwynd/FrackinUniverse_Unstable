@@ -1,0 +1,55 @@
+{
+  "itemName" : "ff_scoutpants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Set Bonus: 
+^cyan;Immune:Gas, Proto-Poison^reset;
+^#e43774;+800s Oxygen^reset;
+^green;+25% Energy Regen^reset;",
+  "shortdescription" : "Scout Greaves",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armornew2",
+  
+  "learnBlueprintsOnPickup" : [ 
+  "ff_scoutchest_melee", 
+  "ff_scouthelm_melee", 
+  "ff_scoutpants_melee" 
+  ],
+  
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+    "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 1
+    }
+  ],
+
+  "statusEffects" : [
+      "scoutsetbonus",
+    {
+      "stat" : "fu_scoutset_legs",
+      "amount" : 1
+    }
+  ]
+}

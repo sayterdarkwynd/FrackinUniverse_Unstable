@@ -1,0 +1,11 @@
+{
+  "itemName" : "phosphorus",
+  "rarity" : "Common",
+  "price" : 70,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "phosphorus.png",
+  "description" : "An essential non-metallic chemical element.",
+  "shortdescription" : "Phosphorus",
+  "learnBlueprintsOnPickup" : [ "saltpeter" ],
+  "itemTags" : [ "reagent" ]
+}

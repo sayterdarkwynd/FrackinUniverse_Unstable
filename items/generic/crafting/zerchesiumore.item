@@ -1,0 +1,12 @@
+{
+  "itemName" : "zerchesiumore",
+  "rarity" : "uncommon",
+  "price" : 160,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "zerchesiumore.png",
+  "description" : "Can be refined into a nearly unmeltable alloy.",
+  "shortdescription" : "Zerchesium Ore",
+  "radioMessagesOnPickup" : [ "pickupZerchesium" ],
+  "learnBlueprintsOnPickup" : [ "zerchesiumbar" ],
+  "itemTags" : [ "reagent" ]
+}

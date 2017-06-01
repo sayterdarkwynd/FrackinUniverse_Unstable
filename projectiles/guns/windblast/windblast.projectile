@@ -1,0 +1,21 @@
+{
+  "projectileName" : "windblast",
+  "image" : "windblast.png",
+  "physics" : "laser",
+  "bounces" : 0,
+  "animationCycle" : 1.0,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 10,
+  "power" : 5,
+  "level" : 5,
+  "speed" : 35,
+  "timeToLive" : 1.0,
+  "lightColor" : [92,92,92],
+  "damageKind" : "electric",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/teslaboom/teslaboom3.config"
+    }
+  ]
+}

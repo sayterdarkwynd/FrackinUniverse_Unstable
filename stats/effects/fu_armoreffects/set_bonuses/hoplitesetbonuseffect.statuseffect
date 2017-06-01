@@ -1,0 +1,13 @@
+{
+  "name" : "hoplitesetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "hoplitesetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "+3% Crit Chance. +30% Shield Regen. +15% Spear/Shortspear damage. With Spears and Shortspears get +6% crit.  Mountainous biomes grant +3% crit.",
+  "icon" : "/interface/statuses/attack.png"
+}
+

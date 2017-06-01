@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "syntheticmaterial", "count" : 6 },
+    { "item" : "gene_adaptivecell", "count" : 5 },
+    { "item" : "gene_avian", "count" : 5 },
+    { "item" : "gene_agility", "count" : 5 },
+    { "item" : "beesilk", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "fubeewings",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "hazardgear", "all" ]
+}

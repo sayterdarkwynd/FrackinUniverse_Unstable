@@ -1,0 +1,11 @@
+{
+  "itemName" : "effigiumore",
+  "rarity" : "legendary",
+  "price" : 320,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "effigiumore.png",
+  "description" : "An almost invisible crystalline metal.",
+  "shortdescription" : "Effigium Ore",
+  "learnBlueprintsOnPickup" : [ "effigiumbar" ],
+  "itemTags" : [ "reagent" ]
+}

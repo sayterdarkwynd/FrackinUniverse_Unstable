@@ -1,0 +1,52 @@
+{
+  "objectName" : "fuokeahitechcounter",
+  "colonyTags" : [ "science", "hitech", "cooking", "storage" ],
+
+  "category" : "crafting",
+  "rarity" : "Common",
+  "printable" : false,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "craftingfood" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Hi-Tech Kitchen Counter",
+        "subtitle" : " ^#b9b5b2;Prepare and cook food"
+      }
+    }
+  },
+  
+  "lightColors" : {
+    "default" : [61, 88, 102],
+    "red" : [61, 88, 102],
+    "blue" : [61, 88, 102],
+    "green" : [61, 88, 102],
+    "yellow" : [61, 88, 102],
+    "orange" : [61, 88, 102],
+    "pink" : [61, 88, 102],
+    "black" : [61, 88, 102],
+    "white" : [61, 88, 102]
+  },
+  "flickerDistance" : 0.15,
+  "flickerStrength" : 0.01,
+  "flickerTiming" : 4,
+  
+  "description" : "An extraordinary cooking surface",
+  "shortdescription" : "Hi-tech Counter",
+  "race" : "generic",
+  "price" : 400,
+
+  "inventoryIcon" : "fuokeahitechcountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fuokeahitechcounter.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 3.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

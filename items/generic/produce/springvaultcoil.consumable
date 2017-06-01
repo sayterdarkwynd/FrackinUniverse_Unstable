@@ -1,0 +1,18 @@
+{
+  "itemName" : "springvaultcoil",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "springvaultcoil.png",
+  "description" : "Effect:
+^cyan;200% Bounce^reset;",
+  "shortdescription" : "Springvault Coil",
+  "category" : "food",
+
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "amount" : 2.0,
+        "duration" : 60
+      }
+    ] ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "ffextremeradiationimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "ffextremeradiationimmunity.lua"
+  ]
+}

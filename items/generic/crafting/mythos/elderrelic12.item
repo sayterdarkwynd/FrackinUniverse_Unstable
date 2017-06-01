@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderrelic12",
+  "rarity" : "rare",
+  "price" : 600,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elderrelic12.png",
+  "description" : "Lost knowledge of an unknown race.",
+  "shortdescription" : "^#ffe50e;Elder Fragment^white;",
+  "itemTags" : [ "reagent" ],
+  "collectablesOnPickup" : { "fu_elderrelics" : "elderrelic12" }
+}

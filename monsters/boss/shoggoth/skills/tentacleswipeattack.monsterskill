@@ -1,0 +1,43 @@
+{
+  "name" : "tentacleSwipeAttack",
+  "label" : "WHAP!",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/boss/shoggoth/skills/tentacleswipeattack.lua" ],
+    "tentacleSwipeAttack" : {
+      "skillTime" : 1.35,
+      
+      "damagePerSecond" : 20,
+      "distanceRange" : [0, 20],
+      "windupTime" : 0.4,
+      "winddownTime" : 1.2,
+      "projectile" : {
+        "type" : "shoggothswipe",
+        "config" : {
+          "power" : 30,
+          "speed" : 10,
+          "actionOnReap" : [
+	    {
+	      "action" : "config",
+	      "file" : "/projectiles/explosions/elementimpact/radioactiveimpact3.config"
+	    },
+	    {
+	      "action" : "liquid",
+	      "liquid" : "elderfluid",
+	      "quantity" : 0.45
+	    },
+	    {
+	      "action" : "projectile",
+	      "type" : "shadowtravelingswoosh",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.25,
+	      "angleAdjust" : 0
+	    }          
+          ]
+        },
+        "offset" : [18, -12.5]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "matteritem", "count" : 2 },
+    { "item" : "effigiumbar", "count" : 2 },
+    { "item" : "wretchel", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fubonusarmorpants",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

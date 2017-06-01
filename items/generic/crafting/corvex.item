@@ -1,0 +1,17 @@
+{
+  "itemName" : "corvex",
+  "rarity" : "rare",
+  "price" : 16,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "corvex.png",
+  "description" : "This material is a fantastic bonding agent.",
+  "shortdescription" : "Corvex",
+  "radioMessagesOnPickup" : [ "pickupCorvex" ],
+  
+  "learnBlueprintsOnPickup" : [  
+  "corvexputty" 
+  ],
+  
+  "itemTags" : [ "reagent" ]
+
+}

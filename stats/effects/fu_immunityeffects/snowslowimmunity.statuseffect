@@ -1,0 +1,9 @@
+{
+  "name" : "snowslowimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "snowslowimmunity.lua"
+  ]
+}

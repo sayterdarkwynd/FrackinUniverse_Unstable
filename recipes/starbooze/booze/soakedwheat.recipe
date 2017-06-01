@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "soakedwheat",
+    "count" : 1
+  },
+  "groups" : [ "rainbarrel", "all", "other" ]
+}

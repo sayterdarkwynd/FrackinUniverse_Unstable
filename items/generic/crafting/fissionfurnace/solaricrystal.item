@@ -1,0 +1,31 @@
+{
+  "itemName" : "solaricrystal",
+  "rarity" : "common",
+    "price" : 180,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "solaricrystal.png",
+  "description" : "Condensed and hardened Lunari crystal.",
+  "shortdescription" : "Lunari Crystal",
+  "learnBlueprintsOnPickup" : [
+    "magnorblunari",
+    "sentrybottriplod",
+    "fumementomori",
+    "lunaririfle",
+    "lunaripistol",
+    "lunarichest",
+    "lunarihead",
+    "lunarilegs",
+    "lunarishield",
+    "lunaribow",
+    "solarisword",
+    "solarihammer",
+    "solariblade",
+    "solarispear",
+    "lunaristaff",
+    "lunariwand",
+    "warriorrobeshead",
+    "warriorrobeschest",
+    "warriorrobespants"
+  ],
+  "itemTags" : [ "reagent" ]
+}

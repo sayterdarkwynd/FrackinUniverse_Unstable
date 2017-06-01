@@ -1,0 +1,9 @@
+{
+  "name" : "radiationimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "radiationimmunity.lua"
+  ]
+}

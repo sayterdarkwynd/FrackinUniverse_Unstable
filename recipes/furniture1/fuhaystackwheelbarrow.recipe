@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 3 },
+    { "item" : "wheat", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "fuhaystackwheelbarrow",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

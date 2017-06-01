@@ -1,0 +1,18 @@
+{
+  "itemName" : "mireurchin",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "mireurchin.png",
+  "description" : "Effect:
+^cyan;+10% Ice and +20% Electric Resistance. Blocks electrical storms.^reset;",
+  "shortdescription" : "Mire Urchin",
+  "category" : "food",
+
+  "effects" : [ [
+      "electricblock2", "iceblock"
+    ] ],
+  "blockingEffects" : [
+    "electricblock2", 
+    "iceblock"
+  ]
+}

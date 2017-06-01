@@ -1,0 +1,28 @@
+{
+  "itemName" : "effigiumbar",
+  "rarity" : "legendary",
+    "price" : 160,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "effigiumbar.png",
+  "description" : "Light has issues refracting off of this surface, rendering this metal nearly invisible.",
+  "shortdescription" : "Effigium Bar",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "shadowblade",
+    "magnorbshadow",
+    "effigiumaxe",
+    "effigiumspear",
+    "effigiumdagger",
+    "effigiumhammer",
+    "effigiumbroadsword",
+    "effigiumshortsword",
+    "effigiumstaff",
+    "effigiumwand",
+    "fubonusarmorhead",
+    "fubonusarmorchest",
+    "fubonusarmorpants",
+    "fuaetherimmunityaugment",
+    "shadowstring",
+    "shadowstaff"
+  ]
+}

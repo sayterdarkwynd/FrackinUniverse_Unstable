@@ -1,0 +1,9 @@
+{
+  "name" : "helium3Immunity",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "helium3immunity.lua"
+  ]
+}

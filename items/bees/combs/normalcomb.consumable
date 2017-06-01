@@ -1,0 +1,23 @@
+{
+  "itemName" : "normalcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "normalcomb.png",
+  "description" : "A delicious honeycomb! Eat it! You'll heal!",
+  "shortdescription" : "Honeycomb",
+  "handPosition" : [0.0, 0],
+  "learnBlueprintsOnPickup" : [ "honeycombmaterial" ],
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal1",
+        "duration" :5  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 30
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ],
+  "category" : "food"
+}
