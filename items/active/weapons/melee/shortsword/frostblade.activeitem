@@ -1,0 +1,38 @@
+{
+  "itemName" : "frostblade",
+  "price" : 150,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A dense aura of cold permeates this sword",
+  "shortdescription" : "Frost Blade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","ice", "upgradeableWeapon"],
+
+  "inventoryIcon" : "frostblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "frostblade.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.53,
+    "baseDps" : 6.5
+  },
+  "critChance" : 2,
+  "critBonus" : 6,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "collectablesOnPickup" : { "fu_warrior2" : "frostblade" }
+  
+}

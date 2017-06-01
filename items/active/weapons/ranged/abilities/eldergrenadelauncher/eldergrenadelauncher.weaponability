@@ -1,0 +1,80 @@
+{
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, 0],
+          "transformationGroups" : ["muzzle"],
+          "firePosition" : [0.75, -0.125],
+          "image" : "/items/active/weapons/ranged/abilities/grenadelauncher/grenadelauncher.png"
+        }
+      }
+    }},
+    "sounds" : {
+      "altFire" : [ "/sfx/weapons/blood-goo-splat9.wav" ]
+    },
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [-0.25, -0.5, -0.25, -0.5],
+        "particles" : [
+          { "particle" : "fastrisingelectric", "offset" : [0.0, 0.0] },
+          { "particle" : "fastrisingelectric", "offset" : [0.0, 0.0] },
+          { "particle" : "fastrisingelectric", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Bio-Cannon",
+    "type" : "eldergrenadelauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "impactgrenade" },
+      "fire" : { "projectileType" : "firecloudgrenade" },
+      "electric" : { "projectileType" : "bubbleblast" }, //needs to remain as is for backwards compatibility.
+      "ice" : { "projectileType" : "icecloudgrenade" },
+      "poison" : { "projectileType" : "tentacleburst" },
+      "shadow" : { "projectileType" : "elderburst" }        // apperantly don't need more elements
+    },
+    "projectileParameters" : {
+      "speed" : 10
+    },
+    "projectileCount" : 1,
+    "inaccuracy" : 0.12,
+    "baseDamage" : 8.45,
+    "energyUsage" : 65,
+    "fireTime" : 0.2,
+    "fireType" : "auto",
+
+    "firePositionPart" : "grenadelauncher",
+    "hidePrimaryMuzzleFlash" : true,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

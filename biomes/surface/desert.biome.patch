@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": "/statusEffects",
+    "value": [
+      "desertweathernew"
+    ]
+  },
+  
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{
+
+        "select" : 2,
+        "pool" : [
+          [ 0.1, "fucamelcritter" ],
+          [ 0.1, "fuhorsecritter" ],
+          [ 0.1, "fubrownsnakecritter" ],
+          [ 0.1, "fudesertdactylcritter" ],
+          [ 0.1, "fudesertlizardcritter" ],
+          [ 0.1, "furoadrunnercritter" ],
+          [ 0.1, "birdcritter" ]
+        ]
+      }
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{
+
+        "select" : 1,
+        "pool" : [
+          [ 0.8, "blackbeetle" ],
+          [ 0.2, "futinycockroach" ]
+        ]
+      }
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{
+
+        "select" : 2,
+        "pool" : [
+          [ 0.3, "nocturnalbee" ],
+          [ 0.7, "aridbee" ]
+        ]
+      }
+},
+
+	{"op":"add","path":"/surfacePlaceables/items/-","value":
+	  {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:ffunCommon",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [
+              [0.35, "fusand1" ],
+              [0.35, "fusand2" ],
+              [0.35, "fusand3"],
+              [0.35, "fusand4" ],
+              [0.35, "fusand5" ],
+              [0.35, "fudesertrock1"],
+              [0.35, "fudesertrock2" ],
+              [0.35, "fudesertrock3" ],
+              [0.35, "fudesertrock4"],
+              [0.35, "fudesertrock5" ],
+              [0.35, "fudesertrock6" ],
+              [0.35, "fudesertrock7"]
+              ]
+            }
+           ]
+          }
+	},
+
+{"op":"add","path":"/subBlocks/-","value": "calichestone"},
+
+	{"op":"add","path":"/surfacePlaceables/items/-","value":{
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [
+              [0.33, "wildbrackentreeseed" ],
+              [0.33, "wildbolbohnseed" ],
+              [0.33, "wilddunestalkseed" ]
+              ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        }
+	},
+{"op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {
+  "mode" : "floor",
+  "priority" : 1,
+  "variants" : 1,
+  "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
+
+  "type" : "microdungeon",
+  "microdungeons" : [ "randomencounter", "shroomencounter", "eyeencounter", "colourfulencounter", "boneencounter", "humanencounter", "glitchencounter", "floranencounter", "apexencounter", "avianencounter", "fuencounters",  "fulabs", "fubandits", "newhumanmicro", "newavianmicro", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
+  }
+},
+
+{"op" : "add", "path" : "/undergroundPlaceables/items/-", "value" : {
+  "mode" : "floor",
+  "priority" : 1,
+  "variants" : 1,
+  "distribution" : "/biomes/distributions.config:ultraRare",
+
+  "type" : "microdungeon",
+  "microdungeons" : [ "outpostundergroundencounter", "humanundergroundencounter", "glitchundergroundencounter", "floranundergroundencounter", "apexundergroundencounter" , "avianundergroundencounter", "undergroundencounter", "treasureroom", "genericundergroundencounter"]
+  }
+}
+
+]

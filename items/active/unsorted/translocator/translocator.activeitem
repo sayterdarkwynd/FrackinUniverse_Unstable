@@ -1,0 +1,30 @@
+{
+  "itemName" : "translocator",
+  "price" : 5000,
+  
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "^#e43774;Upgradeable Tool^reset;",
+  "description" : "Fires teleport-node discs. Quite useful.",
+  "shortdescription" : "Translocator",
+
+  "twoHanded" : true,
+
+  "inventoryIcon" : "translocator.png",
+  "animation" : "translocator.animation",
+  "animationParts" : {
+    "gun" : "translocator.png",
+    "disc" : "translocatordisc.png",
+    "discunlit" : "translocatordiscunlit.png"
+  },
+  "pickupQuestTemplates" : [ "blinkdash2" ],
+  "learnBlueprintsOnPickup" : [ "translocator2" ],
+  "animationCustom" : { },
+  "scripts" : ["translocator.lua"],
+  "fireOffset" : [1.5, 0.125],
+  
+  "level" : 1,
+
+  "fireEnergy" : 10,
+  "teleportEnergy" : 50
+}

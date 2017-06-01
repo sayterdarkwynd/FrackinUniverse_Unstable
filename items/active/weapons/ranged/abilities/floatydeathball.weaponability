@@ -1,0 +1,50 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "altFire" : [ "/sfx/weapons/explosionsmall2.wav" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Burning Sphere",
+    "type" : "floatydeathball",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+    "projectileType" : "floatydeathball",
+    "projectileParameters" : { 
+      "speed" : 8,
+      "knockback" : 12,
+      "knockbackDirectional" : true,
+      "lightColor" : [120,0,124]
+    },
+    
+    "baseDamage" : 10,
+    "energyUsage" : 60,
+    "fireTime" : 4,
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "useParticleEmitter" : false,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

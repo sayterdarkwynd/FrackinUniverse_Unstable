@@ -1,0 +1,37 @@
+{
+  "itemName" : "hylotllesserscion",
+  "price" : 150,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Coral and steel. Blood and glory.",
+  "shortdescription" : "Scion Clawblade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword", "upgradeableWeapon"],
+
+  "inventoryIcon" : "hylotllesserscion.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "hylotllesserscion.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.64,
+    "baseDps" : 6.5
+  },
+  "critChance" : 1,
+  "critBonus" : 3,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

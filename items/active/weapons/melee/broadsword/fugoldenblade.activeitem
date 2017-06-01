@@ -1,0 +1,39 @@
+{
+  "itemName" : "fugoldenblade",
+  "price" : 1500,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Impossible. Weaponized honey.",
+  "shortdescription" : "Golden Honey Blade",
+  "tooltipKind" : "sword2",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword", "upgradeableWeapon"],
+
+  "inventoryIcon" : "goldenblade.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "goldenblade.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 9.2
+  },
+
+  "altAbilityType" : "futravelingslash",
+
+  "critChance" : 2, 
+  "critBonus" : 5, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+    "collectablesOnPickup" : { "fu_warrior" : "fugoldenblade" }
+}

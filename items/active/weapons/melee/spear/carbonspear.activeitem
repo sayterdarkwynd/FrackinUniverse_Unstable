@@ -1,0 +1,52 @@
+{
+  "itemName" : "carbonspear",
+  "price" : 0,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A dense metal spear for puncturing enemies.
+^cyan;Inflicts bleeding^reset;",
+  "shortdescription" : "Carbon Spear",
+  "tooltipKind" : "sword2",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear", "upgradeableWeapon"],
+  "learnBlueprintsOnPickup" : [ "flightfire" ],
+  "inventoryIcon" : "carbonspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "carbonspear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.9,
+    "baseDps" : 10.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ "bleedingshort" ],
+      "knockback" : 10
+    }
+  },
+  "altAbilityType" : "parry",
+  "altAbility" : { },
+
+  "critChance" : 2,
+  "critBonus" : 7,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

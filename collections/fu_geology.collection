@@ -1,0 +1,20 @@
+{
+  "name" : "fu_geology",
+  "title" : "[FU] Master Geologist",
+  "type" : "item",
+
+  "collectables" : {
+    "advancealloy" : { "order" : 1, "item" : "advancealloy" },
+    "carbonplate" : { "order" : 2, "item" : "carbonplate" },
+    "densiniumbar" : { "order" : 3, "item" : "densiniumbar" },
+    "quietusbar" : { "order" : 5, "item" : "quietusbar" },
+    "protocitebar" : { "order" : 6, "item" : "protocitebar" },
+    "densealloy" : { "order" : 7, "item" : "densealloy" },
+    "isogenbar" : { "order" : 8, "item" : "isogenbar" },
+    "nocxiumbar" : { "order" : 9, "item" : "nocxiumbar" },
+    "pyreitebar" : { "order" : 10, "item" : "pyreitebar" },
+    "tritaniumbar" : { "order" : 11, "item" : "tritaniumbar" },
+    "xithricitecrystal" : { "order" : 12, "item" : "xithricitecrystal" },
+    "aetheriumalloy" : { "order" : 13, "item" : "aetheriumalloy" }
+  }
+}

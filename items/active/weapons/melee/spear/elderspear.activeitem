@@ -1,0 +1,52 @@
+{
+  "itemName" : "elderspear",
+  "price" : 0,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Made from the stuff of raw Chaos",
+  "shortdescription" : "Elder Spear",
+  "tooltipKind" : "sword2",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","elder", "upgradeableWeapon"],
+
+  "inventoryIcon" : "elderspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/elderspear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "elderspear.png",
+    "bladefullbright" : "elderspearfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "shadow",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 1.11,
+    "baseDps" : 11.5,
+    "damageConfig" : {
+      "damageSourceKind" : "shadowspear",
+      "statusEffects" : [ "insanity" ],
+      "knockback" : 30
+    }
+  },
+  "altAbilityType" : "flurry",
+  "altAbility" : { },
+
+  "critChance" : 4,
+  "critBonus" : 12,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

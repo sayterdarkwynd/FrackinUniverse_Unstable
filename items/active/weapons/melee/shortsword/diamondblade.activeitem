@@ -1,0 +1,37 @@
+{
+  "itemName" : "diamondblade",
+  "price" : 15000,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Shines gloriously, and is insanely valuable.",
+  "shortdescription" : "Diamond Blade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","diamond", "upgradeableWeapon"],
+
+  "inventoryIcon" : "diamondblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "diamondblade.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 7.31
+  },
+  "critChance" : 2,
+  "critBonus" : 6,  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

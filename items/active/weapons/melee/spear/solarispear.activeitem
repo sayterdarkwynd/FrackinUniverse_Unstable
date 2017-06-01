@@ -1,0 +1,51 @@
+{
+  "itemName" : "solarispear",
+  "price" : 211,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Crystalline lunari to pierce foes throats.",
+  "shortdescription" : "Lunari Spear",
+  "tooltipKind" : "sword2",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","lunari", "upgradeableWeapon"],
+
+  "inventoryIcon" : "solarispear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "solarispear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstablunari",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 1,
+    "baseDps" : 9.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 10
+    }
+  },
+  "altAbilityType" : "rocketspear",
+  "altAbility" : { },
+
+  "critChance" : 2,
+  "critBonus" : 4,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

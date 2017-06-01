@@ -1,0 +1,97 @@
+{
+  "itemName" : "blisterpistol",
+  "price" : 80,
+  "inventoryIcon" : "blisterpistol.png",
+    "maxStack" : 1,
+    "rarity" : "uncommon",
+  "shortdescription" : "Blister Pistol",
+  "description" : "Fires repulsive glowy goo-globs.
+^green;Targets glow
+^yellow;+Pus effect",
+  "level" : 3,
+  "category" : "Bio Weapon",
+  "itemTags" : ["weapon","ranged","machinepistol","bioweapon","blister", "upgradeableWeapon"],
+  "tooltipKind" : "gun2",
+  "twoHanded" : false,
+  "weaponType" : "Bioweapon",
+  "learnBlueprintsOnPickup" : [ "blistergun" ],
+  
+  
+  "animation" : "/items/active/weapons/ranged/unique/blisterpistol.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "blisterpistol.png",
+    "middlefullbright" : "blisterpistolfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/purplemuzzle.png"
+  },      
+  
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/sfx/projectiles/goo_spit2.ogg" ] },
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [108, 24, 76],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }}
+  },
+
+  "baseOffset" : [0.7, 0.2],
+  "muzzleOffset" : [1.5, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.782,
+    "baseDps" : 5.3,
+    "energyUsage" : 22,
+    "fireType" : "auto",
+    "inaccuracy" : 0.001,
+    "projectileCount" : 1,
+    "projectileType" : "blisterpistolshot",
+    "projectileParameters" : {
+      "speed" : 32
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "critChance" : 5,
+  "critBonus" : 3,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

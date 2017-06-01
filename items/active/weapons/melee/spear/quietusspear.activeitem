@@ -1,0 +1,51 @@
+{
+  "itemName" : "quietusspear",
+  "price" : 0,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A fantastic foe-stabber.",
+  "shortdescription" : "Quietus Spear",
+  "tooltipKind" : "sword2",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","quietus", "upgradeableWeapon"],
+
+  "inventoryIcon" : "quietusspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "quietusspear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 1.04,
+    "baseDps" : 9.74,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 20
+    }
+  },
+  "altAbilityType" : "flurry",
+  "altAbility" : { },
+
+  "critChance" : 1,
+  "critBonus" : 16,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,103 @@
+{
+  "itemName" : "isn_magmavulcan",
+  "price" : 160,
+  "inventoryIcon" : "isn_magmavulcan.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Ejects deadly balls of burning iron and magma
+^yellow;Spawns lava and molten metal^reset;
+^green;Destroys tiles",
+  "shortdescription" : "Pyre Vulcan",
+  "category" : "Fire Cannon",
+  "level" : 5,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Energy",
+  "itemTags" : ["weapon","ranged","grenadelauncher", "hellfire", "upgradeableWeapon"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/unique/isn_magmavulcan.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "isn_magmavulcan.png",
+    "middlefullbright" : "isn_magmavulcanfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle1.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/magmablast.ogg" ]
+    },
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [126, 60, 14],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }}
+  },
+
+  "baseOffset" : [-0.2, 0.62],
+  "muzzleOffset" : [2.845, 0.325],
+
+  "scripts" : [
+  "/items/active/weapons/ranged/gun.lua",
+  "/items/active/scripts/heavyweapon.lua"
+  ],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.2,
+    "baseDps" : 11.0,
+    "energyUsage" : 36,
+    "inaccuracy" : 0.07,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "isn_magmavulcantiny",
+    "projectileParameters" : { 
+      "speed" : 70,
+      "knockback" : 6.5
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+
+  "critChance" : 4,
+  "critBonus" : 5,
+
+  "altAbilityType" : "magmagrenadelauncher",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

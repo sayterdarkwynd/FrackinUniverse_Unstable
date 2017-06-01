@@ -1,0 +1,62 @@
+{
+  "itemName" : "magnorblunari",
+  "level" : 2,
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "This lunari-forged weapon can both defend and attack. Quite useful.",
+  "shortdescription" : "Shard Field",
+  "tooltipKind" : "magnorb",
+  "category" : "Magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","magnorb","lunari", "upgradeableWeapon"],
+
+  "inventoryIcon" : "iconlunari.png",
+  "animation" : "magnorbs.animation",
+  "animationParts" : {
+    "glove" : "glove2.png",
+    "orb1" : "orb2.png",
+    "orb2" : "orb2.png",
+    "orb3" : "orb2.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["magnorbs.lua"],
+
+  "orbitRate" : 0.15,
+
+  "projectileType" : "magnorb2",
+  "projectileParameters" : {
+    "power" : 3.0,
+    "knockback" : 5,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 50,
+    "pickupDistance" : 2.5,
+    "snapDistance" : 2.0
+  },
+
+  "shieldKnockback" : 15,
+  "shieldEnergyCost" : 40,
+  "shieldHealth" : 60,
+  "shieldPower" : "Electric Resist",
+  "critChance" : 2,
+  "critBonus" : 2,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }, 
+  "builder" : "/items/buildscripts/buildmagnorb.lua"
+}

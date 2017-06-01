@@ -1,0 +1,25 @@
+{
+  "itemName" : "HarvesterBeam",
+  "maxStack" : 1,
+  "price" : 2500,
+  "rarity" : "uncommon",
+  "description" : "Sadly pre-programmed not to affect florans. Range 5",
+  "shortdescription" : "Harvester Beamgun",
+  "tooltipKind" : "base",
+  "twoHanded" : true,
+  "learnBlueprintsOnPickup" : [ "HarvesterBeam2", "fu_autoBeamer" ],
+  "inventoryIcon" : "HarvesterBeamIcon.png",
+
+  "animation" : "HarvesterBeam.animation",
+  "animationParts" : {
+    "beamgun" : "HarvesterBeam.png",
+    "beamgunfullbright" : "HarvesterBeamfullbright.png"
+  },
+  "animationCustom" : { },
+  "animationScripts" : [
+    "/items/active/unsorted/HarvesterBeam/beam.lua"
+  ],
+  "scripts" : ["HarvesterBeam.lua"],
+
+  "harvestDistance" : 5
+}

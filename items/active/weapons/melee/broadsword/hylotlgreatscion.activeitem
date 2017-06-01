@@ -1,0 +1,39 @@
+{
+  "itemName" : "hylotlgreatscion",
+  "price" : 1500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A traditional Hylotl weapon of war.",
+  "shortdescription" : "Great Scion",
+  "tooltipKind" : "sword2",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword", "upgradeableWeapon"],
+
+  "inventoryIcon" : "hylotlgreatscion.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "hylotlgreatscion.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 10.4
+  },
+
+  "altAbilityType" : "fuwaterslash",
+
+  "critChance" : 2, 
+  "critBonus" : 4, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+    "collectablesOnPickup" : { "fu_warrior" : "hylotlgreatscion" }
+}

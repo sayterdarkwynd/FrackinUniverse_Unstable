@@ -1,0 +1,82 @@
+{
+  "itemName" : "magnorbproto",
+  "level" : 3,
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "This unusual weapon is quite dangerous.",
+  "shortdescription" : "Tauntra Orbs",
+  "tooltipKind" : "magnorb",
+  "category" : "Magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","magnorb", "upgradeableWeapon"],
+
+  "inventoryIcon" : "iconproto.png",
+  "animation" : "magnorbsproto.animation",
+  "animationParts" : {
+    "glove" : "gloveproto.png",
+    "glovefullbright" : "gloveprotofullbright.png",
+    "orb1" : "orbproto.png",
+    "orb2" : "orbproto.png",
+    "orb3" : "orbproto.png",
+    "orb4" : "orbproto.png"
+  },
+  "animationCustom" : { 
+  
+    "lights" : { 
+      "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [25, 110, 12],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+      }
+    } 
+  
+  },
+
+  "scripts" : ["magnorbsquad.lua"],
+
+  "orbitRate" : 3.02,
+
+  "elementalType" : "electric",
+
+  "projectileType" : "magnorbproto",
+  
+  "projectileParameters" : {
+    "power" : 3.25,
+    "knockback" : 15,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 40,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 1.0
+  },
+
+  "shieldKnockback" : 20,
+  "shieldEnergyCost" : 40,
+  "shieldHealth" : 70,
+  "shieldPower" : "Force Field",
+  "critChance" : 2,
+  "critBonus" : 6,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }, 
+  "builder" : "/items/buildscripts/buildmagnorb.lua"
+}

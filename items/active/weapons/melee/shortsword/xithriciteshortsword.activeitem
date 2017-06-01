@@ -1,0 +1,43 @@
+{
+  "itemName" : "xithriciteshortsword",
+  "price" : 12000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Murder with cosmic power
+^cyan;Inflicts Vulnerability^reset;",
+  "shortdescription" : "Cosmic Shortsword",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","xithricite", "upgradeableWeapon"],
+
+  "inventoryIcon" : "xithriciteshortsword.png",
+
+  "animation" : "comboglowshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "xithriciteshortsword.png",
+    "bladefullbright" : "xithriciteshortswordfullbright.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "cosmic",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.35,
+    "baseDps" : 7.15,
+    "damageConfig" : {
+      "statusEffects" : [ "defenseboostneg20" ],
+       "damageSourceKind" : "cosmicshortsword"
+    }
+  },
+  "critChance" : 2,
+  "critBonus" : 6,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

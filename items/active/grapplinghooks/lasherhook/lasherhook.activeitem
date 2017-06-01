@@ -1,0 +1,46 @@
+{
+  "itemName" : "lasherhook",
+  "price" : 3000,
+  "inventoryIcon" : "lasherhookicon.png",
+  "rarity" : "uncommon",
+  "maxStack" : 1,
+  "description" : "Zip through the air like a boss.",
+  "shortdescription" : "Lasher Hook",
+  "largeImage" : "lasherhookbig.png",
+  "category" : "^#e43774;Upgradeable Tool^reset;",
+  "fireTime" : 0,
+  "twoHanded" : false,
+  "learnBlueprintsOnPickup" : [ "lasherhook2" ],
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "lasherhook.animation",
+
+  "handGrip" : "wrap",
+
+  "fireOffset" : [0, 0],
+  "ropeOffset" : [-1.2, 0],
+  "ropeVisualOffset" : [0.75, 0],
+  
+  "consumeOnUse" : false,
+
+  "projectileType" : "lasherhook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.45
+  },
+
+  "ropeWidth" : 0.8,
+  "ropeColor" : [222, 32, 50, 255],
+
+  "reelInDistance" : 2.5,
+  "reelOutLength" : 50,
+  "breakLength" : 120,
+
+  "minSwingDistance" : 1.5, 
+
+  "reelSpeed" : 25,
+  "controlForce" : 1200,
+
+  "groundLagTime" : 0.2
+}

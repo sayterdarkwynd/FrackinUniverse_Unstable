@@ -1,0 +1,75 @@
+{
+  "itemName" : "hellfirebow",
+  "level" : 5,
+  "price" : 150,
+  "inventoryIcon" : "hellfirebowicon.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "tooltipKind" : "bow2",
+  "weaponType" : "Bow",
+  "description" : "Burn your hunt targets to cinders. Counterproductive, but fun.",
+  "shortdescription" : "Hellfire Bow",
+  "category" : "bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow","hellfire", "upgradeableWeapon"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "baseOffset" : [1.0, 1.0],
+  "animation" : "/items/active/weapons/bow/bowglow.animation",
+  "animationParts" : {
+    "bow" : "hellfirebowfull.png",
+    "bowfullbright" : "hellfirebowfullfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/projectiles/fireball_spit.ogg" ],
+      "perfectRelease" : [ "/sfx/projectiles/fistlauncher_shot.ogg" ]
+    },
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [76, 40, 24],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }}
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "drawFrameSelector" : "poisonBowImageSelector",
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+    "projectileType" : "flamearrow",
+    "powerProjectileType" : "hellfirearrow",
+    "projectileParameters" : {
+      "power" : 8.25
+    }
+  },
+
+  "altAbilityType" : "bowshot",
+  "altAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "drawFrameSelector" : "poisonBowImageSelectorNoPower",
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+    "projectileType" : "flamearrow",
+    "powerProjectileType" : "dragonprojectile2",
+    "projectileParameters" : {
+      "power" : 9
+    }
+  },
+
+  "critChance" : 7,
+  "critBonus" : 6, 
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

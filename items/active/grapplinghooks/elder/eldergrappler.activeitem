@@ -1,0 +1,42 @@
+{
+  "itemName" : "eldergrappler",
+  "price" : 3000,
+  "inventoryIcon" : "lasherhookicon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "Though creepy, this is a fun thing to play with.",
+  "shortdescription" : "Elder Hook",
+  "largeImage" : "lasherhookbig.png",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+    "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "eldergrappler.animation",
+
+  "fireOffset" : [0, 0],
+  "ropeOffset" : [-1.2, 0],
+  "ropeVisualOffset" : [0.75, 0],
+  "handGrip" : "wrap",
+  "consumeOnUse" : false,
+
+  "projectileType" : "grapplehook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.65
+  },
+
+  "ropeWidth" : 0.8,
+  "ropeColor" : [0, 220, 30, 255],
+
+  "reelInDistance" : 2.5,
+  "reelOutLength" : 60,
+  "breakLength" : 220,
+"minSwingDistance" : 1.0, 
+  "reelSpeed" : 25,
+  "controlForce" : 1600,
+
+  "groundLagTime" : 0.1
+}

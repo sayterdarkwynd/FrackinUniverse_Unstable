@@ -1,0 +1,38 @@
+{
+  "itemName" : "hardenedsteelblade",
+  "price" : 150,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A mainstay of Fenerox warfare",
+  "shortdescription" : "Steel Warblade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword", "upgradeableWeapon"],
+
+  "inventoryIcon" : "hardenedsteelblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "hardenedsteelblade.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.55,
+    "baseDps" : 6.82
+  },
+  "critChance" : 1,
+  "critBonus" : 5,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "collectablesOnPickup" : { "fu_warrior2" : "hardenedsteelblade" }
+  
+}

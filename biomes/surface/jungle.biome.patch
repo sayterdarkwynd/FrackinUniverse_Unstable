@@ -1,0 +1,89 @@
+[
+
+  {
+    "op": "replace",
+    "path": "/statusEffects",
+    "value": [
+      "jungleweathernew", "radioactiveweathernew"
+    ]
+  },
+  
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 4,
+        "pool" : [ 
+          [ 0.06, "fumonkeycritter" ],
+          [ 0.09, "fumothcritter" ],
+          [ 0.111, "fuhummingbirdcritter" ],
+          [ 0.111, "fuplantsnakecritter" ],
+          [ 0.111, "fuspidercritter" ],
+          [ 0.111, "fufoxcritter" ],
+          [ 0.111, "furaccooncritter" ],
+          [ 0.111, "fuamazoncritter" ]
+        ]
+      }
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 2,
+        "pool" : [ 
+	  [ 0.20, "junglebee" ],
+          [ 0.20, "normalbee" ]
+        ]
+      }
+},
+
+
+
+{"op":"add","path":"/surfacePlaceables/items/-","value":{
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ 
+          [0.35, "wilditaseed" ],
+          [0.35, "wildbrackentreeseed" ], 
+          [0.35, "wildmutaviskseed" ], 
+          [0.35, "wildcaprioleplantseed" ],
+          [0.35, "wildbananaseed" ],
+          [0.35, "wildwartweedseed" ],
+          [0.35, "wildstranglevineseed" ],
+          [0.35, "wildguamseed" ],
+          [0.35, "wildminkocoapodseed" ],
+          [0.35, "wildlittlegoodberryseed" ],
+          [0.35, "wildcinnamonseed" ]
+              ],
+              "parameters" : { "startingStage" : 3 }
+            }
+          ]
+        }
+	},
+	
+{"op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {
+  "mode" : "floor",
+  "priority" : 1,
+  "variants" : 1,
+  "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
+
+  "type" : "microdungeon",
+  "microdungeons" : [ "randomencounter", "shroomencounter", "eyeencounter", "colourfulencounter", "boneencounter", "humanencounter", "glitchencounter", "floranencounter", "apexencounter", "avianencounter", "newavianmicro", "minigreenruins", "fuencounters", "fulabs", "fubandits", "newhumanmicro", "newavianmicro", "minigreenruins", "fuhives", "furandomencounter", "fuapexencounter", "fuglitchencounter", "fuavianencounter", "fuhumanencounter" ]
+  }
+},
+
+{"op" : "add", "path" : "/undergroundPlaceables/items/-", "value" : {
+  "mode" : "floor",
+  "priority" : 1,
+  "variants" : 1,
+  "distribution" : "/biomes/distributions.config:ultraRare",
+
+  "type" : "microdungeon",
+  "microdungeons" : [ "outpostundergroundencounter", "humanundergroundencounter", "glitchundergroundencounter", "floranundergroundencounter", "apexundergroundencounter" , "avianundergroundencounter", "undergroundencounter", "treasureroom", "genericundergroundencounter"]
+  }
+}	
+]

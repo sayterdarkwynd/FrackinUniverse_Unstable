@@ -1,0 +1,42 @@
+[
+  {
+    "op": "test",
+    "path": "/customCollectionsTitle",
+    "value": "Custom Collections"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_shoggothart"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_chemist"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_geology"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_warrior"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_warrior2"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_elderrelics"
+  },
+  {
+    "op": "add",
+    "path": "/customCollections/-",
+    "value": "fu_armorsmith"
+  }
+]

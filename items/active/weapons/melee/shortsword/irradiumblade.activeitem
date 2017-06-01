@@ -1,0 +1,42 @@
+{
+  "itemName" : "irradiumblade",
+  "price" : 150,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Built for conquest.",
+  "shortdescription" : "Irradium War Knife",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","irradium", "upgradeableWeapon"],
+
+  "inventoryIcon" : "irradiumblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "irradiumblade.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "radioactive",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 6.71,
+    "damageConfig" : {
+      "damageSourceKind": "radioactiveshortsword",
+      "statusEffects" : [ "radiationburn" ]
+    }
+  },
+  "critChance" : 1,
+  "critBonus" : 5,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "collectablesOnPickup" : { "fu_warrior2" : "irradiumblade" }
+
+}

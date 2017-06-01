@@ -1,0 +1,102 @@
+{
+  "itemName" : "lunaririfle",
+  "price" : 210,
+  "inventoryIcon" : "lunaririfle.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Crystalline blasts charged with lunari energy
+^yellow;Lights areas^reset;
+^green;Long-lived projectiles",
+    "shortdescription" : "Lunari Rifle",
+  "category" : "Crystal Carbine",
+  "level" : 2,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Crystalline Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle", "energy","lunari", "upgradeableWeapon"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "lunaririfle.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/beam.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.56, 0.2],
+  "muzzleOffset" : [1.445, 0.125],
+  
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.35,
+    "baseDps" : 8,
+    "energyUsage" : 30,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 2,
+    "fireType" : "auto",
+
+    "projectileType" : "lunarishot",
+    "projectileParameters" : { 
+      "speed" : 40,
+      "knockback" : 2
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "smallfirecloud1", "offset" : [0.0, 0.0] },
+          { "particle" : "smallfirecloud2", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+
+  "critChance" : 3,
+  "critBonus" : 12,
+
+  "altAbilityType" : "lunarishrapnelbomb",
+  "altAbility" : {
+    "name" : "Starshock"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,38 @@
+{
+  "itemName" : "solariblade",
+  "price" : 210,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A decent crystal weapon",
+  "shortdescription" : "Lunari Dagger",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","lunari", "upgradeableWeapon"],
+
+  "inventoryIcon" : "solariblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "solariblade.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.45,
+    "baseDps" : 6.25
+  },
+  "critChance" : 1,
+  "critBonus" : 2,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "collectablesOnPickup" : { "fu_warrior2" : "solariblade" }
+  
+}

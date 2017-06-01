@@ -1,0 +1,43 @@
+{
+  "itemName" : "isogenshortsword",
+  "price" : 12000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Frosting foes since 2200
+^cyan;Inflicts Freezing^reset;",
+  "shortdescription" : "Isogen Shortsword",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","isogen", "upgradeableWeapon"],
+
+  "inventoryIcon" : "isogenshortsword.png",
+
+  "animation" : "comboglowshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "isogenshortsword.png",
+    "bladefullbright" : "isogenshortswordfullbright.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.45,
+    "baseDps" : 6.25,
+    "damageConfig" : {
+      "damageSourceKind" : "ice",
+      "statusEffects" : [ "freezefu" ]
+    }
+  },
+  "critChance" : 2,
+  "critBonus" : 6,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

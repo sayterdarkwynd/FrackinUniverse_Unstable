@@ -1,0 +1,45 @@
+{
+  "itemName" : "elderblade",
+  "price" : 15000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Ancient and terrible beyond knowing.",
+  "shortdescription" : "Elder Blade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","elder", "upgradeableWeapon"],
+
+  "inventoryIcon" : "elderblade.png",
+
+  "animation" : "comboeldershortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "elderblade.png",
+    "bladefullbright" : "elderbladefullbright.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "shadow",
+
+  "primaryAbilityType" : "shortswordcombo2",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 7.86,
+    "damageConfig" : {
+      "damageSourceKind" : "shadowshortsword",
+      "statusEffects" : [ "insanity" ],
+      "knockback" : 10,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "critChance" : 2,
+  "critBonus" : 8,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

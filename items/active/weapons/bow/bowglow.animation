@@ -1,0 +1,36 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "bow" : {
+        "properties" : {
+          "zLevel" : 0,
+          "offset" : [0, 0],
+          "fullbright" : true,
+          "centered" : true,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "bowfullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "offset" : [0.21, 0],
+          "centered" : true,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {}
+  },
+
+  "sounds" : {
+    "draw" : [ ],
+    "release" : [ ],
+    "perfectRelease" : [ ],
+    "crit" : [ "/sfx/melee/axe_kill_organic2.ogg" ]
+  }
+}

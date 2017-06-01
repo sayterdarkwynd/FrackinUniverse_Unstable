@@ -1,0 +1,44 @@
+{
+  "itemName" : "lasherhook2",
+  "price" : 3000,
+  "inventoryIcon" : "lasherhookicon.png",
+  "rarity" : "rare",
+  "maxStack" : 1,
+  "description" : "A more advanced lasher hook.",
+  "shortdescription" : "Lasher Hook II",
+  "largeImage" : "lasherhookbig.png",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+    "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "lasherhook2.animation",
+
+  "fireOffset" : [0, 0],
+  "ropeOffset" : [-1.2, 0],
+  "ropeVisualOffset" : [0.75, 0],
+  "handGrip" : "wrap",
+  "consumeOnUse" : false,
+
+  "projectileType" : "lasherhook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.55
+  },
+
+  "ropeWidth" : 0.8,
+  "ropeColor" : [222, 32, 50, 255],
+
+  "reelInDistance" : 2.5,
+  "reelOutLength" : 50,
+  "breakLength" : 150,
+  
+  "minSwingDistance" : 1.0, 
+  
+  "reelSpeed" : 27,
+  "controlForce" : 1300,
+
+  "groundLagTime" : 0.15
+}

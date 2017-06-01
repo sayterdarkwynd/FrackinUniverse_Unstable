@@ -1,0 +1,105 @@
+{
+  "itemName" : "hellfiregun",
+  "price" : 500,
+  "inventoryIcon" : "hellfiregun.png",
+    "maxStack" : 1,
+    "rarity" : "rare",
+  "description" : "A dangerous weapon in any hand. Watch out for fire.
+^yellow;Inflicts burning^reset;
+^green;Erupting projectile^reset;",
+  "shortdescription" : "Hellfire Gun",
+  "level" : 5,
+  "weaponType" : "Incendiary",
+  "category" : "Fire Cannon",
+  "itemTags" : ["weapon","ranged","machinepistol", "hellfire", "upgradeableWeapon"],
+  "tooltipKind" : "gun2",
+  "twoHanded" : true,
+  "animation" : "/items/active/weapons/ranged/unique/hellfiregun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "hellfiregun.png",
+    "middlefullbright" : "hellfiregunfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },      
+  "animationCustom" : {
+    "sounds" : { "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ] },
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [126, 60, 14],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }} 
+  },
+
+  "baseOffset" : [1.0, -0.2],
+  "muzzleOffset" : [1.1, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.6,
+    "baseDps" : 6.8,
+    "energyUsage" : 30.87,
+    "fireType" : "auto",
+    "inaccuracy" : 0,
+    "projectileCount" : 1,
+    "projectileType" : "hellfireprojectile2small",
+    "projectileParameters" : {
+      "speed" : 50
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "firestormflame", "offset" : [0.0, 0.0] },
+          { "particle" : "firesmoke", "offset" : [0.0, 0.0] },
+          { "particle" : "firestormflame2", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },  
+    
+  "critChance" : 5,
+  "critBonus" : 3,
+
+  "altAbilityType" : "hellfiregunalt",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

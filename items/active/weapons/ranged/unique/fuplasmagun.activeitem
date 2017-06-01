@@ -1,0 +1,107 @@
+{
+  "itemName" : "fuplasmagun",
+  "price" : 160,
+  "inventoryIcon" : "fuplasmagun.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Focuses energy for supreme damage output
+^yellow;Destroys tiles^reset;",
+  "shortdescription" : "Plasma Rifle",
+  "category" : "Energy Gun",
+  "level" : 4,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Plasma",
+  "itemTags" : ["weapon","ranged","assaultrifle", "plasma", "energy", "upgradeableWeapon" ],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/unique/fuplasmagun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "fuplasmagun.png",
+    "middlefullbright" : "fuplasmagunfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle3blue.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/shock_impact3.ogg" ]
+    },
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [1.55, 0.2],
+      "color" : [33, 108, 115],
+      "flickerPeriod" : 2.3,
+      "flickerMinIntensity" : 0.7,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 1.0,
+      "flickerIntensityVariance" : 0.1
+    }}
+  },
+
+  "baseOffset" : [1.55, 0.2],
+  "muzzleOffset" : [1.845, 0.125],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.45,
+    "baseDps" : 9.8,
+    "energyUsage" : 38.0,
+    "inaccuracy" : 0.001,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "fuplasmarifleblastsmall",
+    "projectileParameters" : { 
+      "speed" : 60,
+      "knockback" : 4
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "castelectric", "offset" : [0.0, 0.0] },
+          { "particle" : "castelectric", "offset" : [0.0, 0.0] },
+          { "particle" : "castelectric", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    
+  "critChance" : 4,
+  "critBonus" : 17,
+
+  "altAbilityType" : "fuplasmaburst",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

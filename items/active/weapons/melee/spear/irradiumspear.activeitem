@@ -1,0 +1,51 @@
+{
+  "itemName" : "irradiumspear",
+  "price" : 0,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Infused with toxic Irradium radiation. That's kind of you",
+  "shortdescription" : "Irradium Spear",
+  "tooltipKind" : "sword2",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","irradium", "upgradeableWeapon"],
+
+  "inventoryIcon" : "irradiumspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "irradiumspear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "radioactive",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.92,
+    "baseDps" : 9.92,
+    "damageConfig" : {
+      "damageSourceKind" : "radioactivespear",
+      "statusEffects" : [ "radiationburn" ],
+      "knockback" : 10
+    }
+  },
+  "altAbilityType" : "rocketspear",
+  "altAbility" : { },
+
+  "critChance" : 1,
+  "critBonus" : 8,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

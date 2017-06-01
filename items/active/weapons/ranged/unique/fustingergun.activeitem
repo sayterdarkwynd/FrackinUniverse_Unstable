@@ -1,0 +1,86 @@
+{
+  "itemName" : "fustingergun",
+  "price" : 800,
+  "inventoryIcon" : "fustingergun.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A gene-spliced living weapon. Fires bone stingers
+^yellow;Inflicts bee-stings^reset;",
+  "shortdescription" : "Sting Needler",
+  "category" : "Dart Carbine",
+  "level" : 4,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Carbine",
+  "itemTags" : ["weapon","ranged","assaultrifle", "bioweapon", "upgradeableWeapon"],
+  "twoHanded" : false,
+  "learnBlueprintsOnPickup" : [ "fustingergun2" ],
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "fustingergun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/needler1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.26, 0.35],
+  "muzzleOffset" : [0.9, -0.225],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.17,
+    "baseDps" : 5.95,
+    "energyUsage" : 25.0,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "honeystingergunsting",
+    "projectileParameters" : {
+      "speed" : 62,
+      "knockback" : 1.5
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : false,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : false,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : false,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+
+  "critChance" : 3,
+  "critBonus" : 3,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

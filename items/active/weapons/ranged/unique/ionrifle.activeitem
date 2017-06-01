@@ -1,0 +1,90 @@
+{
+  "itemName" : "ionrifle",
+  "price" : 160,
+  "inventoryIcon" : "ionrifle.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Fires bursts of bouncy energy that enemies just adore
+^yellow;Multi-bounce^reset;
+^green;Speedy projectiles^reset;",
+  "shortdescription" : "Ion Rifle",
+  "category" : "Energy Gun",
+  "level" : 4,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Energy",
+  "itemTags" : ["weapon","ranged","assaultrifle", "energy", "upgradeableWeapon"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "ionrifle.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle3blue.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/ionrifle.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.68, -0.22],
+  "muzzleOffset" : [2.845, 0.325],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.11,
+    "baseDps" : 10,
+    "energyUsage" : 52,
+    "inaccuracy" : 0.03,
+    "burstTime" : 0.075,
+    "burstCount" : 2,
+    "projectileCount" : 1,
+    "fireType" : "burst",
+
+    "projectileType" : "ionrifleshot",
+    "projectileParameters" : { 
+      "speed" : 55,
+      "knockback" : 3.5
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+
+  "critChance" : 3,
+  "critBonus" : 3,
+  "altAbilityType" : "iongrenadelauncher",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

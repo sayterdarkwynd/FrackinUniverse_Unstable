@@ -1,0 +1,39 @@
+{
+  "itemName" : "metalliccleaver",
+  "price" : 1500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Junk forged into deadly weaponry.",
+  "shortdescription" : "Metal Cleaver",
+  "tooltipKind" : "sword2",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword", "upgradeableWeapon"],
+
+  "inventoryIcon" : "metalliccleaver.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "metalliccleaver.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 10.21
+  },
+
+  "altAbilityType" : "parry",
+
+  "critChance" : 3, 
+  "critBonus" : 7, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+    "collectablesOnPickup" : { "fu_warrior" : "metalliccleaver" }
+}
