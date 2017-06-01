@@ -1,0 +1,9 @@
+{
+  "name" : "fumudslowimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "fumudslowimmunity.lua"
+  ]
+}

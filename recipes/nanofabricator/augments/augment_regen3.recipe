@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aichip", "count" : 2 },
+    { "item" : "tritaniumbar", "count" : 5 },
+    { "item" : "aliencompound", "count" : 5 },
+    { "item" : "gene_regen", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "furegenaugment3",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator3", "augments", "all" ]
+}

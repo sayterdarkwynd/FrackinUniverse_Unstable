@@ -1,0 +1,17 @@
+{
+  "name" : "darkregenproduce",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 120
+  },
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "darkregen.lua"
+  ],
+
+  "animationConfig" : "darkregeneration.animation",
+
+  "label" : "Darkheal",
+  "icon" : "/interface/statuses/heal.png"
+}

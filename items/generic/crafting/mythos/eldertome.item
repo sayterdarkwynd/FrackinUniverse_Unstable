@@ -1,0 +1,11 @@
+{
+  "itemName" : "eldertome",
+  "rarity" : "rare",
+  "price" : 600,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "eldertome.png",
+  "description" : "A book containing ancient and malign texts.",
+  "shortdescription" : "^#ffe50e;Elder Tome^white;",
+  "itemTags" : [ "reagent" ],
+  "collectablesOnPickup" : { "fu_elderrelics" : "eldertome" }
+}

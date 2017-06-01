@@ -1,0 +1,14 @@
+{
+  "itemName" : "goldenroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "goldenrooticon.png",
+  "description" : "Effect:
+^cyan;+8 Max Health^reset;",
+  "shortdescription" : "Golden Root",
+   "category" : "food",
+
+  "effects" : [ [
+    "maxhealthboost2"
+    ] ]
+}

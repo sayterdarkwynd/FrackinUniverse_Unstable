@@ -1,0 +1,25 @@
+{
+  "itemName" : "champagne",
+  "rarity" : "Common",
+  "category" : "drink",
+  "price" : 1180,
+  "inventoryIcon" : "champagne.png",
+  "description" : "Break out the bubbly!",
+  "shortdescription" : "Champagne",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+
+        {
+        "effect" : "defense2",
+	"duration" : 45
+        },
+		{
+        "effect" : "slow",
+        "duration" : 10
+		},
+		{
+		"effect" : "booze",
+		"duration" : 5
+        }
+    ] ]
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "regeneration2",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 180
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "regeneration2.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Average Regen",
+  "icon" : "/interface/statuses/heal.png"
+}

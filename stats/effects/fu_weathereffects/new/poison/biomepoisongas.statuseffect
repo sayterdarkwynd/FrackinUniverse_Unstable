@@ -1,0 +1,26 @@
+{
+  "name" : "biomepoisongas",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "poisonResistance",
+          "effectCutoffValue" : 0.45,    
+	  "biomeTemp" : 1.12, 
+	  "biomeThreshold" : 1.2,
+	    "baseRate" : 5,
+	    "baseDebuffPerTick" : 3,
+	    "baseDmgPerTick" : 4,
+	    "situationPenalty" : 1,
+	    "liquidPenalty" : 1,
+	    "biomeNight" : 1	    
+  },
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "poisonweathernew.lua"
+  ],
+
+  "animationConfig" : "poisonweathernew.animation",
+  "label" : "Severe Poison Gas",
+  "icon" : "/interface/statuses/poisoncloud.png"
+}

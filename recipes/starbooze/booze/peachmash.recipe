@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "emptybucket", "count" : 1 },
+    { "item" : "peach", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "peachmash",
+    "count" : 1
+  },
+  "groups" : [ "winepress", "all", "other" ]
+}

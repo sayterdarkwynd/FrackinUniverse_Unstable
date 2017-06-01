@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tritium", "count" : 3 },
+    { "item" : "densealloy", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "mantizitier6schest",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "feedaugment2",
+  "price" : 400,
+  "rarity" : "Uncommon",
+  "category" : "eppAugment",
+  "inventoryIcon" : "foodaugment2.png",
+  "description" : "An EPP module that reduces hunger rate.",
+  "shortdescription" : "Feeding II",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "feedaugment2",
+    "displayName" : "Feeding II",
+    "displayIcon" : "/items/augments/back/health/foodaugment2.png",
+    "effects" : [ "feedpack2" ]
+  },
+
+  "learnBlueprintsOnPickup" : [ "feedaugment3" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "bloodroot",
+  "rarity" : "uncommon",
+  "price" : 10,
+    "category" : "food",
+  "inventoryIcon" : "bloodroot.png",
+  "description" : "Effect:
+^cyan;+10% Physical Resistance^reset;",
+  "shortdescription" : "Blood Root",
+  "effects" : [ ["physicalblock"] ]
+}

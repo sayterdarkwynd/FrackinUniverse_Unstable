@@ -1,0 +1,26 @@
+{
+  "itemName" : "electromagnet",
+  "rarity" : "uncommon",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "electromagnet.png",
+  "description" : "An advanced electromagnet.",
+  "shortdescription" : "^#77acc3;Electromagnet^reset;",
+  "learnBlueprintsOnPickup" : [
+  "powerstation",
+  "sentrybotlightbot",
+  "sentrybotwaterbot",
+  "fuwallcling_tech",
+  "energyassault",
+  "laspistol",
+  "lasrifle",
+  "fu_laserturret",		
+  "armcannon",
+  "sprinklerroofweak",
+  "tw_spacesuitchest", 
+  "tw_spacesuithead", 
+  "tw_spacesuitlegs", 
+  "tw_spacesuitback"
+  ],
+  "itemTags" : [ "reagent" ]
+}

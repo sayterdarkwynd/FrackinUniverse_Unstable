@@ -1,0 +1,8 @@
+{
+  "name" : "ffextremeheatimmunityicon",
+  "effectConfig" : {},
+
+  "scripts" : [],
+  "label" : "X-Heat Shld",
+  "icon" : "/interface/statuses/fubiomeheat.png"
+}

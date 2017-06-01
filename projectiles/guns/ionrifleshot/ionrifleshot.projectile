@@ -1,0 +1,22 @@
+{
+  "projectileName" : "ionrifleshot",
+  "physics" : "laser",
+  "damageKindImage" : "icon.png",
+  "image" : "ionrifleshot.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 5,
+  "power" : 0,
+  "speed" : 60,
+  "bounces" : 6,
+  "timeToLive" : 2.5,
+  "fullbright" : true,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmaboomsmall2/plasmaboomsmall3.config"
+    }
+  ],
+  "lightColor" : [110, 110, 110],
+  "damageKind" : "electric"
+}

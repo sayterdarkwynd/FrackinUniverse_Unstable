@@ -1,0 +1,289 @@
+{
+  "type" : "doomspirit",
+  "shortdescription" : "Wraith",
+  "description" : "Shadowy spirits that love to stalk their prey in the dark.",
+
+  "categories" : [ "doomspirit" ],
+  "parts" : [ "body" ],
+
+  "animation" : "doomspirit.animation",
+
+  "dropPools" : [ { "default" : "spookitTreasure", "bow" : "huntingghost" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "renderLayer" : "foregroundEntity",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : false,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "hurtTime" : 0.25,
+      "hurtWaitForGround" : false,
+
+      "damageTakenActions" : [
+        {
+          "name" : "action-invulnerable",
+          "parameters" : {
+            "windupTime" : 0,
+            "windupState" : "",
+            "winddownTime" : 0,
+            "winddownState" : "idle",
+
+            "invulnerableTime" : 2
+          }
+        }
+      ],
+
+      // Special hook for behavior during the invulnerable action
+      // If this behavior succeeds, invulnerability ends
+      "invulnerableActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "usePathfinding" : false,
+            "flyState" : ""
+          }
+        }
+      ],
+
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [ ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "usePathfinding" : false,
+            "minRange" : 1,
+            "maxRange" : 3   
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+	    "moveState": "walk",
+	    "idleState": "idle",
+	    "teleportMinDistance": 9,
+	    "targetXDelta": 5,
+	    "groundMinHeight": -10,
+	    "groundMaxHeight": 10               
+          }
+        },
+        {
+        "name":"approach-fly", 
+        "parameters":{
+          "targetOffset":[0,5], 
+          "minRange":5, 
+          "maxRange":15
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "emerge-fly"
+        },
+	{"name":"wander-fly", "cooldown":[5,20], "parameters":{"wanderTime":[10,40], "groundDistance":20, "ceilingDistance":10, "xVelocity":8, "yVelocity":12}}, 
+	{"name":"land-fly", "parameters":{"flySpeed":8, "flyControlForce":25, "landCheckDistance":40, "idleTime":40}}        
+      ],
+
+      "concurrentActions" : [  ],
+
+      "concurrentHostileActions" : [ 
+      
+	{
+	  "name":"action-projectile", 
+	  "cooldown":10.0, 
+	  "parameters":{
+	    "skillName":"glitterBurst", 
+	    "projectileCount":1, 
+	    "projectileType":"invisibleprojectile", 
+	    "projectileParameters":{
+	      "statusEffects":[ { "effect":"maxprotection", "duration":5} ], 
+	      "timeToLive":0.1, 
+	      "actionOnReap":[ {"action":"projectile","type":"astraltear2"} ], 
+	      "speed":0, 
+	      "power":0
+	      }, 
+	      "power":0, 
+	      "aimAtTarget":true, 
+	      "inaccuracy":0.0, 
+	      "fireOffset":[0,0]
+	  }
+	}, 
+
+	{
+	  "name":"action-projectile", 
+	  "cooldown":5.0, 
+	  "parameters":{
+	    "skillName":"glitterBurst", 
+	    "projectileCount":1, 
+	    "projectileType":"astraltear2", 
+	    "projectileParameters":{
+	      "statusEffects":[ {"effect":"glow", "duration":5}], 
+	      "timeToLive":3.1, 
+	      "actionOnReap":[], 
+	      "speed":0, 
+	      "power":0
+	    }, 
+	    "power":0, 
+	    "aimAtTarget":true, 
+	    "inaccuracy":0.0, 
+	    "fireOffset":[0,0]
+	  }
+	}, 
+	{
+	  "name":"action-projectile", 
+	  "cooldown":10.0, 
+	  "parameters":{
+	    "skillName":"glitterBurst", 
+	    "projectileCount":1, 
+	    "projectileType":"invisibleprojectile", 
+	    "projectileParameters":{
+	      "statusEffects":[{"effect":"camouflage0", "duration":5}]
+	    }
+	  }
+	}       
+      ]
+      
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
+      "damage" : 8,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ "darkstalker" ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionEnabled" : false,
+      "collisionPoly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 4,
+      "runSpeed" : 12,
+      "gravityEnabled" : false,
+
+      "airFriction" : 0.5,
+      "airForce" : 40,
+      "flySpeed" : 8
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesWeatherStatusEffects" : true,
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 45
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "insanityImmunity" : {
+          "baseValue" : 1.0
+        },        
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "biooozeImmunity" : {
+          "baseValue" : 1.0
+        },   
+        "sulphuricImmunity" : {
+          "baseValue" : 1.0
+        },        
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "shadowResistance" : { "baseValue" : 1.0 },
+        "poisonResistance" : { "baseValue" : 1.0 },
+        "cosmicResistance" : { "baseValue" : -1.0 },
+        "radioactiveResistance" : { "baseValue" : 0.7 },
+        "iceResistance" : { "baseValue" : 0.6 },
+        "fireResistance" : { "baseValue" : -0.5 },
+        "physicalResistance" : { "baseValue" : 1.0 },
+        "electricResistance" : { "baseValue" : -0.7 }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.25,
+    "nametagColor" : [64, 64, 64]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "iodine",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "iodine.png",
+  "description" : "An extremely useful compound.",
+  "radioMessagesOnPickup" : [ "pickupIodine" ],
+  "shortdescription" : "Iodine (I)",
+  "itemTags" : [ "reagent" ]
+}

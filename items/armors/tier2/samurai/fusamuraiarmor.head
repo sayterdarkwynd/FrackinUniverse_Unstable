@@ -1,0 +1,50 @@
+{
+  "itemName" : "fusamuraihead",
+  "price" : 2500,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "Set Bonus:
+^cyan;+5% Physical Resistance^reset; 
+^#e43774;Broadsword: +15% Damage, +5% Crit^reset;
+^green;Shortsword + Dagger: +4% Crit Chance, +10% Crit Damage^reset;",
+  "shortdescription" : "Samurai Helmet",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "statusEffects" : [ 
+    "samuraisetbonus",
+    {
+      "stat" : "fu_samuraiset_head",
+      "amount" : 1
+    }  
+  ]
+}

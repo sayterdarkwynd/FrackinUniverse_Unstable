@@ -1,0 +1,311 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : {
+        "priority" : 0,
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 4,
+            "cycle" : 1,
+            "mode" :"loop"
+          },
+          "walk" : {
+            "frames" : 8,
+            "cycle" : 1,
+            "mode" :"loop"
+          },
+          "hurt" : {
+            "frames" : 1
+          },         
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 1
+          },
+          "firewindup" : {
+            "frames" : 4,
+            "cycle" : 0.4
+          }, 
+          "firewinddown" : {
+            "frames" : 4,
+            "cycle" : 0.4
+          },           
+          "jump" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" :"loop"
+          },
+          "fall" : {
+            "frames" : 1,
+            "cycle" : 0.5
+          },
+          "chargewindup" : {
+            "frames" : 1,
+            "cycle" : 0.35,
+            "properties" : {
+              "persistentSound" : "/sfx/npc/quadruped/lion_attack2.ogg",
+              "persistentSoundStopTime" : 2.2
+            },
+            "frameProperties" : {
+              "particleEmittersOff" : [ [ "waterdrip" ], [], [], ["waterdrip"], [], [], [], ["waterdrip"] ],
+              "particleEmittersOn" : [ [], [], ["waterdrip"], [], [], ["waterdrip"], [], ["waterdrip"] ]
+            }            
+          },
+          "chargewinddown" : {
+            "frames" : 1,
+            "cycle" : 0.17,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "persistentSound" : "/sfx/npc/quadruped/lion_idle2.ogg",
+              "persistentSoundStopTime" : 2.2
+            },
+            "frameProperties" : {
+              "particleEmittersOff" : [ ["waterdrip"], [], [], [], ["waterdrip"], [], [], ["waterdrip"] ],
+              "particleEmittersOn" : [ [], [], ["waterdrip"], [], [], ["waterdrip"], [], [] ]
+            }            
+          },        
+          "charge" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "properties" : {
+              "persistentSound" : "/sfx/troll/troll3.ogg",
+              "persistentSoundStopTime" : 2.0,
+              "immediateSound" : "/sfx/npc/monsters/oogler_charge.ogg"
+            },
+            "frameProperties" : {
+              "particleEmittersOff" : [ ["waterdrip"], [], [], [], ["waterdrip"], [], [], ["waterdrip"] ],
+              "particleEmittersOn" : [ [], [], ["waterdrip"], [], [], [], ["waterdrip"], [] ]
+            }            
+          },
+          "roar" : {
+            "frames" : 5,
+            "cycle" : 3.25,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "persistentSound" : "/sfx/troll/troll5.ogg",
+              "persistentSoundStopTime" : 1.25
+            },
+            "frameProperties" : {
+              "particleEmittersOff" : [ [ "waterdrip" ], [], [], [], [], [], [], ["waterdrip"] ],
+              "particleEmittersOn" : [ [], [], ["waterdrip"], [], [], [], [], [] ]
+            }
+          }
+        }
+      },
+      "damage" : {
+        "priority" : 3,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      },
+      "releaseParticles" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1,
+            "properties" : {
+              "particleEmittersOff" : [ "releaseParticles" ]
+            }
+          },
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "releaseParticles" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "transformationGroups" : [ "body" ]
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:jump"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall"
+              }
+            },
+            "roarwindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
+              }
+            },
+            "roarwinddown" : {
+              "properties" : {
+                "image" : "<partImage>:firewinddown.<frame>"
+              }
+            },
+            "roar" : {
+              "properties" : {
+                "image" : "<partImage>:fire.<frame>"
+              }
+            },
+            "chargewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>"
+              }
+            },
+            "chargewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:firewinddown.<frame>"
+              }
+            },
+            "hurt" : {
+              "properties" : {
+                "image" : "<partImage>:hurt"
+              }
+            },            
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:melee.<frame>",
+                "damageArea" : [ [-2.25,1.2], [-2.05,-5.85], [1.05,-5.9], [1.25,-1.45], [1.95,-1.4], [1.6,1.25] ]
+              }
+            },
+            "melee" : {
+              "properties" : {
+                "image" : "<partImage>:melee.<frame>",
+                "damageArea" : [ [-2.25,1.2], [-2.05,-5.85], [1.05,-5.9], [1.25,-1.45], [1.95,-1.4], [1.6,1.25] ]
+              }
+            },            
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire",
+                "damageArea" : [ [-2.25,1.2], [-2.05,-5.85], [1.05,-5.9], [1.25,-1.45], [1.95,-1.4], [1.6,1.25] ]
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:firewindup.<frame>",
+                "damageArea" : [ [-2.25,1.2], [-2.05,-5.85], [1.05,-5.9], [1.25,-1.45], [1.95,-1.4], [1.6,1.25] ]
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:firewinddown.<frame>",
+                "damageArea" : [ [-2.25,1.2], [-2.05,-5.85], [1.05,-5.9], [1.25,-1.45], [1.95,-1.4], [1.6,1.25] ]
+              }
+            } 
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:hurt.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "body" : { "interpolated" : true }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+  
+  "particleEmitters" : {
+    "waterdrip" : {
+      "emissionRate" : 15,
+      "offsetRegion" : [ 1.0, -1.0, 2.0, -0.0 ],
+      "particles" : [
+        { "particle" : "waterdrip" },
+        { "particle" : "waterdrip" },
+        { "particle" : "waterdrip" },
+        { "particle" : "waterdrip" },
+        { "particle" : "waterdrip" },
+        { "particle" : "waterdrip" }
+        
+      ]
+    },
+    "deathPoof" : {
+      "particles" : [
+        { "particle" : "monstersplosion" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathember" },
+        { "particle" : "deathfizz1left" },
+        { "particle" : "deathfizz1right" },
+        { "particle" : "deathfizz2left" },
+        { "particle" : "deathfizz2right" },
+        { "particle" : "deathfizz3left" },
+        { "particle" : "deathfizz3right" },
+        { "particle" : "deathfizz4left" },
+        { "particle" : "deathfizz4right" }
+      ]
+    },
+    "captureParticles" : {
+      "particles" : [
+        { "particle" : "monstercapture" }
+      ]
+    },
+    "releaseParticles" : {
+      "particles" : [
+        { "particle" : "monsterrelease" }
+      ]
+    },
+    "teleportOut" : {
+      "particles" : [
+        { "particle" : "monstercapture" }
+      ]
+    },
+    "teleportIn" : {
+      "particles" : [
+        { "particle" : "monsterrelease" }
+      ]
+    },
+    "levelUp" : {
+      "particles" : [
+        { "particle" : "monsterlevelup" }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "aggroHop" : [ "/sfx/troll/troll1.ogg", "/sfx/troll/troll3.ogg", "/sfx/troll/troll4.ogg", "/sfx/troll/troll5.ogg" ],
+    "deathPuff" : [ "/sfx/deepone/turnhostile.ogg" ],
+    "turnHostile" : [ "/sfx/deepone/turnhostile.ogg" ],
+    "fire" : [ "/sfx/deepone/attack1.ogg" , "/sfx/deepone/attack2.ogg"  ]
+  }
+}

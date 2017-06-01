@@ -1,0 +1,17 @@
+{
+  "name" : "energyregenfu10",
+  "effectConfig" : {
+    "regenAmount" : 1.10,
+    "regenBlockAmount" : 0.90
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "energyregenfu.lua"
+  ],
+
+  "animationConfig" : "energyregenfu.animation",
+
+  "label" : "+10% E. Regen",
+  "icon" : "/interface/statuses/energyregen2.png"
+}

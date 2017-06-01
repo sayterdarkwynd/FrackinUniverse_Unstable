@@ -1,0 +1,111 @@
+{
+  "type" : "elitebountyhunter",
+  "baseType" : "hostilefuelite",
+
+  "levelVariance" : [2, 3],
+
+  "dropPools" : [ "ffeliteTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [  
+          {
+            "head" : [ { "name" : "beammasterhelm", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "deckardchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "deckardpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "gravitonpistol"
+            ],
+            "alt" : [
+              "gravitonpistol"
+            ]            
+          },
+          {
+            "head" : [ { "name" : "densiniumhead", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "densiniumchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "densiniumlegs", "parameters" : { "colorIndex" : 6 } } ],
+            "primary" : [
+              "densiniumrifle"
+            ]
+          },
+          {
+            "head" : [ { "name" : "hellfirehelm", "parameters" : { "colorIndex" : 5 } } ],
+            "chest" : [ { "name" : "hellfirechest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "hellfirelegs", "parameters" : { "colorIndex" : 5 } } ],
+            "primary" : [
+              "hellfirecannon"
+            ],
+            "alt" : [
+              "hellfirespear"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fustarkillerhead", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "fustarkillerchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "fustarkillerpants", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              "minirocketlauncher2"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fureconhead3", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "fureconchest3", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "fureconpants3", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "tentabane"
+            ],
+            "alt" : [
+              "durasteelshortspear"
+            ]
+          },
+          {
+            "head" : [ { "name" : "warangelhead" } ],
+            "chest" : [ { "name" : "warangelchest" } ],
+            "legs" : [ { "name" : "warangellegs" } ],
+            "primary" : [
+              "fuaegisaltminigunnpc",
+              "hailstrike"
+            ]
+          },          
+          {
+            "head" : [ { "name" : "fubountyhunterhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "fubountyhunterchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fubountyhunterpants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "hailstrike",
+              "rimecutter",
+              "mobiusrailgun",
+              "fucloudgun",
+              "atomsmasher"
+            ],
+            "alt" : [
+              "uraniumhammer"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fubountyhunterhead", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "fubountyhunterchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "fubountyhunterpants", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              "shadowtentaclegun",
+              "isn_terawattlaser",
+              "isn_sunstream",
+              "tentabane",
+              "crystalgun",
+              "fustingergun",
+              "fuvaporizer",
+              "hellfirecannon",
+              "fuplasmacannon",
+              "gravitongun",
+              "isn_magmavulcan",
+              "mineralcannonadv"
+            ],
+            "alt" : [
+              "fupetalsword"
+            ]
+            
+          }
+        ] ]
+    ]
+  }
+}

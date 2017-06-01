@@ -1,0 +1,20 @@
+{
+  "name" : "insanity",
+  "blockingStat" : "insanityImmunity",
+
+  "effectConfig" : {
+    "defenseModifier" : -0.025
+  },
+  
+  
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "insanity.lua"
+  ],
+
+  "animationConfig" : "insanity.animation",
+
+  "label" : "Insane",
+  "icon" : "/interface/statuses/insanity.png"
+}

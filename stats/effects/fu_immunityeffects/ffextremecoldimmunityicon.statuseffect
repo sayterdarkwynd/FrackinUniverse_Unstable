@@ -1,0 +1,8 @@
+{
+  "name" : "ffextremecoldimmunityicon",
+  "effectConfig" : {},
+
+  "scripts" : [],
+  "label" : "X-Cold Shield",
+  "icon" : "/interface/statuses/biomecold.png"
+}

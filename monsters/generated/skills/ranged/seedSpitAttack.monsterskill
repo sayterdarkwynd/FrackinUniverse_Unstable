@@ -1,0 +1,29 @@
+{
+  "name" : "seedSpitAttack",
+  "label" : "TOXIC SEED",
+  "image" : "/monsters/generated/skills/defaultpoison.png",
+
+  "parameters" : {
+    "seedSpitAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "seed",
+      "arc" : "low",
+      "range" : 20,
+      "speed" : 35,
+      "power" : 7,
+      "shots" : 3,
+      "fireInterval" : 0.33,
+      "castTime" : 0.4,
+      "castEffect" : "castpoison",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : ["/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"],
+      "rangedAttack" : [ "/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"]
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "itemName" : "mythicalhoneyjar",
+  "rarity" : "Rare",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "mythicalhoneyjar.png",
+  "description" : "A delicious jar of imaginary honey!",
+  "shortdescription" : "Mythical Honey Jar",
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal6",
+        "duration" :180  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

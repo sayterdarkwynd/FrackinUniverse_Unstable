@@ -1,0 +1,10 @@
+{
+  "name" : "lightpriestsetbonus",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    
+    "lightpriestsetbonus.lua"
+  ],
+  "scriptDelta": 50
+}

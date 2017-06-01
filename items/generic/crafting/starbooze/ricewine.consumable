@@ -1,0 +1,17 @@
+{
+  "itemName" : "ricewine",
+  "rarity" : "Common",
+  "category" : "drink",
+  "inventoryIcon" : "ricewine.png",
+  "description" : "A bitter, low quality wine. But it works.",
+  "shortdescription" : "Rice Wine",
+  "eventCategory" : "eventCrop",
+  "foodValue" : 10,
+  "price" : 470,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "effects" : [ [ "heal_5"  ] ]
+}

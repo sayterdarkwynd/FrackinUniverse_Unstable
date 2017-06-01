@@ -1,0 +1,18 @@
+{
+  "itemName" : "littlegoodberry",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "littlegoodberryicon.png",
+  "description" : "Effect:
+^cyan;+15% Damage^reset;",
+  "shortdescription" : "Little Good Berry",
+  "category" : "food",
+
+  "effects" : [ [
+      {
+        "effect" : "damagebonus",
+        "amount" : 0.15,
+        "duration" : 120
+      }
+    ] ]
+}

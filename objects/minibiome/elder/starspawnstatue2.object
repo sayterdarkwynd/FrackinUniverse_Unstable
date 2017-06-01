@@ -1,0 +1,28 @@
+{
+  "objectName" : "starspawnstatue2",
+  "colonyTags" : [ "elder", "hideous" ],
+  "printable" : false,
+  "rarity" : "legendary",
+  "description" : "A large and dominating presence clings to this statue like film.",
+  "shortdescription" : "Horrid Statue",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+  "health" : 20,
+  "rooting" : true,
+  "inventoryIcon" : "starspawnstatue2.png",
+  "orientations" : [
+    {
+      "dualImage" : "starspawnstatue2.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "biomePlaced" : true
+}

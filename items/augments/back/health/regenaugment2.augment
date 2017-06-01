@@ -1,0 +1,22 @@
+{
+  "itemName" : "furegenaugment2",
+  "price" : 5000,
+  "rarity" : "uncommon",
+  "category" : "eppAugment",
+  "inventoryIcon" : "regenaugment2.png",
+  "description" : "An EPP module that slowly regenerates living cells, providing a slightly faster regenerative effect.",
+  "shortdescription" : "Regeneration II",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "furegenaugment2",
+    "displayName" : "Regeneration II",
+    "displayIcon" : "/items/augments/back/health/regenaugment2.png",
+    "effects" : [ "regenerationminor2augment" ]
+  },
+  
+  "learnBlueprintsOnPickup" : [ "furegenaugment3" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "maxhealthboost4",
+  "effectConfig" : {
+    "healthAmount" : 17
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost.lua"
+  ],
+
+  "label" : "+17 Health",
+  "icon" : "/interface/statuses/maxhealth.png"
+}

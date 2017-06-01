@@ -1,0 +1,13 @@
+{
+  "itemName" : "zeroburst3_tech",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techcard_legs.png",
+  "description" : "A super blast jump.",
+  "shortdescription" : "^#77acc3;Zero Burst III^reset;",
+    "pickupQuestTemplates" : [ "zeroburst3" ],
+    "learnBlueprintsOnPickup" : [ "zeroburst4_tech" ],
+    "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ]
+}

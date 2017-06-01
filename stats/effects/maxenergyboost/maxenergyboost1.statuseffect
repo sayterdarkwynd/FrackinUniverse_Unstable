@@ -1,0 +1,14 @@
+{
+  "name" : "maxenergyboost1",
+  "effectConfig" : {
+    "energyAmount" : 6
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "maxenergyboost.lua"
+  ],
+
+  "label" : "+6 Energy",
+  "icon" : "/interface/statuses/maxenergy.png"
+}

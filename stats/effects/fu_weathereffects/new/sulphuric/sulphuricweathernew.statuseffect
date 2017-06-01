@@ -1,0 +1,27 @@
+{
+  "name" : "sulphuricweathernew",
+  "blockingStat" : "sulphuricImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "physicalResistance",
+          "effectCutoffValue" : 0.3,    
+	  "biomeTemp" : 1.2, 
+	  "biomeThreshold" : 0.5,
+	  "baseRate" : 5,
+	  "baseDebuffPerTick" : 3,
+	  "baseDmgPerTick" : 6,
+	  "situationPenalty" : 1.3,
+	  "liquidPenalty" : 0.9,
+	  "biomeNight" : 1.0 
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "sulphuricweathernew.lua"
+  ],
+
+  "animationConfig" : "sulphuricweathernew.animation",
+  
+  "label" : "Severe Acid",
+  "icon" : "/interface/statuses/acid1.png"
+}

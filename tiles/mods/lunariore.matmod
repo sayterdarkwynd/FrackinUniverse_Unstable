@@ -1,0 +1,20 @@
+{
+  "modId" : 6725,
+  "modName" : "lunariore",
+  "itemDrop" : "solarishard",
+  "description" : "lunari crystal",
+  "health" : 3.5,
+  "harvestLevel" : 2,
+  "breaksWithTile" : true,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lunariore.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

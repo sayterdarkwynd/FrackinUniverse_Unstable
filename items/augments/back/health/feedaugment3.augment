@@ -1,0 +1,21 @@
+{
+  "itemName" : "feedaugment3",
+  "price" : 800,
+  "rarity" : "rare",
+  "category" : "eppAugment",
+  "inventoryIcon" : "foodaugment3.png",
+  "description" : "Drastically reduces hunger rate.",
+  "shortdescription" : "Feeding III",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "feedaugment3",
+    "displayName" : "Feeding III",
+    "displayIcon" : "/items/augments/back/health/foodaugment3.png",
+    "effects" : [ "feedpack3" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

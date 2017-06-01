@@ -1,0 +1,31 @@
+{
+  "name" : "fuwalljump",
+  "type" : "legs",
+
+  "scripts" : ["walljump.lua"],
+  "animator" : "walljump.animation",
+
+  "description" : "Increases grip, leap and capability of Wall Jump",
+  "shortDescription" : "Wall Jump II",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump.png",
+
+  "chipCost" : 9,
+
+  "multiJumpCount" : 2,
+
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+
+  "wallReleaseTime" : 0.25,
+
+  "wallGrabFreezeTime" : 0.25,
+  "wallJumpXVelocity" : 20,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.2
+    },
+    "airForce" : 0,
+    "airFriction" : 10.0
+  }
+}

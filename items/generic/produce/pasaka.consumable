@@ -1,0 +1,14 @@
+{
+  "itemName" : "pasaka",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "pasaka.png",
+  "description" : "Effect:
+^cyan;+20% Radiation Resistance, Rad Burn Immunity^reset;",
+  "shortdescription" : "Pasaka Bulb",
+  "category" : "food",
+
+  "effects" : [ [
+      "radioactiveblock2"
+    ] ]
+}

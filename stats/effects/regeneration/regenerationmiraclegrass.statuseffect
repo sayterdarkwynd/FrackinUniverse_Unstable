@@ -1,0 +1,17 @@
+{
+  "name" : "regenerationmiraclegrass",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 90
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "regenerationmiraclegrass.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Miracle Grass Regen",
+  "icon" : "/interface/statuses/heal.png"
+}

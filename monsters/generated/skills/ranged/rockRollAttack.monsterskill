@@ -1,0 +1,37 @@
+{
+  "name" : "rockRollAttack",
+  "label" : "GOO ROLLER",
+  "image" : "/monsters/generated/skills/defaultpoison.png",
+
+  "config" : {
+    "hostileActions" : [ 
+      {
+        "name" : "action-fire",
+        "cooldown" : 4,
+        "parameters" : {
+          "skillName" : "rockRollAttack",
+
+          "maximumRange" : 18,
+          "minimumRange" : 5,
+          "windupEffect" : "castpoison",
+          
+          "fireDelay" : 0.2,
+          "projectileType" : "gooroller",
+          "projectileParameters" : {
+            "speed" : 45
+          },
+          "power" : 10,
+          "aimAtTarget" : true
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "Fire" : [ "/sfx/projectiles/spit1.ogg", "/sfx/projectiles/spit2.ogg" ],
+      "rangedAttack" : [ "/sfx/projectiles/spit1.ogg", "/sfx/projectiles/spit2.ogg" ]
+    }
+  }
+}
+

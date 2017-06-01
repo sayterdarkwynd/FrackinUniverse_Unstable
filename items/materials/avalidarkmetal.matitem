@@ -1,0 +1,11 @@
+{
+  "itemName" : "avalidarkmetal",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "avalidarkmetal.png",
+  "description" : "A dark metal support beam.",
+  "shortdescription" : "Dark Metal Support",
+  "learnBlueprintsOnPickup" : [ "avalidarkmetal" ],
+  "materialId" : 12505
+}

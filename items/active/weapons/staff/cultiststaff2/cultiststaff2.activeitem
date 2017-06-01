@@ -1,0 +1,56 @@
+{
+  "itemName" : "cultiststaff2",
+  "price" : 1440,
+  "maxStack" : 1,
+  "level" : 7,
+  "rarity" : "legendary",
+  "description" : "Fashioned from bones and petrified wood.",
+  "shortdescription" : "Eldritch Staff",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tooltipKind" : "staff",
+
+  "animation" : "cultiststaff2.animation",
+  "animationParts" : {
+    "staff" : "cultiststaff2.png",
+    "stone" : "",
+    "chargeEffect" : "cultiststaff2glow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [23, 176, 0]
+      }
+    },
+    "particleEmitters" : {
+      "physicalcharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 10,
+        "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+        "particles" : [
+          {"particle" : "eldritchstaff"}
+        ]
+      }
+    },
+
+    "sounds" : {
+      "physicalactivate" : ["/sfx/npc/boss/cultistboss_recharge.ogg"]
+    }
+  },
+
+  "inventoryIcon" : "cultiststaff2.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "elementalType" : "shadow",
+
+  "primaryAbilityType" : "eldritchblast",
+  "primaryAbility" : {},
+
+  "altAbilityType" : "entropicwarding",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

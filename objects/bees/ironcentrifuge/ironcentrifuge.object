@@ -1,0 +1,62 @@
+{
+  "objectName" : "ironcentrifuge",
+  "colonyTags" : [ "hive", "bees", "machines" ],
+  "printable" : false,
+  "rarity" : "rare",
+  "description" : "This powered upgrade of the wooden centrifuge more efficiently performs extraction involving liquids. ^cyan;Requires ^orange;2u ^cyan;power.^reset;",
+  "shortdescription" : "^cyan;Iron Centrifuge^reset;",
+  "subtitle" : "Powered Centrifuge",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 200,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "industrialcentrifuge" ],
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "ironcentrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironcentrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "ironcentrifuge.animation",
+  "animationParts" : {
+    "centrifuge" : "ironcentrifuge.png"
+  },
+
+  "scripts" : [ "/objects/bees/centrifuge.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+                "/objects/isn_sharedobjectscripts.lua" ],
+  "scriptDelta" : 50,
+  "recipeGroup" : "ironcentrifuge",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "slotCount" : 10,
+  "uiConfig" : "/interface/bees/ironcentrifuge/ironcentrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay" : 2,
+  "itemChances": {
+    "rarest": 0.008,
+    "rare": 0.03,
+    "uncommon": 0.09,
+    "normal": 0.2,
+    "common": 0.3
+  },
+
+  "inputSlot": 1,
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "centrifugeType" : "liquid",
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 2
+}

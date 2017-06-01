@@ -1,0 +1,38 @@
+{
+  "projectileName" : "shadowcrabball",
+  "physics" : "grenade",
+  "bounces" : 2,
+  "timeToLive" : 5,
+  "image" : "shadowcrabball.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 30,
+  "animationCycle" : 0.5,
+  "lightColor" : [84, 22, 64],
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/shadowfireboom/shadowfireboom.config"
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "projectile",
+      "type" : "hgravityexplosion",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/weapons/magnorbproto_impact1.ogg",
+        "/sfx/weapons/magnorbproto_impact2.ogg",
+        "/sfx/weapons/magnorbproto_impact3.ogg"
+      ]
+    }
+  ],  
+  "power" : 5,
+  "emitters" : [ "defaultmagenta", "spectralsparkle" ],
+  "damageKind" : "shadowplasma"
+}

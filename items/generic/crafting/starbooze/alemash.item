@@ -1,0 +1,9 @@
+{
+  "itemName" : "alemash",
+  "price" : 80,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "alemash.png",
+  "description" : "Ale mash, the product of soaked wheat, yellow petals and water.",
+  "shortdescription" : "Ale Mash"
+}

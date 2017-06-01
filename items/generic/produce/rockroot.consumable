@@ -1,0 +1,14 @@
+{
+  "itemName" : "rockroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "rockrooticon.png",
+  "description" : "Effect:
+^cyan;+7 Defense^reset;",
+  "shortdescription" : "Rockroot",
+  "category" : "food",
+
+    "effects" : [ [
+       "defense5"
+    ] ]
+}

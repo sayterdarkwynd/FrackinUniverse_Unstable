@@ -1,0 +1,120 @@
+{
+  "type" : "greg",
+  "baseType" : "hostilefuhard",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffeliteTreasure" ],
+  
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/greg.config:attack",
+      "reattack" : "/dialog/greg.config:reattack",
+      "killedTarget" : "/dialog/greg.config:killedTarget",
+      "lostTarget" : "/dialog/greg.config:lostTarget",
+      "outOfSight" : "/dialog/greg.config:outOfSight",
+      "cheerOn" : "/dialog/greg.config:cheerOn",
+      "cantReach" : "/dialog/greg.config:cantReach"      
+    }
+  },  
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ff_gasmask" } ],
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "laspistol" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "lasrifle" ]
+          },
+          {
+            "head" : [ { "name" : "fieldscientisthead3" } ],
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "laspistol" ],
+            "alt" : [ "flashlight" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "irradiumrifle" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "longarm" ]
+          },          
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "isn_flintlock" ],
+            "alt" : [ "flashlight" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "protopistol" ]
+          },          
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "carbonblade" ],
+            "alt" : [ "fupioneershield" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "k3rifle" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "fugaussrifle" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "npcassaultrifle" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "zerchesiumsword" ],
+            "alt" : [ "fupioneershield" ]
+          },          
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "irradiumdagger" ]
+          },          
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "razorneedler" ],
+            "alt" : [ "flashlight" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "isn_napalmsprayer" ]
+          },
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "mobiuspistol" ],
+            "alt" : [ "flashlight" ]
+          },          
+          {
+            "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "mobiusrifle" ]
+          }
+        ] ]
+    ]
+  }
+}

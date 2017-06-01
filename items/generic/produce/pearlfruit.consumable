@@ -1,0 +1,14 @@
+{
+  "itemName" : "pearlfruit",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "pearlfruit.png",
+  "description" : "Effect:
+^cyan;Walk on Water^reset;",
+  "shortdescription" : "Pearlfruit",
+  "category" : "food",
+
+  "effects" : [ [
+      "waterwalk"
+    ] ]
+}

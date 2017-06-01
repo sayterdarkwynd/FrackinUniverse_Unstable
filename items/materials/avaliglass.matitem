@@ -1,0 +1,10 @@
+{
+  "itemName" : "avaliglass",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliglass.png",
+  "description" : "Wonderful orange-tinted glass.",
+  "shortdescription" : "Avali Glass",
+  "learnBlueprintsOnPickup" : [ "avaliglass" ],
+  "materialId" : 12501
+}

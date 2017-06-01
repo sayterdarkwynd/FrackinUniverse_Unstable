@@ -1,0 +1,10 @@
+{
+  "itemName" : "solariumhoneyjar",
+  "rarity" : "Common",
+  "category" : "fuel",
+  "price" : 60,
+  "inventoryIcon" : "solariumhoneyjar.png",
+  "description" : "FUEL! DO NOT EAT!",
+  "shortdescription" : "Solarium Honey Jar",
+  "fuelAmount" : 20
+ }

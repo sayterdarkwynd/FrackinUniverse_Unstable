@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "dnasample", "count" : 1 },
+    { "item" : "protocitebar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gene_energy",
+    "count" : 1
+  },
+  "groups" : [ "genesequencer", "all", "genes" ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "ffbiomeheat2",
+  "blockingStat" : "biomeheatImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "fireResistance",
+          "effectCutoffValue" : 0.4,   
+	  "biomeTemp" : 1.25, 
+	  "biomeThreshold" : 1.0,
+	    "baseRate" : 4,
+	    "baseDebuffPerTick" : 6,
+	    "baseDmgPerTick" : 5,
+	    "situationPenalty" : 1.2,
+	    "liquidPenalty" : 0.7,
+	    "biomeNight" : 0.8      
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "heatweathernew.lua"
+  ],
+
+  "animationConfig" : "heatweathernew.animation",
+  "label" : "Extreme Heat",
+  "icon" : "/interface/statuses/heat2.png"
+}

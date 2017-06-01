@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidblood",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidbloodicon.png",
+  "shortdescription" : "Blood",
+  "description" : "A measure of blood.",
+  "learnBlueprintsOnPickup" : [ "veinblock", "liquidblood", "bloodgarbchest", "bloodgarbhead", "bloodgarbpants" ],
+  "liquid" : "bloodliquid"
+}

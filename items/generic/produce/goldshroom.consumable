@@ -1,0 +1,17 @@
+{
+  "itemName" : "goldshroom",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "category" : "food",
+  "inventoryIcon" : "goldshroom.png",
+  "description" : "Effect:
+^cyan;Glow^reset;",
+  "shortdescription" : "Gold Shroom", 
+
+  "effects" : [ [
+      {
+        "effect" : "glow",
+        "duration" : 120
+      }
+    ] ]
+}

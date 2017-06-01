@@ -1,0 +1,30 @@
+{
+  "objectName" : "tentaclestatue",
+  "colonyTags" : [ "elder", "hideous" ],
+  "printable" : false,
+  "rarity" : "legendary",
+  "description" : "My very being aches to caress every perfect curve and smooth edge of this wonderful carving.",
+  "shortdescription" : "Abhorrent Statue",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+  "health" : 12,
+  "rooting" : true,
+  "inventoryIcon" : "tentaclestatue.png",
+  "orientations" : [
+    {
+      "dualImage" : "tentaclestatue.png:<color>",
+
+      "imagePosition" : [-15, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "biomePlaced" : true,
+  "collectablesOnPickup" : { "fu_elderrelics" : "tentaclestatue" }
+}

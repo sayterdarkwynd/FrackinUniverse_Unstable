@@ -1,0 +1,11 @@
+{
+  "itemName" : "shadowroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "shadowroot.png",
+  "description" : "Effect:
+^cyan;+10% Crit Chance^reset;",
+  "category" : "food",
+  "shortdescription" : "Shadowroot Spike",
+  "effects" : [ [ "critbonus1" ] ]
+}

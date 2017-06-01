@@ -1,0 +1,10 @@
+{
+  "name" : "warangelsetbonus",
+
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    
+    "warangelsetbonus.lua"
+  ]
+}

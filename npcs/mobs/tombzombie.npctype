@@ -1,0 +1,77 @@
+{
+  "type" : "tombzombie",
+  "baseType" : "hostilefu",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffcannibalTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "chitinhead", "parameters" : { "colorIndex" : 8 } } ],
+            "chest" : [ { "name" : "chitinchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "chitinlegs", "parameters" : { "colorIndex" : 8 } } ],
+            "primary" : [
+              "uncommondagger"
+            ],
+            "alt" : [
+              "uncommondagger"
+            ]
+          },
+          {
+            "head" : [ { "name" : "predatoryhead", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "predatorychest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "predatorypants", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "npcaxe",
+              "npcshortsword",
+              "npcbroadsword",
+              "npchammer",
+              "npcspear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "bloodyknife"
+            ]
+          },
+          {
+            "head" : [ { "name" : "alienskullhead", "parameters" : { "colorIndex" : 3 } } ],
+            "chest" : [ { "name" : "hunterchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "hunterlegs", "parameters" : { "colorIndex" : 3 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "npcaxe",
+              "npcshortsword",
+              "npcbroadsword",
+              "npchammer",
+              "npcspear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "bloodyknife"
+            ]
+          },
+          {
+            "head" : [ { "name" : "fuhoplitehead", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "fuhoplitechest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "fuhoplitepants", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              "npcdagger",
+              "nomadaxe", 
+              "npcaxe",
+              "npcshortsword",
+              "npcbroadsword",
+              "npchammer",
+              "npcspear",
+              "nomadaxe",
+              "fubonepickaxe",
+              "bloodyknife"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

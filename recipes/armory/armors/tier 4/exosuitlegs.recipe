@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fubonearmor2legs", "count" : 1 },
+    { "item" : "blobbushjelly", "count" : 1 },
+    { "item" : "quietusbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "fuexosuitlegs",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator3", "armors" ]
+}

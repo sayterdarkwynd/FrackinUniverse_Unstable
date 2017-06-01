@@ -1,0 +1,19 @@
+{
+  "itemName" : "mutavisksilk",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mutavisksilk.png",
+  "description" : "Superior, resistant and durable silk fibres.",
+  "shortdescription" : "Mutavisk Silk",
+  "radioMessagesOnPickup" : [ "pickupMutavisksilk" ],
+  "learnBlueprintsOnPickup" : [ 
+  "mutaviskhead", 
+  "mutaviskchest", 
+  "mutavisklegs", 
+  "mutaviskthread", 
+  "fujellyblock"
+  ],
+  
+  "itemTags" : [ "reagent" ]
+}

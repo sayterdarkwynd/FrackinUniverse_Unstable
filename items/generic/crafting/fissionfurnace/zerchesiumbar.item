@@ -1,0 +1,32 @@
+{
+  "itemName" : "zerchesiumbar",
+  "rarity" : "rare",
+    "price" : 160,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "zerchesiumbar.png",
+  "description" : "Has the highest melting point magnitudes, greater than even tungsten!",
+  "shortdescription" : "Zerchesium Bar",
+  "learnBlueprintsOnPickup" : [
+  "isn_heatshell",
+  "laspistol",
+  "lasrifle",
+  "teslagun",
+  "fu_teslaturret",
+  "isn_napalmsprayer",
+  "silverseablade",
+  "fuhoplitechest",
+  "fuhoplitehead",
+  "fuhoplitepants",
+  "armcannon",
+  "zerchesiumdagger",
+  "zerchesiumsword",
+  "zerchesiumbroadsword",
+  "zerchesiumaxe",
+  "zerchesiumspear",
+  "zerchesiumhammer",
+  "armorsphere_tech",
+  "acidprotectionback",
+  "zerchesiumcrossbow"
+  ],
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "silverleaf",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "silverleaf.png",
+  "description" : "Effect:
+^cyan;+35% Max Energy^reset;",
+  "shortdescription" : "Silverleaf Herb",
+  "category" : "food",
+
+  "effects" : [ [
+      "percentenergyboost35"
+    ] ]  
+}

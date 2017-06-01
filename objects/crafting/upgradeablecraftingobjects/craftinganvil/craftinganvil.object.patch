@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/upgradeStages/0/interactData/initialRecipeUnlocks",
+    "value": [
+      "retexgreenhouse",
+      "ironcentrifuge", 
+      "chemlab"
+    ]
+  }
+]

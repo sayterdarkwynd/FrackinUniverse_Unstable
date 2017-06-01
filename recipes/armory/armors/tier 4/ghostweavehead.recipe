@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 3 },
+    { "item" : "syntheticmaterial", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "tacticalhead",
+    "count" : 1
+  },
+  "groups" : [ "clothingfabricator", "armors", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "fu_mulch",
+  "rarity" : "common",
+  "price" : 20,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_mulch.png",
+  "description" : "Great for fertilizing a hydroponics tray.",
+  "radioMessagesOnPickup" : [ "pickupMulch" ],
+  "shortdescription" : "Mulch",
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_chemist" : "fu_mulch" }
+}

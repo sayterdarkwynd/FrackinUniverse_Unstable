@@ -1,0 +1,92 @@
+{
+  "itemName" : "isn_sunstream",
+  "level" : 5,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "The sun, in your hands. Truly deadly, and unique.
+^yellow;Homing alt^reset;
+^green;Bouncing projectiles",
+  "shortdescription" : "Polaris",
+  "tooltipKind" : "gun2",
+  "category" : "rocketLauncher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher", "plasma", "energy", "hellfire", "upgradeableWeapon"],
+  "inventoryIcon" : "isn_sunstreamicon.png",
+  "animation" : "isn_sunstream.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "isn_sunstream.png",
+    "middlefullbright" : "isn_sunstreamfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle1.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [70, 90, 0]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/sunstream.ogg" ]
+    }
+  },
+  "baseOffset" : [-0.3, 0.75],
+  "muzzleOffset" : [1.0, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 4.75,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : "isn_sunstream",
+    "projectileParameters" : {
+      "knockback" : 0,
+      "speed" : 40
+    },
+    "projectileCount" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "critChance" : 4,
+  "critBonus" : 7,
+  "altAbilityType" : "floatydeathball",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,65 @@
+{
+  // If you alter scriptDelta or craftDelay then set the honey jarrer's scriptDelta to the product of these
+  "objectName" : "industrialcentrifuge",
+  "colonyTags" : [ "hive", "bees", "machines" ],
+  "printable" : false,
+  "rarity" : "rare",
+  "description" : "An enormous centrifuge with expandable attachments. ^cyan;Requires ^orange;8u ^cyan;power.^reset;",
+
+  "shortdescription" : "^cyan;Industrial Centrifuge^reset;",
+  "subtitle" : "Powered Centrifuge",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 200,
+  "objectType" : "container",
+
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "industrialcentrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "industrialcentrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "industrialcentrifuge.animation",
+  "animationParts" : {
+    "centrifuge" : "industrialcentrifuge.png"
+  },
+
+  "scripts" : [ "/objects/bees/centrifuge.lua",
+                "/objects/bees/honeymap.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+                "/objects/isn_sharedobjectscripts.lua" ],
+  "scriptDelta" : 25,
+  "recipeGroup" : "industrialcentrifuge",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "slotCount" : 17,
+  "uiConfig" : "/interface/bees/industrialcentrifuge/industrialcentrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay": 1,
+  "itemChances": {
+    "rarest": 0.009,
+    "rare": 0.04,
+    "uncommon": 0.1,
+    "normal": 0.2,
+    "common": 0.3
+  },
+
+  "inputSlot": 1,
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "centrifugeType" : "liquid",
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 8
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "valkyriesetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "valkyriesetbonuseffect.lua"
+  ],
+  
+  "scriptDelta": 50,
+  "label" : "Increased air mobility, reduced falling speed.",
+  "icon" : "/interface/statuses/pressure.png"
+}

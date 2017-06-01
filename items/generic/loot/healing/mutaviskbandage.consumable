@@ -1,0 +1,13 @@
+{
+  "itemName" : "mutaviskbandage",
+  "rarity" : "uncommon",
+  "price" : 255,
+  "category" : "medicine",
+  "inventoryIcon" : "mutaviskbandage.png",
+  "description" : "A bandage for healing ugly wounds. Using it restores sizeable health.",
+  "shortdescription" : "^#77acc3;Mutavisk Bandage^white;",
+  "effects" : [ [ "mutaviskheal" ] ],
+  "emote" : "oooh",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [ "salveheal","bandageheal","medkitheal","mutaviskheal","nanowrapheal","honeysilkheal" ]
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "xenosetbonuseffect",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    
+    "xenosetbonuseffect.lua"
+  ],
+  "label" : "Assault Rifle and Energy Weapon damage +25%",
+  "icon" : "/interface/statuses/set_assault.png"
+}

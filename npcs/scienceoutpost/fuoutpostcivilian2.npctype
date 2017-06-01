@@ -1,0 +1,203 @@
+{
+  "type" : "fuoutpostcivilian2",
+  "baseType" : "outpostcivilian",
+  "damageTeam" : 1,
+  "scriptConfig" : {
+        "offeredQuests" : [ "create_mutavisk", "create_plastic" ],
+        "turnInQuests" : [ "create_mutavisk", "create_plastic" ],
+
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "wander" : {
+      "timeRange" : [2.0, 10.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorSearchRadius" : 10,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 7.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 0,
+      "cooldown" : 10
+    },
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+    "sit" : {
+      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 10,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [15, 240]
+    },
+    "work" : {
+      "timeOfDayRanges" : [ [0.2, 0.6] ],
+      "tools" : [ [ "hoe", 0.5, 2.0] ],
+      "toolRange" : 3.0,
+      "searchDistance" : 10.0,
+      "timeRange" : [4.0, 6.0],
+      "cooldown" : 10.0
+    },
+
+    "chat" : {
+      "distanceRange" : [2.0, 4.0],
+      "conversations" : [
+        [
+          [2, "blabbering", "idle" ],
+          [1, "idle", "laugh" ],
+          [2, "idle", "blabbering" ],
+          [1, "sad", "idle" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "happy" ],
+          [1, "wink", "laugh" ],
+          [2, "happy", "happy" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "blabbering" ],
+          [2, "blabbering", "annoyed" ],
+          [3, "shouting", "shouting" ],
+          [2, "annoyed", "annoyed" ]
+        ]
+      ],
+      "cooldown" : 10
+    },
+    "dialog" : {
+      "converse" : {
+      
+        "fuizku" : {
+          "default" : [
+                "My statistics are accurate. Which means we're all going to die. Soon.",
+                "We should hang out sometime. Get smashed. Eat garflipps. Avoid Kevin.",
+                "I REQUIRE SUSTENANCE!"
+          ]
+        },      
+        "fuanodyne" : {
+          "default" : [
+                "If I see Kevin before lunch, I am going to get Thorlokk to pummel him into pulp.",
+                "You stepped on my damned flower! Why! WHY?!?!!?",
+                "I am recording all of our social interactions for data. I hope you don't mind."
+          ]
+        },      
+        "fumantizi" : {
+          "default" : [
+                "I'm Kevin. Everyone here hates me. This pleases me.",
+                "I lie all the time. By the way, I'm Kevin.",
+                "I'm Kevin. I am well loved around here. It is known."
+          ]
+        },  
+        "fukirhos" : {
+          "default" : [
+                "I'm pretty sure my intellect surpasses your paltry, pathetic knowledge base.",
+                "Pleased to meet you. Might we exchange pleasantries when I am not studying?",
+                "There is no greater threat to sanity than boredom. You're boring me."
+          ]
+        },         
+        "thelusian" : {
+          "default" : [
+                "If you annoy me, I'll beat the stupid right out of you.",
+                "I often wonder at how much force it would take to crush Kevins windpipe. That guy sucks.",
+                "Please do not breathe in my personal space."
+          ]
+        },        
+        "fumantis" : {
+          "default" : [
+                "Ever wonder why humans record their acts of mating for entertainment ?",
+                "I'm going to strangle Kevin to death while he sleeps if he licks my lab notes again.",
+                "Underneath my carapace is a heart of gold."
+          ]
+        },        
+        "fudarkizku" : {
+          "default" : [
+                "I'd love to skin a ponex and stuff its rotting carcass. Taxidermy is a hobby of mine.",
+                "Dogs are incapable of flight. Who knew? Sorry, Fluffy! *sob*",
+                "There is no reality in which you are smarter than I."
+          ]
+        },
+        "apex" : {
+          "default" : [
+                "I wish these glasses fit me properly. But they don't. As a result, I look like an idiot. Thanks, Kevin.",
+                "I am currently designing a bio-agent keyed to Kevin's immune system. It will give him chronic vomiting issues for a long, long time."
+          ]
+        },
+        "human" : {
+          "default" : [
+                "There's so much data for me to record around here. It is fascinating.",
+                "Hopefully this location will be a good place for my research into what happened to Earth.",
+                "I'm writing a research paper on biodiversity. It will be extremely important.",
+                "I'm not quite sure yet, but I think my hypothesis is correct. More testing is required."
+          ]
+        },
+        "floran" : {
+          "default" : [
+                "I'd love to ssskin a ponex and ssstuff its rotting carcassss. Taxidermy isss a hobby of mine.",
+                "I'm hesssitant to publisssh these findings. Sssome things should not be shared, but instead...ssstabbed!",
+                "I ssswears I am reformified and no longer eatsss fleshes of sssentients. Mostly."
+          ]
+        },
+        "avian" : {
+          "default" : [
+                "I have no qualms about flight. It's the landing that presents the issue.",
+                "Personally, I think religion is a sham and should be erased from existence. My people, shamefully, disagree.",
+                "I often wonder exactly what is wrong with people that think sentient mystical ponies are acceptable entertainment sources."
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+                "Silicon? That's easy. Loose Silt sand, in an extractor. How do you not know this by now?",
+                "Everything you know is wrong.",
+                "Universal Constants are that way for a reason. Why am I trying to change one?!?! Oh yea...I'm a GENIUS!"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Distinguished. I have obtained no less than 11 scientific accolades.",
+            "Pleased. You are a well respected member of this research community.",          
+            "Informative. There are 1,282 follicles on your nose. Each more hateful than the last."
+          ]
+        },
+        "novakid" : {
+          "default" : [
+                "I'm pretty sure my intellect surpasses your paltry, pathetic knowledge base.",
+                "Sometimes I sneak into your ship at night and watch you sleep. For science. You understand, I'm sure.",
+                "There is no reality in which you are better than I am. Except K4VC-9."
+          ]
+        }
+
+
+
+      }
+    }
+  },
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "agilitysuithead" } ],
+            "chest" : [ { "name" : "agilitysuitchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "agilitysuitlegs", "parameters" : { "colorIndex" : 6 } } ]
+          }
+        ] ]
+    ]
+  }
+}

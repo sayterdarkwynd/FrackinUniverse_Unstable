@@ -1,0 +1,23 @@
+{
+  "itemName" : "snowhoneyjar",
+  "rarity" : "Common",
+  "category" : "food",
+  "price" : 40,
+  "inventoryIcon" : "snowhoneyjar.png",
+  "description" : "A jar of frozen honey.",
+  "shortdescription" : "Frozen Honey Jar",
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal6",
+        "duration" :180  
+    },
+    {
+        "effect" : "fedhoney",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

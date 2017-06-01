@@ -1,0 +1,12 @@
+{
+  "itemName" : "methanol",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "methanol.png",
+  "description" : "A light, volatile alcohol.",
+  "shortdescription" : "Methanol",
+  "radioMessagesOnPickup" : [ "pickupMethanol" ],
+  "learnBlueprintsOnPickup" : [ "pesticide", "methyliodide" ],
+  "itemTags" : [ "reagent" ]
+}

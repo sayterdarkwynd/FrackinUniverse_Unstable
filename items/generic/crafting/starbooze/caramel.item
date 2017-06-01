@@ -1,0 +1,10 @@
+{
+  "itemName" : "caramel",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "caramel.png",
+  "description" : "Ooey-gooey caramel!",
+  "shortdescription" : "Caramel",
+  "learnBlueprintsOnPickup" : [ "fuchocolatebar" ]
+}

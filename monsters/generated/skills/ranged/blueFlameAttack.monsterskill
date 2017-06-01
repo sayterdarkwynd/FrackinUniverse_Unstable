@@ -1,0 +1,43 @@
+{
+  "name" : "blueFlameAttack",
+  "label" : "ANCIENT FLAMES",
+  "image" : "/monsters/generated/skills/defaultfire.png",
+
+  "config" : {
+    "hostileActions" : [ 
+      {
+        "name" : "action-fire",
+        "cooldown" : 4,
+        "parameters" : {
+          "skillName" : "blueFlameAttack",
+
+          "maximumRange" : 13,
+          "minimumRange" : 3,
+          "windupEffect" : "castfire",
+          
+          "fireDelay" : 0.2,
+          "projectileType" : "blueflamethrower",
+          "projectileParameters" : {
+            "speed" : 25,
+            "power" : 3
+          },
+          "power" : 3,
+          "aimAtTarget" : true,
+
+          "projectileCount" : 6,
+          "projectileInterval" : 0.066,
+
+          "fireArc" : true,
+          "projectileSpeed" : 25
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/fireblast.ogg" ]
+    }
+  }
+}
+

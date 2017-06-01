@@ -1,0 +1,22 @@
+{
+  "itemName" : "fuhoneysilkbandage",
+  "rarity" : "Common",
+  "price" : 155,
+  "category" : "medicine",
+  "inventoryIcon" : "fuhoneysilkbandage.png",
+  "description" : "A honeysilk bandage for healing wounds.",
+  "shortdescription" : "Honeysilk Bandage",
+  "effects" : [ [
+      "honeysilkheal"
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+   "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "mutaviskbandage",
+    "nanowrapheal",
+	"honeysilkheal"
+  ]
+}

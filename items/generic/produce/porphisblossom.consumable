@@ -1,0 +1,14 @@
+{
+  "itemName" : "porphisblossom",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "porphisblossom.png",
+  "description" : "Effect:
+^cyan;+20% Damage, +25% Max Health^reset;",
+  "shortdescription" : "Porphis Blossom",
+  "category" : "food",
+
+  "effects" : [ [
+      "damagebonus3", "percenthealthboost25"
+    ] ]
+}

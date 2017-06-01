@@ -1,0 +1,16 @@
+{
+  "name" : "quintjump",
+  "type" : "legs",
+
+  "scripts" : ["multijump.lua"],
+  "animator" : "doublejump.animation",
+
+  "description" : "Five jumps are possible with this bionic enhancer.",
+  "shortDescription" : "Quint Jump",
+  "rarity" : "Legendary",
+  "icon" : "/tech/pulsejump.png",
+
+  "chipCost" : 16,
+
+  "multiJumpCount" : 5
+}

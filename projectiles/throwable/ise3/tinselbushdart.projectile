@@ -1,0 +1,32 @@
+{
+  "projectileName" : "tinselbushdart",
+  "image" : "tinselbushdart.png",
+  "animationCycle" : 0.25,
+  "physics" : "bouncy",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 80,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "tilled",
+      "radius" : 2
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "grass",
+      "newMod" : "tilled",
+      "radius" : 2
+    } 
+  ],
+  "power" : 100.0,
+  "damageKind" : "spear",
+  "emitters" : [ "daggerblue" ]
+}
+
+

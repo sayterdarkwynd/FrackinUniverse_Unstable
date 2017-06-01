@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderrelic2",
+  "price" : 600,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elderrelic2.png",
+  "description" : "A piece of the fabled Celaeno.",
+  "shortdescription" : "^#ffe50e;Celaeno Fragment^white;",
+  "itemTags" : [ "reagent" ],
+  "collectablesOnPickup" : { "fu_elderrelics" : "elderrelic2" }
+}

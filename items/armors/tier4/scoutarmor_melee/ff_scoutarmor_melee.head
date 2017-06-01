@@ -1,0 +1,57 @@
+{
+  "itemName" : "ff_scouthelm_melee",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Set Bonus: 
+^cyan;12% Physical Resist, +9% Electric Resist^reset;
+^#e43774;+10% Damage (melee)^reset;",
+  "shortdescription" : "Warrior Helm",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+  "itemTags" : [ "upgradeableWeapon" ],
+  "statusEffects" : [
+    "warriorsetbonus",
+    {
+      "stat" : "fu_warriorset_head",
+      "amount" : 1
+    },
+    {
+      "stat" : "physicalResistance",
+      "amount" : 0.4
+    },
+    {
+      "stat" : "electricResistance",
+      "amount" : 0.3
+    }
+  ]
+}

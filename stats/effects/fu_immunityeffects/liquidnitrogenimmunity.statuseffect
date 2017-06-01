@@ -1,0 +1,9 @@
+{
+  "name" : "liquidnitrogenimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "liquidnitrogenimmunity.lua"
+  ]
+}

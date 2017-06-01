@@ -1,0 +1,44 @@
+{
+  "objectName" : "haleflowerseed",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "Legendary",
+  "category" : "seed",
+  "description" : "For a plant, it stores an astounding amount of energy.",
+  "shortdescription" : "Haleflower Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 44,
+  
+  "inventoryIcon" : "haleflowerseedicon.png",
+  "largeImage" : "haleflowerseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "haleflowerseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [720, 1140]
+    },
+    {
+      "duration" : [720, 1140]
+    },
+    {
+      "alts" : 3,
+      "duration" : [720, 1130]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "haleflowerHarvest",
+      "resetToStage" : 2
+    }
+  ],
+    "maxImmersion" : 0.125
+}

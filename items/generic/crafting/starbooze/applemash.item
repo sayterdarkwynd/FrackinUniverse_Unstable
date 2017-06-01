@@ -1,0 +1,9 @@
+{
+  "itemName" : "applemash",
+  "price" : 30,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "applemash.png",
+  "description" : "Apple Mash, the product of crushed and squeezed apples.",
+  "shortdescription" : "Apple Mash"
+}

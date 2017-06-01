@@ -1,0 +1,12 @@
+{
+  "itemName" : "solarishard",
+  "rarity" : "Common",
+  "price" : 120,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "solarishard.png",
+  "description" : "A sparkling yellow crystal shard.",
+  "shortdescription" : "Lunari Shard",
+  "radioMessagesOnPickup" : [ "pickupSolari" ],
+  "learnBlueprintsOnPickup" : [ "icecrystal", "solaricrystal", "fuglideaugment" ],
+  "itemTags" : [ "reagent" ]
+}

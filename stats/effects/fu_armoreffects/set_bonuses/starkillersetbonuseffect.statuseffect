@@ -1,0 +1,12 @@
+{
+  "name" : "starkillersetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "starkillersetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "Increased stats in sunlight.",
+  "icon" : "/interface/statuses/defese3.png"
+}

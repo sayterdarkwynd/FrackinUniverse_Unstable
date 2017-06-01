@@ -1,0 +1,11 @@
+{
+  "itemName" : "aliensoil",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "aliensoil.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Alien Soil",
+  "description" : "Strange soil with an almost neon glow.",
+
+  "materialId" : 6632
+}

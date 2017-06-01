@@ -1,0 +1,25 @@
+{
+  "itemName" : "triangliumpyramid",
+  "rarity" : "rare",
+    "price" : 380,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "triangliumpyramid.png",
+  "description" : "A melding of trianglium shards.",
+  "shortdescription" : "Trianglium Pyramid",
+  "learnBlueprintsOnPickup" : [ 
+  "fuplasmagun", 
+  "fuplasmacannon",
+  "airdash2_tech",
+  "enforcerchest",
+  "enforcerhead",
+  "enforcerpants",
+  "furavagerpants",
+  "furavagerhead",
+  "furavagerchest",
+  "fuinvaderpants",
+  "fuinvaderhead",
+  "fuinvaderchest",
+  "tritaniumbar"
+  ],
+  "itemTags" : [ "reagent" ]
+}

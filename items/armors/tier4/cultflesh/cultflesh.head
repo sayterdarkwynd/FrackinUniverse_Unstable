@@ -1,0 +1,54 @@
+{
+  "itemName" : "cultfleshhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Set Bonus: 
+^cyan;Immunity: Shadow Taint, Insanity^reset;
+^#e43774;15% Shadow Resist^reset;
+^green;+15% Crit (Bio-weapon)^reset;",
+  "shortdescription" : "Flesh Helmet",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 6
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "statusEffects" : [
+    "fleshsetbonus",
+    {
+      "stat" : "fu_fleshset_head",
+      "amount" : 1
+    },
+    {
+      "stat" : "shadowResistance",
+      "amount" : 0.1
+    }
+  ]
+}

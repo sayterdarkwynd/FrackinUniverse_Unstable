@@ -1,0 +1,9 @@
+{
+  "name" : "coldimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "coldimmunity.lua"
+  ]
+}

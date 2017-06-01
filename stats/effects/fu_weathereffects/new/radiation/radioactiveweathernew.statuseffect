@@ -1,0 +1,26 @@
+{
+  "name" : "radioactiveweathernew",
+  "blockingStat" : "biomeradiationImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "radioactiveResistance",
+          "effectCutoffValue" : 0.2,   
+	  "biomeTemp" : 1.1, 
+	  "biomeThreshold" : 0.5,
+	  "baseRate" : 5,
+	  "baseDebuffPerTick" : 3,
+	  "baseDmgPerTick" : 3,
+	  "situationPenalty" : 1.2,
+	  "liquidPenalty" : 0.7,
+	  "biomeNight" : 1.1
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "radioactiveweathernew.lua"
+  ],
+
+  "animationConfig" : "radioactiveweathernew.animation",
+  "label" : "Severe Radiation",
+  "icon" : "/interface/statuses/radiation1.png"
+}

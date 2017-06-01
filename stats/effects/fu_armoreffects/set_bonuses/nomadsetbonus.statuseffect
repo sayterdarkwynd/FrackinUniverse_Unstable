@@ -1,0 +1,10 @@
+{
+  "name" : "nomadsetbonus",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "nomadsetbonus.lua"
+  ],
+  "scriptDelta": 50
+}

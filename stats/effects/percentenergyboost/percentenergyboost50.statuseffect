@@ -1,0 +1,16 @@
+{
+  "name" : "percentenergyboost50",
+  "effectConfig" : {
+    "healthDown" : 0.50
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "percentenergyboost.lua"
+  ],
+  
+  "animationConfig" : "percentenergyboost.animation",
+  
+  "label" : "+50% Energy",
+  "icon" : "/interface/statuses/maxenergy3.png"
+}

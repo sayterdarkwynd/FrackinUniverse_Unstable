@@ -1,0 +1,17 @@
+{
+  "name" : "lightregen",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 420
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "lightregen.lua"
+  ],
+
+  "animationConfig" : "lightregen.animation",
+
+  "label" : "Daylight Regen",
+  "icon" : "/interface/statuses/warm.png"
+}

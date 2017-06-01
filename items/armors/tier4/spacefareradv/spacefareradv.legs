@@ -1,0 +1,63 @@
+{
+  "itemName" : "spacefarerpantsadv",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Set Bonus:
+^cyan;+30% Electric, 20% Physical Resist^reset;
+^#e43774;Immune: Zero-G, Burning, Proto, Pressure, Oxygen, Gas ^reset;
+^green;+240% Mining Laser damage^reset;",  
+  "shortdescription" : "Spacefarer mk2 Greaves",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "learnBlueprintsOnPickup" : [
+  "fuwarphunterhead",
+  "fuwarphunterchest",
+  "fuwarphunterpants"
+  ],
+  "itemTags" : [ "upgradeableWeapon" ],  
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "statusEffects" : [
+    "spacefarersetbonus2",
+    {
+      "stat" : "fu_spacefarerset2_legs",
+      "amount" : 1
+    },
+    {
+      "stat" : "electricResistance",
+      "amount" : 0.1
+    },
+    {
+      "stat" : "physicalResistance",
+      "amount" : 0.07
+    }
+  ]
+}

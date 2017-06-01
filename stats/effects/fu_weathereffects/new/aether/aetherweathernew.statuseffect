@@ -1,0 +1,27 @@
+{
+  "name" : "aetherweathernew",
+  "blockingStat" : "aetherImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "cosmicResistance",
+          "effectCutoffValue" : 0.4,
+	  "biomeTemp" : 2, 
+	  "biomeThreshold" : 0.5,
+	  "baseRate" : 5,
+	  "baseDebuffPerTick" : 1.5,
+	  "baseDmgPerTick" : 5,
+	  "situationPenalty" : 1,
+	  "liquidPenalty" : 1,
+	  "biomeNight" : 1.0 
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "aetherweathernew.lua"
+  ],
+
+  "animationConfig" : "aetherweathernew.animation",
+
+  "label" : "Aetheric Atmosphere",
+  "icon" : "/interface/statuses/cosmic1.png"
+}

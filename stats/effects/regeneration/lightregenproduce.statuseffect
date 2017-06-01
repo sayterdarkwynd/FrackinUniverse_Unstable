@@ -1,0 +1,17 @@
+{
+  "name" : "lightregenproduce",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 120
+  },
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "lightregen.lua"
+  ],
+
+  "animationConfig" : "lightregen.animation",
+
+  "label" : "Lightheal",
+  "icon" : "/interface/statuses/heal.png"
+}

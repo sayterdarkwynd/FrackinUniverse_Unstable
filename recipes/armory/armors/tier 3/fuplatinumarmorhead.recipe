@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mantizitier1head", "count" : 1 },
+    { "item" : "carbonplate", "count" : 3 },
+    { "item" : "corefragmentore", "count" : 2 }
+  ],
+  "output" : { "item" : "fuplatinumarmorhead", "count" : 1 },
+  "groups" : [ "nanofabricator2", "armors", "all" ]
+}

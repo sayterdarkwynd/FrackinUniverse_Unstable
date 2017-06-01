@@ -1,0 +1,17 @@
+{
+  "itemName" : "thornitox",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "thornitox.png",
+  "description" : "Effect:
+^cyan;Poisonous. Makes useful weapons.^reset;",
+  "shortdescription" : "Thornitox Dongle",
+  "category" : "food",
+
+      "effects" : [ [
+      {
+        "effect" : "weakpoison",
+        "duration" : 12
+      }
+    ] ]
+}

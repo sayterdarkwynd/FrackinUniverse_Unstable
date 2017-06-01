@@ -1,0 +1,21 @@
+{
+  "itemName" : "amberrum",
+  "rarity" : "Common",
+  "category" : "drink",
+  "price" : 1460,
+  "inventoryIcon" : "amberrum.png",
+  "description" : "Yo-ho-ho and a bottle of rum!",
+  "shortdescription" : "Amber Rum",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+		{
+        "effect" : "slow",
+        "duration" : 60
+		},
+		{
+		"effect" : "booze",
+		"amount" : 3,
+		"duration" : 60
+        }
+    ] ]
+}

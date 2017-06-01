@@ -1,0 +1,157 @@
+{
+  "fubiomeradiation" : {
+    "unique" : false,
+    "text" : "WARNING! RADIATION LEVELS ON THIS PLANET ARE EXTREMELY HAZARDOUS!\nYou should not attempt further exploration without proper protective equipment!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  
+  "fubiomepressure" : {
+    "unique" : false,
+    "text" : "Greetings! You appear to be rapidly dying due to explosive decompression or extreme pressure. You should seek safetly, and relatively quickly or face ^red;certain death^reset;!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  "fubiomepressure2" : {
+    "unique" : false,
+    "text" : "I am uncertain why you came here. Are you stupid? This isn't at all a place you are evolved to survive. Get out of there! You need ^orange;pressure protection^reset;!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },  
+  "fubiomepressure3" : {
+    "unique" : false,
+    "text" : "Have you gone mad? The pressure here is enough to crush you almost instantly! What would possess you to come unprotected? Get some ^orange;pressure protection^reset; or face death!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },  
+  "fubiomepressure4" : {
+    "unique" : false,
+    "text" : "You are without a doubt the stupidest explorer, ever. You just jumped to a freaking ^red;gas giant^reset; without protecting yourself from pressure? Enjoy your ^red;imminent death^reset;!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },    
+  "fubiomepressurenight" : {
+    "unique" : false,
+    "text" : "Natural forces change the tide of gasses regularly with day and night cycle. As night approaches, you'll find things get a bit worse on your survival. Perhaps return later.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },  
+  "fubiomepressureday" : {
+    "unique" : false,
+    "text" : "As the sun rises, warming the nascent gas of this world you find that the natural forces seem to calm and rapidly reduce in potence.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  }, 
+  "fubiomepressurewind" : {
+    "unique" : false,
+    "text" : "While it is never exactly a pleasant calm day on a Gas Giant, extreme winds severely increase the effects of the environment. Take extra precautions.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },  
+  "fubiomecold" : {
+    "unique" : false,
+    "text" : "WARNING! TEMPERATURE ON THIS PLANET IS DANGEROUSLY LOW!\nYou should not attempt further exploration without proper protective equipment!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  "fubiomecoldwind" : {
+    "unique" : false,
+    "text" : "The extreme winds have made the temperature plummet dramatically. You should get out of the wind unless you wish to freeze to death rapidly.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "fubiomeproto" : {
+    "unique" : false,
+    "text" : "^red;WARNING: TOXIC ATMOSPHERE!^reset; The air here is thick with some sort of viscosity. It makes you feel sluggish, and you feel yourself getting weaker.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+
+  "fubiomeheat" : {
+    "unique" : false,
+    "text" : "WARNING! TEMPERATURE ON THIS PLANET IS DANGEROUSLY HIGH!\nYou should not attempt further exploration without proper protective equipment!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+
+  "fubiomeinsanity" : {
+    "unique" : false,
+    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Something is causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "insanityeffect" : {
+    "unique" : false,
+    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Something is causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "insanityeffectwindy" : {
+    "unique" : false,
+    "text" : "The voices in the wind have informed you of a fantastic sale! It can only be found at the bottom of a Sulphuric Ocean, and only if you're naked! Totally legit! Check it out!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "insanityeffecthungry1" : {
+    "unique" : false,
+    "text" : "You're getting pretty hangry. That means angry and hungry. Because hunger. Food. Have you considered ^red;cannibalism^reset;? It's fast and easy! Try it ! Murder a neighbor! Trust the voices.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "insanityeffecthungry2" : {
+    "unique" : false,
+    "text" : "Okay. You're really getting hungry now. Why haven't you ^red;eaten a close personal friend^reset; yet? They are full of nutrients!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "insanityeffecthungry3" : {
+    "unique" : false,
+    "text" : "I can't help but notice: You're still hungry, and your ^red;hellish maw is not dripping with the viscera of the slain^reset;. What is wrong with you? Eat ^red;sentient species^reset;!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+
+  "insanityeffecthungry4" : {
+    "unique" : false,
+    "text" : "Brain, you are an idiot. You are about to die, and all you need to do to stop that problem is ^red;murder and devour^reset; the next person you see. Get on it. Or I'll make you.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "insanityeffecthungry5" : {
+    "unique" : false,
+    "text" : "I want to eat raw flesh.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "insanityeffecthungry6" : {
+    "unique" : false,
+    "text" : "Why do I increasingly feel like I require meat?",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "insanityeffecthungry7" : {
+    "unique" : false,
+    "text" : "I should have some meat.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  "insanityeffecthungry8" : {
+    "unique" : false,
+    "text" : "I am slowly going crazy. 1 2 3 4 5 6 switch.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  }  
+
+}

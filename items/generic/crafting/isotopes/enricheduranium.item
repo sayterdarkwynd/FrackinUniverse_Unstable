@@ -1,0 +1,22 @@
+{
+  "itemName" : "enricheduranium",
+  "rarity" : "rare",
+  "price" : 300,
+  "category" : "fuel",
+  "inventoryIcon" : "enricheduranium.png",
+  "description" : "An improved form of uranium.",
+  "shortdescription" : "^#88e25b;Enriched Uranium (U)^white;",
+  "fuelAmount" : 125,
+  "radioMessagesOnPickup" : [ "pickupEnricheduranium" ],
+  "learnBlueprintsOnPickup" : [
+     "chargesmg",
+     "chargemachinegun",
+     "uraniumaxe",
+     "uraniumbroadsword",
+     "uraniumdagger",
+     "uraniumhammer",
+     "uraniumshortsword",
+     "uraniumspear"
+   ],
+  "itemTags" : [ "reagent" ]
+}

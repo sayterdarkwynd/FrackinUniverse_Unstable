@@ -1,0 +1,14 @@
+{
+  "itemName" : "greenleaf",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "greenleaf.png",
+  "description" : "Effect:
+^cyan;+40% Energy Regen^reset;",
+  "shortdescription" : "Greenleaf Herb",
+  "category" : "food",
+
+  "effects" : [ [
+      "energyregenfu40"
+    ] ]
+}

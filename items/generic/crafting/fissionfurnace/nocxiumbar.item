@@ -1,0 +1,12 @@
+{
+  "itemName" : "nocxiumbar",
+  "rarity" : "legendary",
+  "price" : 700,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "nocxiumbar.png",
+  "description" : "An abhorrent metal created of raw chaos.",
+  "shortdescription" : "^#88e25b;Nocxium Bar^white;",
+  "learnBlueprintsOnPickup" : [ "nocxiumbar", "shadowtentaclegun", "corruptblade", "corruptspear", "frostblade", "quantumshield"],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "nocxiumbar" }
+}

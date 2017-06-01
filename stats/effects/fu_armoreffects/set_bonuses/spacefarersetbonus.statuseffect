@@ -1,0 +1,9 @@
+{
+  "name" : "spacefarersetbonus",
+    "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "spacefarersetbonus.lua"
+  ]
+}

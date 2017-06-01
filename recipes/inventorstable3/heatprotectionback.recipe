@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fu_nitrogen", "count" : 5 },
+    { "item" : "fu_carbon", "count" : 4 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 2 }
+  ],
+  "output" : { "item" : "heatprotectionback", "count" : 1 },
+  "groups" : [ "craftinganvil2", "hazardgear", "all" ]
+}

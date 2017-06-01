@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "carbonplate", "count" : 2 },
+    { "item" : "corvex", "count" : 1 },
+    { "item" : "prisilitestar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fustarkillerpants",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

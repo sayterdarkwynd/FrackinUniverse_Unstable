@@ -1,0 +1,11 @@
+{
+	"input" : [
+		{ "item" : "copperbar", "count" : 5 },
+		{ "item" : "ironbar", "count" : 2 }
+	],
+	"output" : {
+		"item" : "network_spout",
+		"count" : 1
+	},
+        "groups" : [ "powerstation1", "network", "all" ]
+}

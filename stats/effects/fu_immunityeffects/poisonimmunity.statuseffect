@@ -1,0 +1,11 @@
+{
+  "name" : "poisonStatusImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "poisonimmunity.lua"
+  ],
+  "label" : "Antidote",
+  "icon" : "/interface/statuses/antidote.png"
+}

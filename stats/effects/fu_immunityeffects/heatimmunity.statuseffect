@@ -1,0 +1,9 @@
+{
+  "name" : "heatimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "heatimmunity.lua"
+  ]
+}

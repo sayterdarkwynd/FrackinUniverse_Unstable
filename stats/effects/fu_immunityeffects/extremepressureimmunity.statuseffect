@@ -1,0 +1,9 @@
+{
+  "name" : "extremepressureimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "extremepressureimmunity.lua"
+  ]
+}

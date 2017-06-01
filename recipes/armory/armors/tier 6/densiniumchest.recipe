@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 5 },
+    { "item" : "solariumstar", "count" : 3 },
+    { "item" : "fuprocessor", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "densiniumchest",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "desertweathernew",
+  "blockingStat" : "sandstormImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "fireResistance",
+          "effectCutoffValue" : 0.2,     
+	  "biomeTemp" : 0.75, 
+	  "biomeThreshold" : 0.25,
+	  "baseRate" : 6.5,
+	  "baseDebuffPerTick" : 1,
+	  "baseDmgPerTick" : 0.3,
+	  "situationPenalty" : 1,
+	  "liquidPenalty" : 0.25,
+	  "biomeNight" : 0.45	    
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "desertweathernew.lua"
+  ],
+
+  "animationConfig" : "desertweathernew.animation",
+  "label" : "Desert Heat",
+  "icon" : "/interface/statuses/heat1.png"
+}

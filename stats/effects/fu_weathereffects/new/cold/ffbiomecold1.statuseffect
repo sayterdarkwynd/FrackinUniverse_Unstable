@@ -1,0 +1,27 @@
+{
+  "name" : "ffbiomecold1",
+  "blockingStat" : "biomecoldImmunity",
+
+  "effectConfig" : {
+          "effectCutoff" : "iceResistance",
+          "effectCutoffValue" : 0.2,     
+	  "biomeTemp" : 1, 
+	  "biomeThreshold" : 0.5,
+	  "baseRate" : 4,
+	  "baseDebuffPerTick" : 3,
+	  "baseDmgPerTick" : 3,
+	  "situationPenalty" : 1.2,
+	  "liquidPenalty" : 1.1,
+	  "biomeNight" : 1.1
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "coldweathernew.lua"
+  ],
+
+  "animationConfig" : "coldweathernew.animation",
+
+  "label" : "Severe Cold",
+  "icon" : "/interface/statuses/cold1.png"
+}

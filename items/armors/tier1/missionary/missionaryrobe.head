@@ -1,0 +1,57 @@
+{
+  "itemName" : "missionaryrobehead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Set Bonus:
+^cyan;+10% Jump, +10% Speed^reset; 
+^#e43774;+15% Crit Damage^reset;
+^green;+25% damage (Dual Fist or Quarterstaff)^reset;",
+  "shortdescription" : "Monks Hood",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "learnBlueprintsOnPickup" : [
+        "fulightpriesthead", 
+        "fulightpriestchest", 
+        "fulightpriestpants"	
+  ],
+  "itemTags" : [ "upgradeableWeapon" ],  
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "statusEffects" : [
+    "missionarysetbonus",
+    {
+      "stat" : "fu_missionaryset_chest",
+      "amount" : 1
+    }
+  ]
+}
+

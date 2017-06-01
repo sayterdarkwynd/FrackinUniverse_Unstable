@@ -1,0 +1,21 @@
+{
+  "itemName" : "floralhoneyjar",
+  "rarity" : "Common",
+  "category" : "food",
+  "price" : 20,
+  "inventoryIcon" : "floralhoneyjar.png",
+  "description" : "A jar of aromatic honey.",
+  "shortdescription" : "Floral Honey Jar",
+  "effects" : [ [
+    {
+        "effect" : "honeyheal4",
+        "duration" :180  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

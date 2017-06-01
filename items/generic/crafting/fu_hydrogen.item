@@ -1,0 +1,13 @@
+{
+  "itemName" : "fu_hydrogen",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_hydrogen.png",
+  "description" : "Wonderful applications exist for this element.",
+  "shortdescription" : "Hydrogen (H)",
+  "radioMessagesOnPickup" : [ "pickupHydrogen" ],
+  "learnBlueprintsOnPickup" : [ "isn_flamethrower", "fu_hydrogenmetallic", "fu_flameturret" ],
+  "fuelAmount" : 3,
+  "itemTags" : [ "reagent" ]
+}

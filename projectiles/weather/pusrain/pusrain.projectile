@@ -1,0 +1,29 @@
+{
+  "projectileName" : "pusrain",
+  "physics" : "weather",
+  "image" : "pusrain.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [0, 0, 0],
+  "power" : 5.0,
+  "damageKind" : "poison",
+  "damagePoly" : [ [-50, -50], [50, -50], [50, 50], [-50, 50] ],
+
+  "flippable" : true,
+  "universalDamage" : true,
+  "actionOnReap" : [
+    {
+      "action" : "liquid", 
+      "liquid" : "pus", 
+      "quantity" : 0.25
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      "newMod" : "tentaclegrass",
+      "radius" : 3
+    }
+  ]
+}

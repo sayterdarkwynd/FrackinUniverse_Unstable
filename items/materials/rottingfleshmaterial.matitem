@@ -1,0 +1,12 @@
+{
+  "itemName" : "rottingfleshmaterial",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rottingfleshmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Okay, ew.",
+  "shortdescription" : "Rotting Flesh",
+  
+  "materialId" : 6583,
+  "learnBlueprintsOnPickup" : [ "isn_meatplant", "cultfleshhead", "cultfleshchest", "cultfleshlegs", "magnorbatropus", "intestinewhip" ] 
+}

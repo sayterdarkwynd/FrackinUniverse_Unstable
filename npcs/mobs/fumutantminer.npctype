@@ -1,0 +1,82 @@
+{
+  "type" : "fumutantminer",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 1],
+
+  "dropPools" : [ "ffbanditTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "causticstaghead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcassaultrifle"
+            ]
+          },
+          {
+            "head" : [ { "name" : "faceleechhead", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              "npcshotgun"
+            ]
+          },
+          {
+            "head" : [ { "name" : "scalpionhead", "parameters" : { "colorIndex" : 3 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 3 } } ],
+            "primary" : [
+              "npcmachinepistol"
+            ],
+            "alt" : [
+              "flashlight"
+            ]
+          },
+          {
+            "head" : [ { "name" : "mutantminerhead", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "npctungstenbow"
+            ]
+          },
+          {
+            "head" : [ { "name" : "mutantminerhead", "parameters" : { "colorIndex" : 5 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 5 } } ],
+            "primary" : [
+              "npctungstenbow"
+            ]
+          },
+          {
+            "head" : [ { "name" : "mutantminerhead", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 6 } } ],
+            "primary" : [
+              "npcfeneroxspear"
+            ]
+          },
+          {
+            "head" : [ { "name" : "mutantminerhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 7 } } ],
+            "primary" : [
+              "npcrocketlauncher"
+            ]
+          },
+          {
+            "head" : [ { "name" : "mutantminerhead", "parameters" : { "colorIndex" : 8 } } ],
+            "chest" : [ { "name" : "mutantminerchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "hikerlegs", "parameters" : { "colorIndex" : 8 } } ],
+            "primary" : [
+              "npcwrench"
+            ]
+          }          
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "densealloy",
+  "rarity" : "rare",
+    "price" : 400,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "densealloy.png",
+  "description" : "Aegisalt, violium and ferozium have formed this into a dense alloy.",
+  "shortdescription" : "^#88e25b;Dense Alloy^reset;",
+  "learnBlueprintsOnPickup" : [
+  "isn_magmavulcan",
+  "magnorbhellfire",
+  "hytalisarmorchest", 
+  "hytalisarmorpants",
+  "hytalisarmorhead",
+  "fufreezecannon",
+  "diamondblade",
+  "aetheriumalloy",
+  "fusunwalkerhead",
+  "fusunwalkerchest",
+  "fusunwalkerpants"
+  ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "densealloy" }
+}

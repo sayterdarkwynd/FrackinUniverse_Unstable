@@ -1,0 +1,11 @@
+{
+  "itemName" : "aenemapetal",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "aenemapetal.png",
+  "description" : "Grants a fiery, protective nova effect. Spicy.",
+  "shortdescription" : "Aenema Petal",
+  "category" : "food",
+
+  "effects" : [ [ "fireburst" ] ]
+}

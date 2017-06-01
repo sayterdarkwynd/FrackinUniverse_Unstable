@@ -1,0 +1,17 @@
+{
+  "name" : "regenerationblock",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 70,
+
+  "scripts" : [
+    "regenerationminor.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Regen",
+  "icon" : "/interface/statuses/heal.png"
+}

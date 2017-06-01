@@ -1,0 +1,17 @@
+{
+  "itemName" : "thoriumrod",
+  "price" : 260,
+  "rarity" : "Uncommon",
+  "category" : "fuel",
+  "inventoryIcon" : "thoriumrod.png",
+  "description" : "A rod of thorium.",
+  "shortdescription" : "Thorium Rod",
+  "fuelAmount" : 65,
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+  "fieldscientisthead",
+  "fieldscientistchest",
+  "fieldscientistlegs"
+  ]
+  
+}

@@ -1,0 +1,21 @@
+{
+  "name" : "swimboostaquapod",
+  "effectConfig" : {
+    "movementParameters" : {
+      "liquidImpedance" : 0.2,
+      "liquidForce" : 85,
+      "liquidFriction" : 4,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 50.0
+      }
+    }
+  },
+  "defaultDuration" : 220,
+
+  "scripts" : [
+    "swimboost.lua"
+  ],
+  "animationConfig" : "swimboost1.animation",
+  "label" : "Swim +",
+  "icon" : "/interface/statuses/swimboost.png"
+}

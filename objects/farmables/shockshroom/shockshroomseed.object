@@ -1,0 +1,48 @@
+{
+  "objectName" : "shockshroomseed",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "Shock shrooms make useful weapons when processed.",
+  "shortdescription" : "Shock-Shroom",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 12,
+  "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
+  "inventoryIcon" : "shockshroomseedicon.png",
+  "largeImage" : "shockshroomseed.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "shockshroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1]],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [420, 660]
+    },
+    {
+      "duration" : [420, 660]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "shockshroomHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 8,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "electricplasma"
+          },
+    "maxImmersion" : 0.125
+}

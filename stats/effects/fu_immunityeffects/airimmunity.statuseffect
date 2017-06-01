@@ -1,0 +1,9 @@
+{
+  "name" : "airimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "airimmunity.lua"
+  ]
+}

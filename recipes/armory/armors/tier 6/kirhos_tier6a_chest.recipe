@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "morphiteore", "count" : 7 },
+    { "item" : "refinedviolium", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "kirhostier6achest",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

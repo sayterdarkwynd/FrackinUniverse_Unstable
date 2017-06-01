@@ -1,0 +1,14 @@
+{
+  "itemName" : "wubstem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "wubstemicon.png",
+  "description" : "Effect:
+^cyan;+10% Electric Resistance^reset;",
+  "shortdescription" : "Wubstem",
+  "category" : "food",
+
+      "effects" : [ [
+      "electricblock1"
+    ] ]
+}

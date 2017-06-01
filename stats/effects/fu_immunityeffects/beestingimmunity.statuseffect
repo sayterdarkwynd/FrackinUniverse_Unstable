@@ -1,0 +1,12 @@
+{
+  "name" : "beestingimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "beestingimmunity.lua"
+  ],
+
+  "label" : "X-Sting",
+  "icon" : "/interface/statuses/StingImmune.png"
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "maxenergyboostneg20",
+  "effectConfig" : {
+    "energyAmount" : -20
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "maxenergyboost.lua"
+  ],
+
+  "label" : "-20 Energy",
+  "icon" : "/interface/statuses/maxenergydown.png"
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "gazelemon",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "gazelemon.png",
+  "description" : "Effect:
+^cyan;Eyes emit light, Poison Immunity^reset;",
+  "category" : "food",
+
+  "shortdescription" : "Gaze Lemon",
+  "effects" : [ [
+    "headlamp2", "poisonStatusImmunity" 
+  ] ],
+  "blockingEffects" : [ "headlamp", "headlamp2", "headlamp3", "headlamp4" ]
+}

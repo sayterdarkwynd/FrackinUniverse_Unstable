@@ -1,0 +1,9 @@
+{
+  "name" : "jungleslowimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "jungleslowimmunity.lua"
+  ]
+}

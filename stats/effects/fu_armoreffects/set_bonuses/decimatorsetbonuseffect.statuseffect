@@ -1,0 +1,12 @@
+{
+  "name" : "decimatorsetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "decimatorsetbonuseffect.lua"
+  ],
+  "scriptDelta": 50,
+
+  "label" : "+15% Crit Chance and +15% Crit Damage with Shotguns and Grenade Launchers. ",
+  "icon" : "/interface/statuses/set_rocket.png"
+}

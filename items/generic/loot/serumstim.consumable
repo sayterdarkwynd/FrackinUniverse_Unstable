@@ -1,0 +1,13 @@
+{
+  "itemName" : "serumstim",
+  "rarity" : "legendary",
+  "category" : "medicine",
+  "price" : 200,
+  "inventoryIcon" : "serumstim.png",
+  "description" : "A long-lasting vitality enhancer.",
+  "shortdescription" : "Blood Serum Stim",
+  "effects" : [ [
+     "percenthealthbooststim"
+    ] ],
+  "learnBlueprintsOnPickup" : [ "serumstim" ]
+}

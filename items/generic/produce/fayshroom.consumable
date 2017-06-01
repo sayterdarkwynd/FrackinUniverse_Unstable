@@ -1,0 +1,14 @@
+{
+  "itemName" : "fayshroom",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "fayshroom.png",
+  "description" : "Effect:
+^cyan;Spore Cloud^reset;",
+  "shortdescription" : "Fayshroom",
+   "category" : "food",
+
+  "effects" : [ [
+       "burstfayshroom"
+    ] ]
+}

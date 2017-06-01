@@ -1,0 +1,11 @@
+{
+  "itemName" : "cthulureward",
+  "price" : 12600,
+  "rarity" : "legendary",
+  "inventoryIcon" : "cthulureward.png",
+  "category" : "artifact",
+  "description" : "A strange, unknowably ancient artifact.",
+  "radioMessagesOnPickup" : [ "pickupCthulhureward" ],
+  "shortdescription" : "^#ffe50e;Elder Artifact^white;",
+  "itemTags" : [ "reagent" ]
+}

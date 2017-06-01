@@ -1,0 +1,10 @@
+{
+  "name" : "densiniumsetbonus",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    
+    "densiniumsetbonus.lua"
+  ],
+  "scriptDelta": 50
+}

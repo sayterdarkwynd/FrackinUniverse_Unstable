@@ -1,0 +1,64 @@
+{
+  "objectName" : "centrifuge",
+  "colonyTags" : [ "science", "machines" ],
+  "printable" : false,
+  "rarity" : "uncommon",
+  "description" : "This advanced centrifuge efficiently separates immiscible liquids. ^cyan;Requires ^orange;5u ^cyan;power.^reset;",
+  "shortdescription" : "^cyan;Lab Centrifuge^reset;",
+  "subtitle" : "Extract items from resources",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 1200,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "centrifuge2" ],
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "centrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "centrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "centrifuge.animation",
+  "animationParts" : {
+    "centrifuge" : "centrifuge.png",
+    "centrifugefullbright" : "centrifugefullbright.png"
+  },
+
+  "scripts" : [ "/objects/bees/centrifuge.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+                "/objects/isn_sharedobjectscripts.lua" ],
+                
+  "scriptDelta" : 25,
+  "recipeGroup" : "centrifuge",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "slotCount" : 10,
+  "uiConfig" : "/interface/bees/ironcentrifuge/ironcentrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay": 1,
+  "itemChances": {
+    "rarest": 0.01,
+    "rare": 0.05,
+    "uncommon": 0.11,
+    "normal": 0.25,
+    "common": 0.35
+  },
+
+  "inputSlot": 1,
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "centrifugeType" : "liquid",
+  "isn_powerReciever" : true,
+  "isn_requiredPower" : 5
+}

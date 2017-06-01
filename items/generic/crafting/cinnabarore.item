@@ -1,0 +1,12 @@
+{
+  "itemName" : "cinnabarore",
+  "rarity" : "uncommon",
+  "price" : 210,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cinnabarore.png",
+  "description" : "A stone that can be used to produce mercury via extraction.",
+  "shortdescription" : "Cinnabar",
+  "radioMessagesOnPickup" : [ "pickupCinnabar" ],
+  "learnBlueprintsOnPickup" : [ "ff_mercury" ],
+  "itemTags" : [ "reagent" ]
+}

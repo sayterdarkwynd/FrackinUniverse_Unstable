@@ -1,0 +1,26 @@
+{
+  "itemName" : "moonstonebar",
+  "rarity" : "uncommon",
+    "price" : 270,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "moonstonebar.png",
+  "description" : "Forged moonstone.",
+  "shortdescription" : "Moonstone Bar",
+  "learnBlueprintsOnPickup" : [ 
+  "furaiderchest",
+  "furaiderpants",
+  "furaiderhead",
+  "hoodedchest", 
+  "hoodedlegs", 
+  "hoodedhead",  
+  "chargeshotgun", 
+  "frostcannonarm", 
+  "fuinvaderchest", 
+  "fuinvaderhead", 
+  "fuinvaderpants",
+  "physicsfield_tech",
+  "humangenerator",
+  "magnorbmoonstone"
+  ],
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,59 @@
+{
+  "itemName" : "elderwhip",
+  "price" : 2500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Some sort of tentacle thingy.",
+  "shortdescription" : "Elder Whip",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "whip", "upgradeableWeapon"],
+
+  "inventoryIcon" : "elderwhip.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "elderwhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : {
+      "burstCount" : 3,
+      "particles" : [{"particle" : "poisonswoosh1"}]
+    }},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [3, 20],
+    "segmentImage" : "/items/active/weapons/whip/elderwhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/whip/elderwhipend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "whip.lua" ],
+
+  "elementalType" : "shadow",
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 0.75,
+    "chainDps" : 1.2,
+    "crackDps" : 5.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "shadowlash"
+    },
+
+    "projectileType" : "elderflamethrowerflameff"
+  },
+
+  "critChance" : 3,
+  "critBonus" : 8,
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

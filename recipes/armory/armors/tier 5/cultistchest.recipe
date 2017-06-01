@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "elderrelic13", "count" : 1 },
+    { "item" : "goldenfleece", "count" : 3 },
+    { "item" : "effigiumbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "cultarmorchest",
+    "count" : 1
+  },
+  "groups" : [ "clothingfabricator", "armors", "all" ]
+}
