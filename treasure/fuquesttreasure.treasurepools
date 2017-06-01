@@ -23,7 +23,7 @@
           {"weight" : 0.006, "item" : [ "mmgravgun3", 1]},
           {"weight" : 0.02, "item" : [ "fuvaporizer", 1]},
           {"weight" : 0.008, "item" : [ "rockethammer", 1]},
-          {"weight" : 0.008, "item" : [ "drillspear", 1]},
+          {"weight" : 0.008, "item" : [ "fudrillspear", 1]},
           {"weight" : 0.03, "item" : [ "precursorbroadsword", 1]},
           {"weight" : 0.03, "item" : [ "precursorpistol", 1]},
           {"weight" : 0.03, "item" : [ "precursorspear", 1]},

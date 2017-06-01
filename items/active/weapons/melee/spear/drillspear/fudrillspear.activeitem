@@ -1,5 +1,5 @@
 {
-  "itemName" : "drillspear",
+  "itemName" : "fudrillspear",
   "price" : 780,
   "level" : 5,
   "maxStack" : 1,
@@ -27,7 +27,7 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/spear/drillspear/drillspear.lua"],
+  "scripts" : ["/items/active/weapons/melee/spear/drillspear/fudrillspear.lua"],
 
   "elementalType" : "physical",
 
