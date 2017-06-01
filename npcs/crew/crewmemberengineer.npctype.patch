@@ -10,7 +10,7 @@
           }]
   } ,
   {"op" : "replace",
-  "path" : "/scriptConfig/dialog/crewmember/shipImprovementApplied/default/default",
+  "path" : "/scriptConfig/dialog/crewmember/shipImprovementApplied/default/default/0",
   "value" : [ "It's done! Fuel efficiency is up another 2%! I'll keep working on it!" ]
   } 
-]
+] 
