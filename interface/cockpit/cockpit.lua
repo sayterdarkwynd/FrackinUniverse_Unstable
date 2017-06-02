@@ -336,7 +336,15 @@ end
 -- Helpers
 
 function fuelCost()
-  local cost = config.getParameter("jumpFuelCost") * 4
+  local cost = config.getParameter("jumpFuelCost") -- FU needs custom math here for distance-based fuel cost
+  
+  -- begin FU fuel cost calculation
+  local cost = cost 
+  local fuelPosition = celestial.objectPosition()
+  local shipPosition = celestial.systemPlayerShipPosition(),
+  sb.logInfo("fuelPosition"..fuelPosition)
+  sb.logInfo("shipPosition"..shipPosition)
+  -- end FU fuel cost calculation
   return util.round(cost - cost * (world.getProperty("ship.fuelEfficiency") or 0.0))
 end
 
