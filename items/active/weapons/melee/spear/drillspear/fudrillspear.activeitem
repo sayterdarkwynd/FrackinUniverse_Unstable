@@ -14,17 +14,11 @@
 
   "inventoryIcon" : "drillspearicon.png",
 
-  "animation" : "/items/active/weapons/melee/spear/drillspear/drillspear.animation",
+  "animation" : "/items/active/weapons/melee/spear/drillspear/fudrillspear.animation",
   "animationParts" : {
     "blade" : "blade.png",
     "handle" : "handle.png",
     "handlefullbright" : "handlefullbright.png"
-  },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : [ "/sfx/tools/chainsaw_swing.ogg" ],
-      "fire2" : [ "/sfx/tools/chainsaw_idle.ogg" ]
-    }
   },
 
   "scripts" : ["/items/active/weapons/melee/spear/drillspear/fudrillspear.lua"],

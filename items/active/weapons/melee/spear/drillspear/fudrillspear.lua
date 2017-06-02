@@ -35,14 +35,15 @@ function update(dt, fireMode, shiftHeld)
   if nowActive then
     if self.activeTimer == 0 then
       animator.setAnimationState("blade", "active")
-      animator.playSound(self.fireSound2 or "fire2", -1)
+      animator.playSound("fire2", -1)
     end
     self.activeTimer = self.activeTime
   elseif self.activeTimer > 0 then
     self.activeTimer = math.max(0, self.activeTimer - dt)
     if self.activeTimer == 0 then
       animator.setAnimationState("blade", "inactive")
-      animator.stopAllSounds(self.fireSound2 or "fire2")
+      animator.stopAllSounds("fire2")
+      animator.playSound("winddown")
     end
   end
 end

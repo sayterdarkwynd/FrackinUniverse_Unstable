@@ -147,7 +147,9 @@
   },
 
   "sounds" : {
-    "fire" : [],
-    "fire2" : []
+    "fire" : [ "/sfx/melee/swing_spear.ogg" ],
+    "fire2" : [ "/sfx/melee/drillspear_active_loop1.ogg", "/sfx/melee/drillspear_active_loop2.ogg" ],
+    "windup" : [ "/sfx/melee/drillspear_windup1.ogg", "/sfx/melee/drillspear_windup2.ogg", "/sfx/melee/drillspear_windup3.ogg" ],
+    "winddown" : [ "/sfx/melee/drillspear_winddown1.ogg", "/sfx/melee/drillspear_winddown2.ogg" ]
   }
 }
