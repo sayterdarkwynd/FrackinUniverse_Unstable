@@ -16,7 +16,12 @@
       },
 
       "role" : {
-        "benefits" : [       
+        "benefits" : [   
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "maxFuel",
+            "value" : 200
+          },         
           {
             // Ephemeral effects gained upon leaving the ship
             "type" : "EphemeralEffect",
@@ -41,7 +46,7 @@
         "roleDescription" : {
           "default" : {
             "default" : [
-              "I'll give you a boost whenever we're on the ship!"
+              "I'll give you a fuel boost whenever we're on the ship!"
             ]
           }
         },

@@ -46,11 +46,16 @@
             "effect" : "defenseboostgreg",
             "defenseAmount" : 6,
             "duration" : 300
-          },         
+          },
+	  {
+            "type": "ShipUpgradeBenefit",
+            "property": "fuelEfficiency",
+            "value": 0.3
+          },
           {
-            // Persistent effects are active while on the ship
-            "type" : "PersistentEffect",
-            "effect" : "regeneration1"
+            "type": "ShipUpgradeBenefit",
+            "property": "maxFuel",
+            "value": 300
           }
         ],
         "type" : "soldier",

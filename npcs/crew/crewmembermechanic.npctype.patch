@@ -5,7 +5,7 @@
     "value": {
       "type": "ShipUpgradeBenefit",
       "property": "maxFuel",
-      "value": 100
+      "value": 200
     }
   }
 ]
