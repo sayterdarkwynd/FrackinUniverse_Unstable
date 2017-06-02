@@ -1,16 +1,24 @@
 [
   {"op" : "replace", 
   "path" : "/scriptConfig/crew/role/benefits",
-  "value" :           [{
+  "value" : 
+          [
+          {
             "type" : "PeriodicMultiplier",
             "property" : "fuelEfficiency",
             "value" : 1.02,
             "limit" : 1.5,
             "period" : 2000
-          }]
+          },
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "shipSpeed",
+            "value" : 3.75
+          }          
+          ]
   } ,
   {"op" : "replace",
-  "path" : "/scriptConfig/dialog/crewmember/shipImprovementApplied/default/default/0",
-  "value" : [ "It's done! Fuel efficiency is up another 2%! I'll keep working on it!" ]
+  "path" : "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+  "value" : [ "I'll keep your engines in good shape. Thrust velocity is up by 25%!" ]
   } 
 ] 
