@@ -116,7 +116,7 @@ function update(dt)
     local curYPosition = mcontroller.yPosition()
     local yPosChange = curYPosition - (self.lastYPosition or curYPosition)
 
-	if self.fallDistance > minimumFallDistance and -self.lastYVelocity > minimumFallVel and mcontroller.onGround() then
+	if self.fallDistance > minimumFallDistance and -self.lastYVelocity > minimumFallVel and mcontroller.onGround() and not inLiquid() then
 	  --fall damage is proportional to max health, with 100.0 being the player's standard
 	  local healthRatio = status.stat("maxHealth") / 100.0
 
@@ -161,4 +161,19 @@ function update(dt)
   if mcontroller.position()[2] < self.worldBottomDeathLevel then
     status.setResourcePercentage("health", 0)
   end
+end
+
+function inLiquid() --no fall damage while submerged in liquids, Period.
+	local excludeLiquidIds={49,50,62,63,64,66} --gases are not liquids.
+	local liquidID = 0
+	if mcontroller.liquidPercentage() > 0.1 then
+		liquidID = mcontroller.liquidId()
+    for i=1,excludeLiquidIds.n do
+      if excludeLiquidIds[i] == liquidID then
+				liquidID=0
+        break
+      end
+    end
+	end
+	return liquidID > 0
 end

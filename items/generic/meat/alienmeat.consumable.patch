@@ -1,5 +1,6 @@
 [
-	{ 	"op": "add", 
+	{
+		"op": "add",
 		"path": "/learnBlueprintsOnPickup/-",
 		"value": "meatchunk"
 	}
