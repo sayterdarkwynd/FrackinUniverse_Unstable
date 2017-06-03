@@ -339,11 +339,13 @@ function fuelCost()
   local cost = config.getParameter("jumpFuelCost") 
   
   -- FU needs custom math here for distance-based fuel cost
-  --local cost = cost 
-  --local fuelPosition = celestial.objectPosition()
-  --local shipPosition = celestial.systemPlayerShipPosition(),
-  --sb.logInfo("fuelPosition"..fuelPosition)
-  --sb.logInfo("shipPosition"..shipPosition)
+  --local cost = cost
+  sb.logInfo("%s",_ENV)
+  sb.logInfo("%s",self.travel)
+  --local fuelPosition = self.system.target
+  --local shipPosition = self.travel  
+  --sb.logInfo("fuelPosition %s", fuelPosition)
+  --sb.logInfo("shipPosition %s", shipPosition)
   -- end FU fuel cost calculation
   return util.round(cost - cost * (world.getProperty("ship.fuelEfficiency") or 0.0))
 end
@@ -850,6 +852,7 @@ function systemScreenState(system, warpIn)
     end
 
     if self.travel.system then
+      -- FU   can we set fuel cost here? 
       if isCurrent and compare(self.travel.system, system.location) then
         if self.travel.target then
           if self.travel.target[1] ~= "coordinate" or celestial.visitableParameters(self.travel.target[2]) then
