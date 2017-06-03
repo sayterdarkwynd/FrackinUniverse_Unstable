@@ -42,19 +42,31 @@ function applyDamageRequest(damageRequest)
   end
 
   local hitType = damageRequest.hitType
-  local damageSourceKind = damageRequest.damageSourceKind
-    local elementalStat = root.elementalResistance(damageSourceKind)
-    local resistance = status.stat(elementalStat)
-    damage = damage - (resistance * damage)
-    if resistance ~= 0 and damage > 0 then
-      hitType = resistance > 0 and "weakhit" or "stronghit"
-    end
+  
+  
+  local elementalStat = root.elementalResistance(damageRequest.damageSourceKind)
+  local resistance = status.stat(elementalStat)
+  damage = damage - (resistance * damage)
+  if resistance ~= 0 and damage > 0 then
+    hitType = resistance > 0 and "weakhit" or "stronghit"
+  end
 
   local healthLost = math.min(damage, status.resource("health"))
   if healthLost > 0 and damageRequest.damageType ~= "Knockback" then
     status.modifyResource("health", -healthLost)
     self.damageFlashTime = 0.07
   end
+    if hitType == "stronghit" then
+      self.damageFlashTime = 0.07		
+      self.damageFlashType = "strong"		
+    elseif hitType == "weakhit" then		
+      self.damageFlashTime = 0.07		
+      self.damageFlashType = "weak"		
+    else		
+      self.damageFlashTime = 0.07		
+      self.damageFlashType = "default"		
+    end  
+  
 
   status.addEphemeralEffects(damageRequest.statusEffects, damageRequest.sourceEntityId)
 
@@ -89,7 +101,7 @@ function applyDamageRequest(damageRequest)
     healthLost = healthLost,
     hitType = hitType,
     kind = "Normal",
-    damageSourceKind = damageSourceKind,
+    damageSourceKind = damageRequest.damageSourceKind,
     targetMaterialKind = status.statusProperty("targetMaterialKind")
   }}
 end
@@ -144,6 +156,11 @@ function update(dt)
 
   if self.damageFlashTime > 0 then
     local color = status.statusProperty("damageFlashColor") or "ff0000=0.85"
+    if self.damageFlashType == "strong" then		
+      color = status.statusProperty("strongDamageFlashColor") or "ffffff=1.0" or color		
+    elseif self.damageFlashType == "weak" then		
+      color = status.statusProperty("weakDamageFlashColor") or "000000=0.0" or color		
+    end    
     status.setPrimaryDirectives(string.format("fade=%s", color))
   else
     status.setPrimaryDirectives()
@@ -158,7 +175,7 @@ function update(dt)
     self.applyKnockback = nil
   end
 
-  if mcontroller.position()[2] < self.worldBottomDeathLevel then
+  if mcontroller.atWorldLimit(true) then
     status.setResourcePercentage("health", 0)
   end
 end

@@ -22,7 +22,7 @@ end
 
 function applyDamageRequest(damageRequest)
   --modified next line
-  if damageRequest.damageSourceKind ~= "falling" and (self.hitInvulnerabilityTime > 0 or world.getProperty("nonCombat")) then
+  if damageRequest.damageSourceKind ~= "falling" and (self.hitInvulnerabilityTime > 0 or self.hitInvulnerabilityTime > 0 or world.getProperty("nonCombat")) then
     return {}
   end
 
@@ -174,7 +174,7 @@ function update(dt)
     status.modifyResourcePercentage("shieldStamina", status.stat("shieldStaminaRegen") * dt)
   end
 
-  if mcontroller.position()[2] < self.worldBottomDeathLevel then
+  if mcontroller.atWorldLimit(true) then
     status.setResourcePercentage("health", 0)
   end
 
