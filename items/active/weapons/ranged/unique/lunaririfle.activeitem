@@ -46,7 +46,7 @@
     "projectileCount" : 2,
     "fireType" : "auto",
 
-    "projectileType" : "lunarishot",
+    "projectileType" : "lunarishotwobble",
     "projectileParameters" : { 
       "speed" : 40,
       "knockback" : 2
