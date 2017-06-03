@@ -5,11 +5,11 @@ function init()
   self.lastYPosition = 0
   self.lastYVelocity = 0
   self.fallDistance = 0
-  
+
   self.fallDamagePreferences = settings.stringToInteger[settings.getSetting("npcs", "aggressive")] or 0
-  
+
   --end of fall damage code
-  
+
   self.damageFlashTime = 0
   self.hitInvulnerabilityTime = 0
 
@@ -108,14 +108,14 @@ function update(dt)
     local minimumFallVel = 40
     local baseGravity = 80
     local gravityDiffFactor = 1 / 30.0
-  
+
     local curYPosition = mcontroller.yPosition()
     local yPosChange = curYPosition - (self.lastYPosition or curYPosition)
-	
-	if self.fallDistance > minimumFallDistance and -self.lastYVelocity > minimumFallVel and mcontroller.onGround() then
+
+	if self.fallDistance > minimumFallDistance and -self.lastYVelocity > minimumFallVel and mcontroller.onGround() and not inLiquid() then
 	  --fall damage is proportional to max health, with 100.0 being the player's standard
 	  local healthRatio = status.stat("maxHealth") / 100.0
-	
+
       local damage = (self.fallDistance - minimumFallDistance) * fallDistanceDamageFactor
       damage = damage * (1.0 + (world.gravity(mcontroller.position()) - baseGravity) * gravityDiffFactor)
       damage = damage * healthRatio
@@ -126,7 +126,7 @@ function update(dt)
           sourceEntityId = entity.id()
         })
     end
-	
+
 	if mcontroller.yVelocity() < -minimumFallVel and not mcontroller.onGround() then
       self.fallDistance = self.fallDistance + -yPosChange
     else
@@ -137,7 +137,7 @@ function update(dt)
     self.lastYVelocity = mcontroller.yVelocity()
   end
   --end of fall damage
-  
+
   if self.damageFlashTime > 0 then
     status.setPrimaryDirectives("fade=ff0000=0.85")
   else
@@ -200,4 +200,19 @@ function drawDebugResources()
 
   world.debugText(resourceName, vec2.add(position, {2.25, y - 0.125}), "blue")
   y = y + 1
+end
+
+function inLiquid() --no fall damage while submerged in liquids, Period.
+	local excludeLiquidIds={49,50,62,63,64,66} --gases are not liquids.
+	local liquidID = 0
+	if mcontroller.liquidPercentage() > 0.1 then
+		liquidID = mcontroller.liquidId()
+    for i=1,excludeLiquidIds.n do
+      if excludeLiquidIds[i] == liquidID then
+				liquidID=0
+        break
+      end
+    end
+	end
+	return liquidID > 0
 end
