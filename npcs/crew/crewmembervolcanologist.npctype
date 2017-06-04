@@ -25,7 +25,7 @@
 	    {
 	      "type": "ShipUpgradeBenefit",
 	      "property": "maxFuel",
-	      "value": 110
+	      "value": 220
 	    }  
         ],
         "type" : "chemist",
@@ -40,7 +40,7 @@
         "roleDescription" : {
           "default" : {
             "default" : [
-              "I'll give you a fuel boost whenever we're on the ship!"
+              "With my special materials, your fuel capacity is much better."
             ]
           }
         },

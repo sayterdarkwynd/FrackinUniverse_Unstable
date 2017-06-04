@@ -46,7 +46,7 @@
         "roleDescription" : {
           "default" : {
             "default" : [
-              "I'll give you a fuel boost whenever we're on the ship!"
+              "I'll toss some contraband fuel into the fuel tank."
             ]
           }
         },

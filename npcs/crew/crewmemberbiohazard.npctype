@@ -20,7 +20,7 @@
           {
             "type" : "ShipUpgradeBenefit",
             "property" : "maxFuel",
-            "value" : 200
+            "value" : 140
           },         
           {
             // Ephemeral effects gained upon leaving the ship

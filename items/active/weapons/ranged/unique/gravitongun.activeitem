@@ -40,14 +40,14 @@
     "fireTime" : 0.55,
     "baseDps" : 9.37,
     "energyUsage" : 34.0,
-    "inaccuracy" : 0.06,
+    "inaccuracy" : 0,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "gravitonorb",
+    "projectileType" : "gravitonorbsmall4",
     "projectileParameters" : { 
-      "speed" : 65,
+      "speed" : 42,
       "knockback" : 24
     },
 	  "stances" : {
