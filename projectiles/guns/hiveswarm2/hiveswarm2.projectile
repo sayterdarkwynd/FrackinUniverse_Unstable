@@ -1,9 +1,9 @@
 {
   "projectileName" : "hiveswarm2",
   "image" : "hiveswarm2.png",
-  "animationCycle" : 0.9,
+  "animationCycle" : 1,
   "level" : 4,
-  "frameNumber" : 3,
+  "frameNumber" : 18,
   "speed" : 0,
   "fallSpeed" : 0,
   "animationLoops" : false,
@@ -12,9 +12,7 @@
   "flippable" : true,
   "universalDamage" : true,
   "damageKind" : "default",
-  "knockback" : 2,
-  "knockbackDirectional" : true,
-  "timeToLive" : 1.8,
+  "timeToLive" : 4,
   "actionOnReap" : [
     {
       "action" : "config",
@@ -27,12 +25,13 @@
   ],
   "periodicActions" : [
     {
-      "time" : 0.15,
+      "time" : 0.03,
       "loop" : true,
       "action" : "projectile",
       "type" : "hiveswarm3",
-      "inheritDamageFactor" :0.5,
+      "inheritDamageFactor" :0.75,
       "fuzzAngle" : 360
    }  
-  ]
+  ],
+  "statusEffects" : [ "fubeesting2" ]
 }

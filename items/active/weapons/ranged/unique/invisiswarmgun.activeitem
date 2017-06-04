@@ -36,8 +36,8 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-    "fireTime" : 2.5,
-    "baseDps" : 4.5,
+    "fireTime" : 0.7,
+    "baseDps" : 7.5,
     "energyUsage" : 35.0,
     "inaccuracy" : 0,
 
@@ -46,7 +46,7 @@
 
     "projectileType" : "hiveswarm2",
     "projectileParameters" : {
-      "speed" : 32
+      "speed" : 22
     },
     "statusEffects" : [ "weakenweather2" ],
   "stances" : {

@@ -9,9 +9,10 @@
 
     "crew" : {
       "defaultUniform" : {
-        "head" : "fuqueenhead",
-        "chest" : "fuqueenchest",
-        "legs" : "fuqueenlegs"
+        "head" : "fugoldenhead",
+        "chest" : "fugoldenchest",
+        "legs" : "fugoldenlegs",
+        "back" : "fubeewings"
       },
 
       "role" : {
@@ -367,13 +368,20 @@
     "default" : [
       [0, [
           {
+            "head" : [ { "name" : "fugoldenhead" } ],
+            "chest" : [ { "name" : "fugoldenchest" } ],
+            "legs" : [ { "name" : "fugoldenlegs" } ],
+            "primary" : [ "invisiswarmgun" ],
+            "sheathedprimary" : [ "bugnet" ]
+          },      
+          {
             "head" : [ { "name" : "fuqueenhead" } ],
             "chest" : [ { "name" : "fuqueenchest" } ],
             "legs" : [ { "name" : "fuqueenlegs" } ],
             "primary" : [ "invisiswarmgun" ],
             "sheathedprimary" : [ "bugnet" ]
           }
-        ] ]       
+        ] ]              
     ]
   },
   "statusControllerSettings" : {
