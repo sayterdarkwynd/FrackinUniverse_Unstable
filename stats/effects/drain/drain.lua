@@ -1,7 +1,7 @@
 function init()
   animator.setParticleEmitterOffsetRegion("healing", mcontroller.boundBox())
   animator.setParticleEmitterEmissionRate("healing", config.getParameter("emissionRate", 3))
-  animator.setParticleEmitterActive("healing", false)
+  animator.setParticleEmitter("healing", false)
 
   self.visualDuration = config.getParameter("visualDuration") or 0.2
 
@@ -17,7 +17,7 @@ function init()
     effect.setParentDirectives("border="..self.border)
   end
 
-  self.queryDamageSince = 0,
+  self.queryDamageSince = 0
 end
 
 function resetDrain()

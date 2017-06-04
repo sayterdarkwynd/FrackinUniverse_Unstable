@@ -10,6 +10,8 @@
     "drain.lua"
   ],
 
+  "animationConfig" : "drain.animation",
+
   "label" : "Drain",
   "icon" : "/interface/statuses/absorb.png"
 }

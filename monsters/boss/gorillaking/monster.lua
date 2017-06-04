@@ -26,7 +26,9 @@ function init()
     storage.spawnPosition = groundSpawnPosition or position
   end
 
+
   self.behavior = behavior.behavior(config.getParameter("behavior"), sb.jsonMerge(config.getParameter("behaviorConfig", {}), skillBehaviorConfig()), _ENV)
+
   self.board = self.behavior:blackboard()
   self.board:setPosition("spawn", storage.spawnPosition)
 
@@ -89,8 +91,7 @@ function init()
 
   monster.setName("Uberilla")
   monster.setDamageBar("special") 
-  
-  
+
   monster.setInteractive(config.getParameter("interactive", false))
 
   monster.setAnimationParameter("chains", config.getParameter("chains"))
@@ -100,7 +101,7 @@ function update(dt)
   if config.getParameter("facingMode", "control") == "transformation" then
     mcontroller.controlFace(1)
   end
-  
+
   capturable.update(dt)
   self.damageTaken:update()
 
@@ -176,6 +177,7 @@ function update(dt)
     overrideCollisionPoly()
   end
   self.behaviorTick = self.behaviorTick + 1
+
 end
 
 function skillBehaviorConfig()

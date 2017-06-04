@@ -435,48 +435,62 @@
             "parameters": {},
             "children": [
               {
-                "title": "optional",
-                "type": "decorator",
-                "name": "optional",
-                "parameters": {
-                  "shouldRun": {"key": "<avoidLiquid>"}
-                },
-                "child": {
-                  "title": "parallel",
-                  "type": "composite",
-                  "name": "parallel",
-                  "parameters": {
-                    "fail": {"value": 1},
-                    "success": {"value": -1}
-                  },
-                  "children": [
-                    {
-                      "title": "lineLiquidCollision",
-                      "type": "action",
-                      "name": "lineLiquidCollision",
-                      "parameters": {
-                        "endLine": {"key": "movePosition"},
-                        "excludeLiquidIds": {"key": "<excludeLiquidIds>"},
-                        "startLine": {"key": "self"}
-                      }
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "optional",
+                    "type": "decorator",
+                    "name": "optional",
+                    "parameters": {
+                      "shouldRun": {"key": "<avoidLiquid>"}
                     },
-                    {
-                      "title": "controlApproachVelocity",
+                    "child": {
+                      "title": "failure",
                       "type": "action",
-                      "name": "controlApproachVelocity",
-                      "parameters": {
-                        "force": {"value": 20},
-                        "velocity": {"value": [0, 0]}
-                      }
-                    },
-                    {
-                      "title": "runner",
-                      "type": "action",
-                      "name": "runner",
+                      "name": "failure",
                       "parameters": {}
                     }
-                  ]
-                }
+                  },
+                  {
+                    "title": "parallel",
+                    "type": "composite",
+                    "name": "parallel",
+                    "parameters": {
+                      "fail": {"value": 1},
+                      "success": {"value": -1}
+                    },
+                    "children": [
+                      {
+                        "title": "lineLiquidCollision",
+                        "type": "action",
+                        "name": "lineLiquidCollision",
+                        "parameters": {
+                          "endLine": {"key": "movePosition"},
+                          "excludeLiquidIds": {"key": "<excludeLiquidIds>"},
+                          "startLine": {"key": "self"}
+                        }
+                      },
+                      {
+                        "title": "controlApproachVelocity",
+                        "type": "action",
+                        "name": "controlApproachVelocity",
+                        "parameters": {
+                          "force": {"value": 20},
+                          "velocity": {"value": [0, 0]}
+                        }
+                      },
+                      {
+                        "title": "runner",
+                        "type": "action",
+                        "name": "runner",
+                        "parameters": {}
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "title": "parallel",
