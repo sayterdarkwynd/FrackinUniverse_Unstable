@@ -83,14 +83,14 @@ function applyDamageRequest(damageRequest)
   if not status.resourcePositive("health") then
     hitType = "kill"
     --bows should cause hunting drops regardless of damageKind
-    if string.find(damageSourceKind, "bow") then
-      string.gsub(damageSourceKind, "fire", "")
-      string.gsub(damageSourceKind, "ice", "")
-      string.gsub(damageSourceKind, "electric", "")
-      string.gsub(damageSourceKind, "poison", "")
-      string.gsub(damageSourceKind, "shadow", "")
-      string.gsub(damageSourceKind, "radioactive", "")
-      string.gsub(damageSourceKind, "cosmic", "")
+    if string.find(elementalStat, "bow") then
+      string.gsub(elementalStat, "fire", "")
+      string.gsub(elementalStat, "ice", "")
+      string.gsub(elementalStat, "electric", "")
+      string.gsub(elementalStat, "poison", "")
+      string.gsub(elementalStat, "shadow", "")
+      string.gsub(elementalStat, "radioactive", "")
+      string.gsub(elementalStat, "cosmic", "")
     end
   end
   return {{

@@ -19,7 +19,7 @@
           {
             "type" : "ShipUpgradeBenefit",
             "property" : "shipSpeed",
-            "value" : 2.75
+            "value" : 1.25
           },        
           {
             // Ephemeral effects gained upon leaving the ship
@@ -45,7 +45,7 @@
         "roleDescription" : {
           "default" : {
             "default" : [
-              "I'll give you a ship speed boost whenever we're on the ship!"
+              "I will interface with SAIL and increase your ships speed."
             ]
           }
         },
