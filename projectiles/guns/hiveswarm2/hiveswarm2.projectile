@@ -1,0 +1,38 @@
+{
+  "projectileName" : "hiveswarm2",
+  "image" : "hiveswarm2.png",
+  "animationCycle" : 0.9,
+  "level" : 4,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : true,
+  "damageKind" : "default",
+  "knockback" : 2,
+  "knockbackDirectional" : true,
+  "timeToLive" : 1.8,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/beeboom/beeboom.config"
+    },  
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]
+    }  
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.15,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "hiveswarm3",
+      "inheritDamageFactor" :0.5,
+      "fuzzAngle" : 360
+   }  
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "projectileName" : "hiveswarm3",
+  "image" : "hiveswarm2.png",
+  "animationCycle" : 0.9,
+  "level" : 4,
+  "frameNumber" : 3,
+  "speed" : 1,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "universalDamage" : true,
+  "damageKind" : "default",
+  "knockback" : 2,
+  "knockbackDirectional" : true
+}

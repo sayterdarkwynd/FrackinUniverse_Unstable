@@ -44,10 +44,9 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "insectswarm",
+    "projectileType" : "hiveswarm2",
     "projectileParameters" : {
-      "speed" : 32,
-      "knockback" : 1
+      "speed" : 32
     },
     "statusEffects" : [ "weakenweather2" ],
   "stances" : {

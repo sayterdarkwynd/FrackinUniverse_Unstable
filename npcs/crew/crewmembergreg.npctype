@@ -1,5 +1,5 @@
 {
-  "type" : "crewmemberfubees",
+  "type" : "crewmemberg",
   "baseType" : "base",
 
   "dropPools" : [ "villagertreasure" ],
@@ -467,10 +467,7 @@
     "default" : [
       [0, [
           {
-            "head" : [ { "name" : "copperarmorhead" } ],
-            "chest" : [ { "name" : "copperarmorchest" } ],
-            "legs" : [ { "name" : "copperarmorpants" } ],
-            "primary" : [ "invisiswarmgun" ],
+            "primary" : [ "negablade" ],
             "sheathedprimary" : [ "bugnet" ]
           }
         ] ]
