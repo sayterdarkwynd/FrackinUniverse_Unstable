@@ -15,6 +15,7 @@
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "lightColor" : [100, 100, 0],
   "damageKind" : "fireplasma",
+  "emitters" : [ "tinyrocketsmoke" ],
   "statusEffects" : [ "burning" ],
   "periodicActions" : [
     {

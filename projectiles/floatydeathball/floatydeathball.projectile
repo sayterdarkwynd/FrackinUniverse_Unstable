@@ -13,9 +13,10 @@
   "baseHomingControlForce" : 2,
   "lightColor" : [160, 160, 0],
   "frameNumber" : 2,
+  "emitters" : [ "tinyrocketsmoke" ],
   "periodicActions" : [
     {
-      "time" : 0.09,
+      "time" : 0.14,
       "loop" : true,
       "action" : "projectile",
       "type" : "flamethrowerflameff",
