@@ -208,6 +208,16 @@
                 ]
               }
             },
+	        "combatBenefit" : {
+		  "default" : {
+		    "default" : [
+		      "My tough-as-nails training will protect you from jungles.",
+		      "Let's find the enemy! This terrain is not even a bother to us!",
+		      "I'll help us to prowl the jungle unhindered!",
+		      "Mud? Clay? Hah. Walk on through."
+		    ]
+		  }
+		},             
             "roleDescription" : {
               "default" : {
                 "default" : [

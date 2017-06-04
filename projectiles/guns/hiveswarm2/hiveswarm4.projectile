@@ -1,5 +1,5 @@
 {
-  "projectileName" : "hiveswarm2",
+  "projectileName" : "hiveswarm4",
   "image" : "hiveswarm2.png",
   "animationCycle" : 1,
   "level" : 4,
@@ -10,14 +10,11 @@
   "orientationLocked" : true,
   "piercing" : true,
   "flippable" : true,
+  "power" : 5,
   "universalDamage" : true,
   "damageKind" : "default",
   "timeToLive" : 2,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/beeboom/beeboom.config"
-    },  
+  "actionOnReap" : [ 
     {
       "action" : "sound",
       "options" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]

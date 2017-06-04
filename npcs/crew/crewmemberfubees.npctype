@@ -170,6 +170,16 @@
                     ]
                   }
                 },
+	        "combatBenefit" : {
+		  "default" : {
+		    "default" : [
+		      "Let me make you immune to BEES!",
+		      "Bee stings suck! Now you don't need to worry!",
+		      "Have some bee-proofing!",
+		      "I can help you avoid the wrath of beeeeeees!!"
+		    ]
+		  }
+		},                
                 "respawned" : {
                   "default" : {
                     "default" : [
