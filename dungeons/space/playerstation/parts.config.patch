@@ -48,5 +48,29 @@
 				["wire", 200]
 			]
 		}
+	},
+	{"op":"add", "path" : "/parts/solarhall1", "value":
+		{
+			"placeable" : true,
+			"dungeon" : "playerstation-solarhall1",
+			"tiles" : [
+				[0, 0]
+			],
+			"anchors" : [
+				[[1, 0], [0, 0]],
+				[[-1, 0], [0, 0]]
+			],
+			
+			"icon" : "/dungeons/space/playerstation/solarhall1.png",
+			"displayName" : "Solar Hall Tier 1",
+			"description" : "A hallway with solar arrays on top.",
+			
+			"input" : [
+				["titaniumbar", 50],
+				["goldbar", 70],
+				["silverbar", 120],
+				["wire", 200]
+			]
+		}
 	}
 ]
