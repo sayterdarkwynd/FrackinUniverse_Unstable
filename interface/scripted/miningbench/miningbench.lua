@@ -4,7 +4,7 @@ require "/scripts/interp.lua"
 function init()
   self.itemList = "itemScrollArea.itemList"
 
-  self.upgradeLevel = 8
+  self.upgradeLevel = 10
 
   self.upgradeableWeaponItems = {}
   self.selectedItem = nil
@@ -18,22 +18,21 @@ end
 function upgradeCost(itemConfig)
   if itemConfig == nil then return 0 end
 
-  local prevValue = root.evalFunction("weaponEssenceValue", itemConfig.parameters.level or itemConfig.config.level or 1)
-  local newValue = (root.evalFunction("weaponEssenceValue", self.upgradeLevel) * (itemConfig.parameters.level or itemConfig.config.level or 1)/3)
-
-  return math.floor(newValue - prevValue)
+  local prevValue = root.evalFunction("minerModuleValue", itemConfig.parameters.level or itemConfig.config.level or 1)
+  local newValue = (root.evalFunction("minerModuleValue", self.upgradeLevel) * (itemConfig.parameters.level or itemConfig.config.level or 1)/25)
+  return math.floor(prevValue)
 end
 
 
 function populateItemList(forceRepop)
-  local upgradeableWeaponItems = player.itemsWithTag("upgradeableWeapon")
+  local upgradeableWeaponItems = player.itemsWithTag("mininglaser")
   for i = 1, #upgradeableWeaponItems do
     upgradeableWeaponItems[i].count = 1
   end
 
   widget.setVisible("emptyLabel", #upgradeableWeaponItems == 0)
 
-  local playerEssence = player.hasItem("upgrademodule")
+  local playerModule = player.hasCountOfItem("manipulatormodule", true)
 
   if forceRepop or not compare(upgradeableWeaponItems, self.upgradeableWeaponItems) then
     self.upgradeableWeaponItems = upgradeableWeaponItems
@@ -57,7 +56,7 @@ function populateItemList(forceRepop)
             price = price
           })
 
-        widget.setVisible(string.format("%s.unavailableoverlay", listItem), price > playerEssence)
+        widget.setVisible(string.format("%s.unavailableoverlay", listItem), price > playerModule)
       end
     end
 
@@ -67,15 +66,15 @@ function populateItemList(forceRepop)
 end
 
 function showWeapon(item, price)
-  local playerEssence = player.hasItem("upgrademodule")
+  local playerModule =  player.hasCountOfItem("manipulatormodule", true)
   local enableButton = false
 
   if item then
-    enableButton = playerEssence >= price
+    enableButton = playerModule >= price
     local directive = enableButton and "^green;" or "^red;"
-    widget.setText("essenceCost", string.format("%s%s / %s", directive, playerEssence, price))
+    widget.setText("essenceCost", string.format("%s%s / %s", directive, playerModule, price))
   else
-    widget.setText("essenceCost", string.format("%s / --", playerEssence))
+    widget.setText("essenceCost", string.format("%s / --", playerModule))
   end
 
   widget.setButtonEnabled("btnUpgrade", enableButton)
@@ -92,12 +91,6 @@ function itemSelected()
   end
 end
 
-function isArmor()
-  if (upgradedItem.parameters.category == "legarmor") or (upgradedItem.parameters.category == "chestarmor") or (upgradedItem.parameters.category == "headarmor") then
-     isArmorSet = 1
-  return isArmorSet
-  end
-end
 
 function doUpgrade()
   if self.selectedItem then
@@ -107,7 +100,7 @@ function doUpgrade()
     if upgradeItem then
       local consumedItem = player.consumeItem(upgradeItem, false, true)
       if consumedItem then
-        local consumedCurrency = player.consumeItem("upgrademodule", false, true)
+        local consumedCurrency = player.consumeItem("manipulatormodule", false, selectedData.price)
         local upgradedItem = copy(consumedItem)
         if consumedCurrency then
         
@@ -135,12 +128,12 @@ function doUpgrade()
 			  
 		    -- beams and miners
 			if (itemConfig.config.primaryAbility.beamLength) then
-			  upgradedItem.parameters.primaryAbility.beamLength= itemConfig.config.primaryAbility.beamLength + upgradedItem.parameters.level 
+			  upgradedItem.parameters.primaryAbility.beamLength= itemConfig.config.primaryAbility.beamLength + ( upgradedItem.parameters.level * 3.14 )
 			end
 		  -- does the item have primaryAbility and a baseDps if so, we increase the DPS slightly
 			if (itemConfig.config.primaryAbility.baseDps) and not (itemConfig.config.primaryAbility.baseDps >=20) then    
 			    local baseDpsBase = itemConfig.config.primaryAbility.baseDps
-			    local baseDpsMod = (upgradedItem.parameters.level/20)
+			    local baseDpsMod = (upgradedItem.parameters.level/50)
 			    local baseDpsFinal = baseDpsBase * (1 + baseDpsMod )
 			    upgradedItem.parameters.primaryAbility.baseDps = baseDpsFinal 
 			end			

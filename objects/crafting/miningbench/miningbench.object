@@ -1,6 +1,6 @@
 {
   "objectName" : "miningbench",
-  "colonyTags" : ["ancient"],
+  "colonyTags" : ["tech", "fu", "science"],
   "printable" : false,
   "rarity" : "uncommon",
   "description" : "Upgrade your mining lasers",
@@ -8,7 +8,7 @@
   "race" : "ancient",
   "category" : "other",
   "price" : 0,
-  "lightColor" : [186, 255, 68],
+  "lightColor" : [0, 0, 68],
   "flickerPeriod" : 0.5,
   "flickerMinIntensity" : 0.95,
   "flickerMaxIntensity" : 1,
@@ -18,26 +18,26 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "weaponupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "weaponupgradeanvillit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "miningbench.png:<frame>", "fullbright" : true }, { "image" : "miningbenchlit.png:<frame>" } ],
       "flipImages" : true,
       "direction" : "left",
       "lightPosition" : [0, 1],
 
-      "imagePosition" : [-44, 0],
-      "frames" : 12,
-      "animationCycle" : 0.5,
+      "imagePosition" : [-24, 0],
+      "frames" : 13,
+      "animationCycle" : 1.2,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "weaponupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "weaponupgradeanvillit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "miningbench.png:<frame>", "fullbright" : true }, { "image" : "miningbenchlit.png:<frame>" } ],
       "direction" : "right",
       "lightPosition" : [0, 1],
 
-      "imagePosition" : [-44, 0],
-      "frames" : 12,
-      "animationCycle" : 0.5,
+      "imagePosition" : [-24, 0],
+      "frames" : 13,
+      "animationCycle" : 1.2,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
