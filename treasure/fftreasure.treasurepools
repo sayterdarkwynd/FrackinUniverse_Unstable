@@ -1,5 +1,21 @@
 {
-
+  "fuspaceElevatorChest" : [
+      "pool" : [
+        {"weight" : 0.5, "pool" : "ffbasicTreasure"},
+        {"weight" : 0.5, "pool" : "ffchemTreasure"},
+        {"weight" : 0.5, "pool" : "ffwastelandChest"},
+        {"weight" : 0.5, "pool" : "ffmetallicChest"}
+      ], 
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false   
+  ],  
+  
   "fficeChestTreasure" : [
     [1, {
       "fill" : [

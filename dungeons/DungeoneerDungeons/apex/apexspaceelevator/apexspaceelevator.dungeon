@@ -1149,7 +1149,7 @@
             "direction": "left",
             "parameters": {
               "treasurePools": [
-                "techTreasure"
+                "fuspaceElevatorChest"
               ]
             }
           }
@@ -1182,7 +1182,7 @@
             "direction": "right",
             "parameters": {
               "treasurePools": [
-                "techTreasure"
+                "fuspaceElevatorChest"
               ]
             }
           }
@@ -2855,7 +2855,7 @@
             "direction": "right",
             "parameters": {
               "treasurePools": [
-                "apexstimtreasure"
+                "ffchemTreasure"
               ]
             }
           }
@@ -3007,7 +3007,7 @@
           "object",
           "apexcoolshelf1",
           {
-            "direction": "left"
+            "direction": "left",
           }
         ]
       ],
