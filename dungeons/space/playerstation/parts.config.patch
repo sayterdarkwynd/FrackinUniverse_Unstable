@@ -1,0 +1,52 @@
+[
+	{"op":"add", "path" : "/parts/resshaft", "value":
+		{
+			"placeable" : true,
+			"dungeon" : "playerstation-resshaft",
+			"tiles" : [
+				[0, 0]
+			],
+			"anchors" : [
+				[[0, 1], [0, 0]],
+				[[0, -1], [0, 0]]
+			],
+			
+			"icon" : "/dungeons/space/playerstation/resshaft.png",
+			"displayName" : "Residential Shaft",
+			"description" : "A 6 room residential shaft.",
+			
+			"input" : [
+				["titaniumbar", 50],
+				["goldbar", 70],
+				["silverbar", 120],
+				["wire", 200]
+			]
+		}
+	},
+	{"op":"add", "path" : "/parts/reslarge", "value":
+		{
+			"placeable" : true,
+			"dungeon" : "playerstation-reslarge",
+			"tiles" : [
+				[0, 0],
+				[1, 0]
+			],
+			"anchors" : [
+				[[1, 0], [1, 0]],
+				[[0, -1], [1, 0]],
+				[[-1, 0], [0, 0]]
+			],
+			
+			"icon" : "/dungeons/space/playerstation/reslarge.png",
+			"displayName" : "Large Residential Room",
+			"description" : "A large residential room.",
+			
+			"input" : [
+				["titaniumbar", 50],
+				["goldbar", 70],
+				["silverbar", 120],
+				["wire", 200]
+			]
+		}
+	}
+]

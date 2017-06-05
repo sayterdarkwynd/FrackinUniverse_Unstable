@@ -26,7 +26,9 @@ function init()
     storage.spawnPosition = groundSpawnPosition or position
   end
 
-  self.behavior = behavior.behavior(config.getParameter("behavior"), config.getParameter("behaviorConfig"), _ENV)
+
+  self.behavior = behavior.behavior(config.getParameter("behavior"), sb.jsonMerge(config.getParameter("behaviorConfig", {}), skillBehaviorConfig()), _ENV)
+
   self.board = self.behavior:blackboard()
   self.board:setPosition("spawn", storage.spawnPosition)
 
@@ -86,7 +88,9 @@ function init()
     monster.setDamageBar(config.getParameter("damageBar"));
   end
 
+
   monster.setName("War Bot")
+
   monster.setDamageBar("special")
 
   monster.setInteractive(config.getParameter("interactive", false))
@@ -174,6 +178,21 @@ function update(dt)
     overrideCollisionPoly()
   end
   self.behaviorTick = self.behaviorTick + 1
+end
+
+function skillBehaviorConfig()
+  local skills = config.getParameter("skills", {})
+  local skillConfig = {}
+
+  for _,skillName in pairs(skills) do
+    local skillHostileActions = root.monsterSkillParameter(skillName, "hostileActions")
+    if skillHostileActions then
+      construct(skillConfig, "hostileActions")
+      util.appendLists(skillConfig.hostileActions, skillHostileActions)
+    end
+  end
+
+  return skillConfig
 end
 
 function interact(args)
