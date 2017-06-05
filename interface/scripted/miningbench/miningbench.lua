@@ -134,7 +134,7 @@ function doUpgrade()
 		  -- does the item have primaryAbility and a baseDps if so, we increase the DPS slightly
 			if (itemConfig.config.primaryAbility.baseDps) and not (itemConfig.config.primaryAbility.baseDps >=20) then    
 			    local baseDpsBase = itemConfig.config.primaryAbility.baseDps
-			    local baseDpsMod = (upgradedItem.parameters.level/50)
+			    local baseDpsMod = (upgradedItem.parameters.level/25)
 			    local baseDpsFinal = baseDpsBase * (1 + baseDpsMod )
 			    upgradedItem.parameters.primaryAbility.baseDps = baseDpsFinal 
 			end			
