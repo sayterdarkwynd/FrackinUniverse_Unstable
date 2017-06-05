@@ -20,7 +20,7 @@ function BeamFire:init()
     animator.stopAllSounds("fireLoop")
     self.weapon:setStance(self.stances.idle)
   end
-  sb.logInfo("%s",self.damageConfig)
+ -- sb.logInfo("%s",self.damageConfig)
 end
 
 function BeamFire:update(dt, fireMode, shiftHeld)
