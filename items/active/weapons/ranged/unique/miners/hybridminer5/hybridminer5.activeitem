@@ -5,7 +5,7 @@
   "inventoryIcon" : "hybridminer5gun.png",
   "maxStack" : 1,
   "rarity" : "legendary",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "gun2",
     "description" : "The ultimate mining laser.",
     "shortdescription" : "CT-4 Mining Cannon",
     "learnBlueprintsOnPickup" : [ "hybridminer5" ],

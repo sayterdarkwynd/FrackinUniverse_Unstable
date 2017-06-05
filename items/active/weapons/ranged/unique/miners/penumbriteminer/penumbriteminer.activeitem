@@ -11,7 +11,7 @@
   "category" : "^#e43774;Upgradeable Tool^reset;",
   "itemTags" : [ "weapon","ranged", "tool", "mininggun", "mininglaser", "upgradeableWeapon" ],
   "twoHanded" : false,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "gun2",
   "animation" : "penumbriteminer.animation",
   "animationParts" : {
     "beamorigin" : "rainbowmuzzle.png",

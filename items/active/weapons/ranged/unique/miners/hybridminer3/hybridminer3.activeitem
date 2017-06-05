@@ -5,7 +5,7 @@
   "inventoryIcon" : "hybridminer3gun.png",
   "maxStack" : 1,
   "rarity" : "rare",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "gun2",
     "description" : "Great digging power and enhanced range.",
     "shortdescription" : "D4-B Miner",
     "learnBlueprintsOnPickup" : [ "hybridminer4" ],

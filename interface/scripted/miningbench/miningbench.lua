@@ -19,7 +19,7 @@ function upgradeCost(itemConfig)
   if itemConfig == nil then return 0 end
 
   local prevValue = root.evalFunction("minerModuleValue", itemConfig.parameters.level or itemConfig.config.level or 1)
-  local newValue = (root.evalFunction("minerModuleValue", self.upgradeLevel) * (itemConfig.parameters.level or itemConfig.config.level or 1)/25)
+  local newValue = (root.evalFunction("minerModuleValue", self.upgradeLevel) * ( (itemConfig.parameters.level or itemConfig.config.level or 1)/25) *2)
   return math.floor(prevValue)
 end
 
@@ -143,13 +143,18 @@ function doUpgrade()
 	  sb.logInfo("Upgrading weapon : ")	  
           sb.logInfo(sb.printJson(upgradedItem,1)) -- list all current bonuses being applied to the weapon for debug 
           
-          if itemConfig.config.upgradeParameters then
+          if (upgradedItem.parameters.level) < 4 then
             upgradedItem.parameters = util.mergeTable(upgradedItem.parameters, itemConfig.config.upgradeParameters)
-          end
-          if (itemConfig.config.upgradeParameters2) and (upgradedItem.parameters.level) >= 5 then
+          elseif (upgradedItem.parameters.level) == 4 then
             upgradedItem.parameters = util.mergeTable(upgradedItem.parameters, itemConfig.config.upgradeParameters2)
+          elseif (upgradedItem.parameters.level) == 5 then
+            upgradedItem.parameters = util.mergeTable(upgradedItem.parameters, itemConfig.config.upgradeParameters2)            
+          elseif (upgradedItem.parameters.level) == 6 then
+            upgradedItem.parameters = util.mergeTable(upgradedItem.parameters, itemConfig.config.upgradeParameters3)
+          elseif (upgradedItem.parameters.level) == 7 then
+            upgradedItem.parameters = util.mergeTable(upgradedItem.parameters, itemConfig.config.upgradeParameters3)            
           end
-          
+                   
         end
         player.giveItem(upgradedItem)
       end
