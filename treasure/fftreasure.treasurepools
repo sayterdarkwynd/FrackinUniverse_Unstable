@@ -2,6 +2,7 @@
   "fuspaceElevatorChest" : [
       "pool" : [
         {"weight" : 0.5, "pool" : "ffbasicTreasure"},
+        {"weight" : 0.5, "pool" : "techTreasure"},
         {"weight" : 0.5, "pool" : "ffchemTreasure"},
         {"weight" : 0.5, "pool" : "ffwastelandChest"},
         {"weight" : 0.5, "pool" : "ffmetallicChest"}
