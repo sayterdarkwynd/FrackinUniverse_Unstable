@@ -1,0 +1,146 @@
+[
+  {
+    "name" : "spaceastrofae",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 0.06,
+    "monsterType" : "astrofae",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacechiropterror",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [2, 3],
+    "spawnChance" : 0.1,
+    "monsterType" : "chiropterror",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacecosmostache",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.18,
+    "monsterType" : "cosmostache",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spaceheavydrone",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.06,
+    "monsterType" : "heavydrone",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacemasteroid",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [2, 3],
+    "spawnChance" : 0.1,
+    "monsterType" : "masteroid",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacemasteroidmid",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 0.05,
+    "monsterType" : "masteroidmid",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacemasteroidlarge",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.025,
+    "monsterType" : "masteroidlarge",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacespinemine",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.08,
+    "monsterType" : "spacemine",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "spacetrifangle",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [2, 3],
+    "spawnChance" : 0.1,
+    "monsterType" : "trifangle",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

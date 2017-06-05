@@ -1,7 +1,8 @@
 {
   "name" : "iceasteroids",
   "friendlyName" : "Asteroids",
-  "gravityRange" : [0,14],
+  "statusEffects" : [ "biomeairless", "biomecold" ],
+
   "mainBlock" : "meteoriterock",
   "subBlocks" : [ "frozenwater", "frozenstone" ],
   "ores" : "asteroid",
@@ -16,8 +17,6 @@
       }
     ]
   },
-
-  "statusEffects" : [ "biomeairless", "gravmeteor", "biomecold" ],
 
   "parallax" : "/parallax/space/asteroids.parallax",
 
