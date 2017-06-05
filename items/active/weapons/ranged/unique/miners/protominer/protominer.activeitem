@@ -110,5 +110,22 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+          "shortdescription" : "^cyan;P-7 Miner^reset; ^green;^reset;"  
+  },
+  "upgradeParameters2" : {
+          "shortdescription" : "^cyan;P-7 Miner^reset; ^cyan;^reset;" 
+  },
+  "upgradeParameters3" : {
+          "shortdescription" : "^cyan;P-7 Miner^reset; ^yellow;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  }
 }

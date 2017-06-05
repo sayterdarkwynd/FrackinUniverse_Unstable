@@ -111,5 +111,36 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+          "shortdescription" : "^cyan;CT-4^reset; ^green;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  },
+  "upgradeParameters2" : {
+          "shortdescription" : "^cyan;CT-4^reset; ^cyan;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  },
+  "upgradeParameters3" : {
+          "shortdescription" : "^cyan;CT-4^reset; ^yellow;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  }
 }

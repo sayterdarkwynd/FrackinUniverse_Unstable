@@ -7,7 +7,7 @@
   "rarity" : "rare",
   "tooltipKind" : "gun",
     "description" : "A superior quality mining laser.",
-    "shortdescription" : "KX-1 Mining Beam",
+    "shortdescription" : "KX-1 Miner",
     "learnBlueprintsOnPickup" : [ "hybridminer5" ],
   "category" : "^#e43774;Upgradeable Tool^reset;",
   "itemTags" : [ "weapon","ranged", "tool", "mininggun", "mininglaser", "upgradeableWeapon" ],
@@ -111,5 +111,29 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+          "shortdescription" : "^cyan;KX-1 Miner^reset; ^green;^reset;"    
+  },
+  "upgradeParameters2" : {
+          "shortdescription" : "^cyan;KX-1 Miner^reset; ^cyan;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  },
+  "upgradeParameters3" : {
+          "shortdescription" : "^cyan;KX-1 Miner^reset; ^yellow;^reset;",
+	  "primaryAbility" : {
+	    "damageConfig" : {
+	      "statusEffects" : [ "frozenburning" ],
+	      "damageSourceKind" : "cosmic",
+	      "knockback" : 5
+	    }
+	  }    
+  }
 }
