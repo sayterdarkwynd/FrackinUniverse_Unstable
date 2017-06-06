@@ -11,6 +11,8 @@
         "pool" : [ 
           [ 0.02, "scandroid" ],     
           [ 0.03, "tintix" ],
+          [ 0.04, "futwigun" ], 
+          [ 0.04, "futwigunsurface" ],          
           [ 0.04, "spiderwalker" ], 
           [ 0.04, "spiderwalker2" ],  
           [ 0.04, "minidrone" ],
