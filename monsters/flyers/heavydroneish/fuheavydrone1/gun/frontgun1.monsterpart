@@ -14,7 +14,7 @@
       "power" : 30,
       "fireInterval" : 0.05,
       "fireCooldown" : 5.0,
-      "range" : 125
+      "range" : 60
     }
   },
 
