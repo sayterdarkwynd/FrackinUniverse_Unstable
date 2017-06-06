@@ -51,10 +51,10 @@
             "requireLineOfSight" : true,
             "maximumRange" : 50,
             "minimumRange" : 2,
-            "windupTime" : 1.0,
+            "windupTime" : 0.35,
             "windupState" : "",
 
-            "projectileCount" : 5,
+            "projectileCount" : 1,
             "projectileInterval" : 0.1,
             "inaccuracy" : 0.08,
             "projectileType" : "laser-1",

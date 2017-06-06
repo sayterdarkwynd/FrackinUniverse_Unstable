@@ -1,12 +1,12 @@
 {
-  "type" : "futwigun",
-  "shortdescription" : "Ancient Cannon",
-  "description" : "Ready and able to kill you.",
+  "type" : "fuomnicannon2",
+  "shortdescription" : "Omnicannon",
+  "description" : "An omni-directional point defence cannon",
 
-  "categories" : [ "futwigun" ],
+  "categories" : [ "fuomnicannon" ],
   "parts" : [ "body" ],
 
-  "animation" : "futwigun.animation",
+  "animation" : "fuomnicannon.animation",
 
   "dropPools" : [ { "default" : "servitorTreasure", "bow" : "servitorHunting" } ],
 
@@ -49,28 +49,27 @@
           "name" : "action-fire",
           "parameters" : {
             "requireLineOfSight" : true,
-            "maximumRange" : 80,
+            "maximumRange" : 50,
             "minimumRange" : 2,
-            "windupTime" : 3.5,
+            "windupTime" : 1.3,
             "windupState" : "",
 
-            "projectileCount" : 4,
-            "projectileInterval" : 0.05,
-            "projectileType" : "precursorshotsmall2",
+            "projectileCount" : 5,
+            "projectileInterval" : 0.1,
+            "inaccuracy" : 0.08,
+            "projectileType" : "laser-1",
             "projectileParameters" : {
-              "speed" : 60,
-              "power" : 30
+              "speed" : 50,
+              "power" : 10
             },
-            "fireOffsets" : [[1.5, 0.625], [1.5, -0.625]],
-            "rotationCenter" : [0.0, 0.75],
+
+            "fireOffset" : [1.5, -0.125],
+            "rotationCenter" : [0.0, 0.5],
             "fireSound" : "fire",
-            "fireStateType" : "attack",
             "fireState" : "fire",
             "fireDelay" : 0.0,
             "faceTarget" : true,
             "rotateAim" : true,
-            "holdAim" : true,
-            "damageRepeatGroup" : "",
 
             "winddownState" : "",
             "winddownTime" : 0.0
@@ -141,7 +140,7 @@
 
     "touchDamage" : {
       "poly" : [ [0.41, 1.0],  [1.0, 0.41],  [1.0, -0.41],  [0.41, -1.0],  [-0.41, -1.0],  [-1.0, -0.41],  [-1.0, 0.41],  [-0.41, 1.0] ],
-      "damage" : 20,
+      "damage" : 10,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -218,7 +217,31 @@
         },
         "powerMultiplier" : {
           "baseValue" : 1.0
-        }
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.3
+        },
+        "electricResistance" : {
+          "baseValue" : -0.2
+        },
+        "iceResistance" : {
+          "baseValue" : 0.6
+        },
+        "poisonResistance" : {
+          "baseValue" : 1.0
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
+        "radioactiveResistance" : {
+          "baseValue" : 0.7
+        },
+        "shadowResistance" : {
+          "baseValue" : 1.0
+        },
+        "cosmicResistance" : {
+          "baseValue" : 0.3
+        } 
       },
 
       "resources" : {

@@ -16,6 +16,8 @@
           [ 0.05, "fuglitchspider" ],
           [ 0.05, "omnicannon" ],
           [ 0.05, "omnicannonsurface" ],
+          [ 0.04, "fuomnicannon" ],
+          [ 0.04, "fuomnicannonsurface" ],           
           [ 0.1, "cleaningbot" ],
           [ 0.1, "repairbot" ]          
         ]

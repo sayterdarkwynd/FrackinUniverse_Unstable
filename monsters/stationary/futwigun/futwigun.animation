@@ -230,6 +230,6 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
-    "fire" : [ "/sfx/gun/twigun_shot1.ogg", "/sfx/gun/twigun_shot2.ogg", "/sfx/gun/twigun_shot3.ogg" ]
+    "fire" : [ "/sfx/weapons/wideshot1.wav" ]
   }
 }
