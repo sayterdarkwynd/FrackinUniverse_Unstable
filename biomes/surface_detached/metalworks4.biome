@@ -21,9 +21,9 @@
       {
         "select" : 2,
         "pool" : [ 
-          [ 0.09, "nanoswarm" ],
-          [ 0.09, "fuheavydrone" ],
-          [ 0.09, "fatalcircuit" ]
+          [ 0.3, "nanoswarm" ],
+          [ 0.3, "fuheavydrone" ],
+          [ 0.3, "fatalcircuit" ]
         ]
       },
       {

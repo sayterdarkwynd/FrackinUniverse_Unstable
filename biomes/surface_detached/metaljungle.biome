@@ -20,9 +20,9 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.1, "zombot" ],
-          [ 0.1, "fatalcircuit" ],          
-          [ 0.1, "warbot" ] 
+          [ 0.3, "zombot" ],
+          [ 0.3, "fatalcircuit" ],          
+          [ 0.3, "warbot" ] 
         ]
       },      
       {

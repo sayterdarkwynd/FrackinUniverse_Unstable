@@ -35,7 +35,7 @@
     "name" : "nanoswarm",
 
     "spawnParameters" : {
-      "area" : "surface",
+      "area" : "air",
       "region" : "all",
       "time" : "all"
     },
