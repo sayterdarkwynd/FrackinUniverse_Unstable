@@ -11,7 +11,7 @@
         "select" : 3,
         "pool" : [ 
           [ 0.02, "scandroid" ],     
-          [ 0.03, "tintix" ],
+          [ 0.03, "futrifangle" ],
           [ 0.04, "triplod" ],  
           [ 0.04, "spiderwalker" ], 
           [ 0.04, "spiderwalker2" ], 
