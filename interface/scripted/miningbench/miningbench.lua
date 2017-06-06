@@ -18,7 +18,7 @@ end
 function upgradeCost(itemConfig)
   if itemConfig == nil then return 0 end
 
-  local prevValue = root.evalFunction("minerModuleValue", itemConfig.parameters.level or itemConfig.config.level or 1)
+  local prevValue = root.evalFunction("minerModuleValue", itemConfig.parameters.level or itemConfig.config.level or 1) *2
   local newValue = (root.evalFunction("minerModuleValue", self.upgradeLevel) * ( (itemConfig.parameters.level or itemConfig.config.level or 1)/25) *2)
   return math.floor(prevValue)
 end
