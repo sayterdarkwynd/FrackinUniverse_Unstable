@@ -1149,7 +1149,7 @@
             "direction": "left",
             "parameters": {
               "treasurePools": [
-                "fuspaceElevatorChest"
+                "fuspaceElevatorChest","fuspaceElevatorChest","fuspaceElevatorChest"
               ]
             }
           }
@@ -1182,7 +1182,7 @@
             "direction": "right",
             "parameters": {
               "treasurePools": [
-                "fuspaceElevatorChest"
+                "fuspaceElevatorChest","fuspaceElevatorChest","fuspaceElevatorChest"
               ]
             }
           }
@@ -2756,7 +2756,7 @@
             "direction": "left",
             "parameters": {
               "treasurePools": [
-                "apexlockertreasure"
+                "fuspaceElevatorChest","fuspaceElevatorChest"
               ]
             }
           }
@@ -2789,7 +2789,7 @@
             "direction": "right",
             "parameters": {
               "treasurePools": [
-                "apexlockertreasure"
+                "fuspaceElevatorChest","fuspaceElevatorChest"
               ]
             }
           }
@@ -3007,7 +3007,7 @@
           "object",
           "apexcoolshelf1",
           {
-            "direction": "left",
+            "direction": "left"
           }
         ]
       ],
