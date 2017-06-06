@@ -6,6 +6,7 @@
   "frames" : {
     "body" : "body.png",
     "bodyfullbright" : "bodyfullbright.png",
-    "turret" : "turret.png"
+    "turret" : "turret.png",
+    "turretfullbright" : "turretfullbright.png"
   }
 }

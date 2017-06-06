@@ -56,7 +56,7 @@
 
             "projectileCount" : 4,
             "projectileInterval" : 0.05,
-            "projectileType" : "precursorshot2",
+            "projectileType" : "precursorshotsmall",
             "projectileParameters" : {
               "speed" : 60,
               "power" : 30
