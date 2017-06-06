@@ -8,13 +8,9 @@
     "groups" : [
       {
         "select" : 3,
-        "pool" : [ 
-          [ 0.02, "scandroid" ],     
-          [ 0.03, "tintix" ],
-          [ 0.04, "triplod" ],  
+        "pool" : [  
           [ 0.04, "spiderwalker" ], 
           [ 0.04, "spiderwalker2" ], 
-          [ 0.04, "nanoswarm" ],
           [ 0.05, "fumechspider" ],   
           [ 0.04, "minidrone" ],
           [ 0.04, "fuglitchspider" ], 
@@ -27,9 +23,7 @@
         "pool" : [ 
           [ 0.09, "nanoswarm" ],
           [ 0.09, "fuheavydrone" ],
-          [ 0.09, "zombot" ],
-          [ 0.09, "fatalcircuit" ],          
-          [ 0.09, "warbot" ] 
+          [ 0.09, "fatalcircuit" ]
         ]
       },
       {

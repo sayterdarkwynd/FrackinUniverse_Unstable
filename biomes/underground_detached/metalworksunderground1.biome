@@ -16,9 +16,8 @@
         ]
       },     
       {
-        "select" : 3,
+        "select" : 1,
         "pool" : [ 
-          [ 0.02, "fuheavydrone" ],
           [ 0.05, "zombot" ],
           [ 0.04, "fatalcircuit" ],
           [ 0.1, "cleaningbot" ],
