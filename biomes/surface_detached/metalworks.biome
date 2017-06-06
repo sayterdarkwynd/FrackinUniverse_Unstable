@@ -26,9 +26,9 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.3, "nanoswarm" ],
-          [ 0.3, "zombot" ],        
-          [ 0.3, "warbot" ] 
+          [ 0.1, "nanoswarm" ],
+          [ 0.1, "zombot" ],        
+          [ 0.1, "warbot" ] 
         ]
       },
       {

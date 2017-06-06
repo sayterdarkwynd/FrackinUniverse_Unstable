@@ -20,8 +20,8 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.3, "fuheavydrone" ],        
-          [ 0.3, "warbot" ] 
+          [ 0.08, "fuheavydrone" ],        
+          [ 0.08, "warbot" ] 
         ]
       },
       {
