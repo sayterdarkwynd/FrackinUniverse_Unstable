@@ -4,7 +4,7 @@
 	"properties" : {
 	},
 	"spacing" : 0,
-	"tilecount" : 3,
+	"tilecount" : 4,
 	"tileheight" : 280,
 	"tilewidth" : 280,
 	"tileproperties" : {
@@ -31,11 +31,20 @@
 			"imagePositionX" : "-136",
 			"imagePositionY" : "-136",
 			"object" : "stationbackgroundreslarge1"
+		},
+		"3" : {
+			"//description" : "Greenhouse Background.",
+			"//name" : "stationbackgroundgreenhouse",
+			"//shortdescription" : "Greenhouse Background",
+			"imagePositionX" : "-136",
+			"imagePositionY" : "-136",
+			"object" : "stationbackgroundgreenhouse"
 		}
 	},
 	"tiles" : {
 		"0" : {"image" : "./../../../../tiled/extrastation/objects/resshaft.png"},
 		"1" : {"image" : "./../../../../tiled/extrastation/objects/reslarge0.png"},
-		"2" : {"image" : "./../../../../tiled/extrastation/objects/reslarge1.png"}
+		"2" : {"image" : "./../../../../tiled/extrastation/objects/reslarge1.png"},
+		"3" : {"image" : "./../../../../tiled/extrastation/objects/greenhouse.png"}
 	}
 }
