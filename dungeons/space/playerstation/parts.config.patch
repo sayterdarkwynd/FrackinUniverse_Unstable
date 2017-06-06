@@ -42,9 +42,9 @@
 			"description" : "A large residential room.",
 			
 			"input" : [
-				["titaniumbar", 50],
-				["goldbar", 70],
-				["silverbar", 120],
+				["titaniumbar", 75],
+				["goldbar", 100],
+				["silverbar", 125],
 				["wire", 200]
 			]
 		}
@@ -72,7 +72,33 @@
 				["wire", 110],
 				["isn_battery_t1", 1],
 				["fu_solararray", 3]
-      ]
+			]
+		}
+	},
+	{"op":"add", "path" : "/parts/greenhouse", "value":
+		{
+			"placeable" : true,
+			"dungeon" : "playerstation-greenhouse",
+			"tiles" : [
+				[0, 0]
+			],
+			"anchors" : [
+				[[1, 0], [0, 0]],
+				[[-1, 0], [0, 0]],
+				[[0, -1], [0, 0]]
+			],
+			
+			"icon" : "/dungeons/space/playerstation/greenhouse.png",
+			"displayName" : "Greenhouse",
+			"description" : "A greenhouse.",
+			
+			"input" : [
+				["titaniumbar", 40],
+				["goldbar", 50],
+				["silverbar", 60],
+				["wire", 100],
+				["glass", 80]
+			]
 		}
 	}
 ]
