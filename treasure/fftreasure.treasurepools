@@ -1,5 +1,6 @@
 {
   "fuspaceElevatorChest" : [
+    [1, {
       "pool" : [
         {"weight" : 0.5, "pool" : "ffbasicTreasure"},
         {"weight" : 0.5, "pool" : "techTreasure"},
@@ -14,7 +15,8 @@
         [0.15, 4],
         [0.10, 5]
       ],
-      "allowDuplication" : false   
+      "allowDuplication" : false
+	}]
   ],  
   
   "fficeChestTreasure" : [
