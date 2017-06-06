@@ -13,13 +13,14 @@
           [ 0.1111, "spiderwalker" ], 
           [ 0.1111, "spiderwalker2" ],           
           [ 0.1111, "bobot" ],
-          [ 0.04, "nanoswarm" ],
+          [ 0.08, "nanoswarm" ],
+          [ 0.05, "zombot" ],
           [ 0.1111, "fumechspider" ],     
           [ 0.1111, "fuglitchspider" ],
           [ 0.1, "cleaningbot" ],
           [ 0.1, "repairbot" ]          
         ]
-      },
+      },     
       {
         "select" : 1,
         "pool" : [
