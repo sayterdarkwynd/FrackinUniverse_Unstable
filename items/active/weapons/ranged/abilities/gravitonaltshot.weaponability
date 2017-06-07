@@ -32,7 +32,7 @@
       "knockback" : 80
     },
     "fireTime" : 3.0,
-    "baseDps" : 7,
+    "baseDps" : 4,
     // use baseDps and fireTime from primary fire
 
     "energyUsage" : 80.0,

@@ -36,7 +36,7 @@
 
     "spawnParameters" : {
       "area" : "surface",
-      "region" : "all",
+      "region" : "enclosed",
       "time" : "all"
     },
 
@@ -68,7 +68,7 @@
 
     "spawnParameters" : {
       "area" : "surface",
-      "region" : "all",
+      "region" : "enclosed",
       "time" : "all"
     },
 
@@ -100,7 +100,7 @@
 
     "spawnParameters" : {
       "area" : "surface",
-      "region" : "all",
+      "region" : "enclosed",
       "time" : "all"
     },
 
@@ -132,7 +132,7 @@
 
     "spawnParameters" : {
       "area" : "surface",
-      "region" : "all",
+      "region" : "enclosed",
       "time" : "all"
     },
 
