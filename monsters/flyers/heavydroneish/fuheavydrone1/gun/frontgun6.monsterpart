@@ -1,19 +1,20 @@
 {
-  "name" : "gun4",
+  "name" : "gun6",
   "category" : "fuheavydrone",
   "type" : "frontgun",
 
   "parameters" : {
     "frontgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "powerblast2",
+      "projectileType" : "isn_plasmapistol",
       "projectileParameters" : {
-        "speed" : 5
+        "speed" : 30
       },
       "count" : 1,
-      "power" : 20,
-      "fireInterval" : 0.001,
-      "fireCooldown" : 8.0,
+      "inaccuracy" : 0.25,
+      "power" : 10,
+      "fireInterval" : 0.1,
+      "fireCooldown" : 2.5,
       "range" : 40
     }
   },

@@ -8,10 +8,10 @@
       "offset" : [2.75, 0.0],
       "projectileType" : "electricblast",
       "projectileParameters" : {
-        "speed" : 50
+        "speed" : 30
       },
       "count" : 1,
-      "power" : 30,
+      "power" : 20,
       "fireInterval" : 0.05,
       "fireCooldown" : 5.0,
       "range" : 40

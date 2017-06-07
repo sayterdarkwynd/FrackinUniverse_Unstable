@@ -22,7 +22,7 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.08, "fuheavydrone" ],        
+          [ 0.02, "fuheavydrone" ],        
           [ 0.08, "warbot" ] 
         ]
       },

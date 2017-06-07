@@ -8,10 +8,10 @@
       "offset" : [2.75, 0.0],
       "projectileType" : "furailgunshot0",
       "projectileParameters" : {
-        "speed" : 120
+        "speed" : 80
       },
       "count" : 1,
-      "power" : 30,
+      "power" : 24,
       "fireInterval" : 0.05,
       "fireCooldown" : 4.0,
       "range" : 40

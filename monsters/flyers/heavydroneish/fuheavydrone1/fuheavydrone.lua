@@ -177,7 +177,7 @@ function controlGun(part, offset, projectileType, params, count, power, interval
           params.power = scaledPower
           world.spawnProjectile(projectileType, source, entity.id(), aimVector, false, params)
           shots = shots + 1
-
+          animator.playSound("fire")
           util.wait(interval)
         end
 
@@ -214,31 +214,6 @@ function approachOrbit(distance, maxTangential)
         toOrbit = {0, 1}
       end
 
-      -- Disabled until path controller API is less prone to crashing
-      -- if world.lineTileCollision(vec2.add(mcontroller.position(), animator.partPoint("frontgun", "rotationCenter")), targetPosition)
-      --    or world.lineTileCollision(vec2.add(mcontroller.position(), animator.partPoint("backgun", "rotationCenter")), targetPosition) then
-      --   mcontroller.startPathMove(targetPosition, {
-      --     returnBest = false,
-      --     mustEndOnGround = false,
-      --     maxFScore = 400,
-      --     maxNodesToSearch = 70000,
-      --     boundBox = mcontroller.boundBox()
-      --   })
-
-      --   while world.lineTileCollision(vec2.add(mcontroller.position(), animator.partPoint("frontgun", "rotationCenter")), targetPosition)
-      --       or world.lineTileCollision(vec2.add(mcontroller.position(), animator.partPoint("backgun", "rotationCenter")), targetPosition) do
-      --     mcontroller.controlPathMove(targetPosition)
-      --     if mcontroller.pathfinding() then
-      --       mcontroller.controlApproachVelocity(vec2.mul(vec2.norm(toTarget), mcontroller.baseParameters().flySpeed), mcontroller.baseParameters().airForce)
-      --     end
-      --     coroutine.yield()
-      --     if not self.target then return true end
-      --     targetPosition = world.entityPosition(self.target)
-      --     toTarget = world.distance(targetPosition, mcontroller.position())
-      --     approachAngle = vec2.angle(world.distance(mcontroller.position(), targetPosition))
-      --   end
-      -- end
-
       local targetAngle = vec2.angle(toTarget)
       local leadDir = util.toDirection(util.angleDiff(targetAngle, approachAngle))
       local tangentialSpeed = leadDir * maxTangential
@@ -262,6 +237,7 @@ function shouldDie()
 end
 
 function die()
+  animator.playSound("deathPuff")
   world.spawnProjectile("mechenergypickup", mcontroller.position())
   spawnDrops()
 end

@@ -8,8 +8,8 @@
       "offset" : [2.75, 0.0],
       "projectileType" : "fusionflame",
       "projectileParameters" : {
-        "speed" : 40,
-        "timeToLive" : 1,
+        "speed" : 60,
+        "timeToLive" : 0.55,
         "renderLayer" : "foreground+1"
       },
       "count" : 40,

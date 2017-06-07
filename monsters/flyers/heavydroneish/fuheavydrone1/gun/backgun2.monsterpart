@@ -12,10 +12,10 @@
       },
       "count" : 6,
       "inaccuracy" : 0.1,
-      "power" : 10,
-      "fireInterval" : 0.05,
-      "fireCooldown" : 3.0,
-      "range" : 40
+      "power" : 3,
+      "fireInterval" : 0.1,
+      "fireCooldown" : 2.44,
+      "range" : 30
     }
   },
 

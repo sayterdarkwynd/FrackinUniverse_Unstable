@@ -6,14 +6,14 @@
   "parameters" : {
     "frontgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "magnorbmoonstone",
+      "projectileType" : "hailstrikeshot",
       "projectileParameters" : {
         "speed" : 30
       },
-      "count" : 1,
+      "count" : 6,
       "power" : 10,
-      "fireInterval" : 0.001,
-      "fireCooldown" : 1.5,
+      "fireInterval" : 0.1,
+      "fireCooldown" : 4.5,
       "range" : 40
     }
   },

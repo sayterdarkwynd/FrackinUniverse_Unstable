@@ -25,7 +25,7 @@
       {
         "select" : 1,
         "pool" : [ 
-          [ 0.08, "nanoswarm" ],
+          [ 0.02, "nanoswarm" ],
           [ 0.08, "fatalcircuit" ]
         ]
       },

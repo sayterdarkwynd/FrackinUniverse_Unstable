@@ -163,7 +163,7 @@
     "name" : "fuheavydrone",
 
     "spawnParameters" : {
-      "area" : "air",
+      "area" : "surface",
       "region" : "all",
       "time" : "all"
     },

@@ -11,7 +11,7 @@
         "speed" : 60
       },
       "count" : 1,
-      "power" : 30,
+      "power" : 15,
       "fireInterval" : 0.05,
       "fireCooldown" : 5.0,
       "range" : 40

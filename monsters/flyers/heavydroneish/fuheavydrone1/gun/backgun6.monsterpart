@@ -1,21 +1,21 @@
 {
-  "name" : "backgun5",
+  "name" : "backgun6",
   "category" : "fuheavydrone",
   "type" : "backgun",
 
   "parameters" : {
     "backgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "isn_sunstream",
+      "projectileType" : "densiniumrifleshot",
       "projectileParameters" : {
-        "speed" : 30
+        "speed" : 70
       },
-      "count" : 1,
+      "count" : 3,
       "inaccuracy" : 0.6,
-      "power" : 20,
-      "fireInterval" : 0.4,
-      "fireCooldown" : 4.5,
-      "range" : 40
+      "power" : 5,
+      "fireInterval" : 0.05,
+      "fireCooldown" : 3.0,
+      "range" : 30
     }
   },
 

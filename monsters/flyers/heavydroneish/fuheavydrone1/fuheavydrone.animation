@@ -320,6 +320,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "fire" : [ "/sfx/weapons/darkbeam.wav" ],
+    "deathPuff" : [ "/sfx/weapons/darkex1.wav" ]
   }
 }
