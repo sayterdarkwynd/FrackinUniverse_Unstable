@@ -32,6 +32,25 @@
   },
   "critChance" : 1,
   "critBonus" : 2, 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
 
+
+  "upgradeParameters" : {
+    "animation" : "comboglowshortsword.animation",
+    "shortdescription" : "^cyan;God Cleaver^reset; ^yellow;^reset;",
+  "description" : "Somewhat dangerous.
+^cyan;Gods fear it. Women crave it.^reset;", 
+	  "animationParts" : {
+	    "handle" : "",
+	    "blade" : "waxsword2.png",
+	    "bladefullbright" : "waxsword2fullbright.png"
+	  },    
+	    "critChance" : 14,
+	    "critBonus" : 24,
+	  "primaryAbility" : {
+	    "fireTime" : 0.15,
+	    "baseDps" : 12.5
+	  }
+    }
 }
