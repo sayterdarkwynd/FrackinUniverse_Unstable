@@ -45,7 +45,7 @@
         "pool" : [
           [ 1.0, "spacemasteroid" ],
           [ 1.0, "spacemasteroidmid" ],
-          [ 1.0, "spacemasteroidllarge" ]
+          [ 1.0, "spacemasteroidlarge" ]
         ]
       }
 },
