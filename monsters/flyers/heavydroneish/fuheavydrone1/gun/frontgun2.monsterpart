@@ -1,14 +1,14 @@
 {
-  "name" : "gun1",
+  "name" : "gun2",
   "category" : "fuheavydrone",
   "type" : "frontgun",
 
   "parameters" : {
     "frontgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "fuplasmarifleblast",
+      "projectileType" : "electricblast",
       "projectileParameters" : {
-        "speed" : 60
+        "speed" : 50
       },
       "count" : 1,
       "power" : 30,

@@ -1,19 +1,20 @@
 {
-  "name" : "backgun1",
+  "name" : "backgun4",
   "category" : "fuheavydrone",
   "type" : "backgun",
 
   "parameters" : {
     "backgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "furailgunshot0",
+      "projectileType" : "forcecage3",
       "projectileParameters" : {
-        "speed" : 120
+        "speed" : 10
       },
       "count" : 1,
-      "power" : 30,
-      "fireInterval" : 0.05,
-      "fireCooldown" : 4.0,
+      "inaccuracy" : 0.2,
+      "power" : 10,
+      "fireInterval" : 0.2,
+      "fireCooldown" : 2.0,
       "range" : 40
     }
   },

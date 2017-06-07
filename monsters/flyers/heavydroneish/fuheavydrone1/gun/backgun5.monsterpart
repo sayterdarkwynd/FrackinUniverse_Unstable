@@ -1,19 +1,20 @@
 {
-  "name" : "backgun1",
+  "name" : "backgun5",
   "category" : "fuheavydrone",
   "type" : "backgun",
 
   "parameters" : {
     "backgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "furailgunshot0",
+      "projectileType" : "bioblast1",
       "projectileParameters" : {
-        "speed" : 120
+        "speed" : 10
       },
-      "count" : 1,
-      "power" : 30,
-      "fireInterval" : 0.05,
-      "fireCooldown" : 4.0,
+      "count" : 25,
+      "inaccuracy" : 0.6,
+      "power" : 5,
+      "fireInterval" : 0.005,
+      "fireCooldown" : 6.0,
       "range" : 40
     }
   },

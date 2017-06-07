@@ -1,19 +1,19 @@
 {
-  "name" : "gun1",
+  "name" : "gun5",
   "category" : "fuheavydrone",
   "type" : "frontgun",
 
   "parameters" : {
     "frontgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "fuplasmarifleblast",
+      "projectileType" : "magnorbmoonstone",
       "projectileParameters" : {
-        "speed" : 60
+        "speed" : 30
       },
       "count" : 1,
-      "power" : 30,
-      "fireInterval" : 0.05,
-      "fireCooldown" : 5.0,
+      "power" : 10,
+      "fireInterval" : 0.001,
+      "fireCooldown" : 1.5,
       "range" : 40
     }
   },

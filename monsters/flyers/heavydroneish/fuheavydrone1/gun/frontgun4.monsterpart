@@ -1,18 +1,18 @@
 {
-  "name" : "gun1",
+  "name" : "gun4",
   "category" : "fuheavydrone",
   "type" : "frontgun",
 
   "parameters" : {
     "frontgun" : {
       "offset" : [2.75, 0.0],
-      "projectileType" : "fuplasmarifleblast",
+      "projectileType" : "gravblast",
       "projectileParameters" : {
-        "speed" : 60
+        "speed" : 30
       },
       "count" : 1,
-      "power" : 30,
-      "fireInterval" : 0.05,
+      "power" : 40,
+      "fireInterval" : 0.001,
       "fireCooldown" : 5.0,
       "range" : 40
     }
