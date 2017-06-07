@@ -22,30 +22,19 @@
           [ 0.04, "asteroidminidrone" ],
           [ 0.04, "asteroidscandroid" ],
           [ 0.04, "asteroidskimbus" ],
-          [ 0.04, "asteroidwisper7" ]
-        ]
-      }
-},
-{"op":"add","path":"/spawnProfile/groups/-",
-"value":{
-        "select" : 2,
-        "pool" : [
-          [ 0.02, "spaceastrofae" ],
-          [ 0.03, "spacechiropterror" ],
-          [ 0.03, "spacecosmotache" ],
-          [ 0.03, "spaceheavydrone" ],
-          [ 0.04, "spacespinemine" ],
-          [ 0.04, "spacetrifangle" ]
-        ]
-      }
-},
-{"op":"add","path":"/spawnProfile/groups/-",
-"value":{
-        "select" : 3,
-        "pool" : [
-          [ 1.0, "spacemasteroid" ],
-          [ 1.0, "spacemasteroidmid" ],
-          [ 1.0, "spacemasteroidlarge" ]
+          [ 0.04, "asteroidwisper7" ],
+          [ 0.04, "futrifangle" ],
+          [ 0.04, "futwigunsurface" ],
+          [ 0.04, "futwigun" ],
+          [ 0.04, "fuomnicannonsurface2" ],
+          [ 0.04, "fuomnicannonsurface" ],
+          [ 0.04, "fuomnicannonsurface" ],
+          [ 0.04, "fuomnicannon" ],
+          [ 0.04, "omnicannonsurface" ],
+          [ 0.04, "omnicannon" ],
+          [ 0.04, "fuchiropterror" ],
+          [ 0.04, "fuheavydrone" ],
+          [ 0.04, "nanoswarm" ]
         ]
       }
 },
