@@ -15,9 +15,7 @@
           [ 0.04, "minidrone" ],
           [ 0.04, "fuglitchspider" ], 
           [ 0.04, "fuomnicannon" ],
-          [ 0.04, "fuomnicannonsurface" ], 
-          [ 0.04, "fuomnicannon2" ],
-          [ 0.04, "fuomnicannonsurface2" ],           
+          [ 0.04, "fuomnicannon2" ],       
           [ 0.06, "cleaningbot" ],
           [ 0.06, "repairbot"] 
         ]
