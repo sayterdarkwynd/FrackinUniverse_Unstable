@@ -19,7 +19,6 @@
           [ 0.04, "nanoswarm" ],
           [ 0.05, "fumechspider" ],   
           [ 0.04, "minidrone" ],
-          [ 0.04, "fuglitchspider" ], 
           [ 0.06, "cleaningbot" ],
           [ 0.06, "repairbot"]  
         ]
