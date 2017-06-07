@@ -10,13 +10,13 @@
       {
         "select" : 3,
         "pool" : [
-          [ 1, "tentaclecrawler" ],
-          [ 1, "tentaclegnat" ],
+          [ 0.6, "tentaclecrawler" ],
+          [ 0.6, "tentaclegnat" ],
           [ 0.5, "tentaclespawner" ],
           [ 0.6, "tentaclebomb" ],
           [ 0.6, "tentacleghost" ],
           [ 0.6, "futentaclebarrier" ],
-          [ 1, "tentacleclam" ]
+          [ 0.6, "tentacleclam" ]
         ]
       }
     ],
