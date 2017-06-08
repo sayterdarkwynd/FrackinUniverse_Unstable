@@ -13,10 +13,11 @@
 
   "inventoryIcon" : "waxsword.png",
 
-  "animation" : "comboshortsword.animation",
+  "animation" : "comboglowshortsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "waxsword.png"
+    "blade" : "waxsword.png",
+    "bladefullbright" : "waxsword.png"
   },
 
   "animationCustom" : { },
@@ -36,21 +37,17 @@
   
 
 
-  "upgradeParameters" : {
-    "animation" : "comboglowshortsword.animation",
+  "upgradeParameters2" : {
+
     "shortdescription" : "^cyan;God Cleaver^reset; ^yellow;^reset;",
   "description" : "Somewhat dangerous.
 ^cyan;Gods fear it. Women crave it.^reset;", 
+          "inventoryIcon" : "waxsword2.png",
 	  "animationParts" : {
-	    "handle" : "",
 	    "blade" : "waxsword2.png",
 	    "bladefullbright" : "waxsword2fullbright.png"
 	  },    
 	    "critChance" : 14,
-	    "critBonus" : 24,
-	  "primaryAbility" : {
-	    "fireTime" : 0.15,
-	    "baseDps" : 12.5
-	  }
+	    "critBonus" : 24
     }
 }
